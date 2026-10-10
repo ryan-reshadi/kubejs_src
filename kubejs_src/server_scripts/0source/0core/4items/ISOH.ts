@@ -1,6 +1,6 @@
 class ISOH extends CustomItem {
     constructor() {
-        super("Inverted Spear of Heaven", "simplyswords:iron_sai", '{ISOH:1b}', "§f");
+        super("Inverted Spear of Heaven", "kubejs:isoh", '{ISOH:1b}', "§f");
     }
 
     public entityLeftClick(event: KubeEvent<typeof EntityEvents.hurt>): void {

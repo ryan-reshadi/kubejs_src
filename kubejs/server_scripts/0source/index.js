@@ -77,7 +77,7 @@ PlayerEvents.tick(function (event) {
         }
     }
     // Check main-hand and offhand items
-    var hasISOHItem = mainHand.id === 'simplyswords:iron_sai';
+    var hasISOHItem = mainHand.id === customItems['isoh'].getItemID();
     // Check for the ISOH custom data marker
     var hasISOHData = hasISOHItem &&
         mainHand.componentString.includes('ISOH');

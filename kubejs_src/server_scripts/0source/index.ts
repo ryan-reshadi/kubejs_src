@@ -132,7 +132,7 @@ PlayerEvents.tick(event => {
 
 
 
-    const hasISOHItem = mainHand.id === 'simplyswords:iron_sai';
+    const hasISOHItem = mainHand.id === customItems['isoh'].getItemID();
 
     // Check for the ISOH custom data marker
     const hasISOHData = hasISOHItem &&

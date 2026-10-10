@@ -17,7 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 var ISOH = /** @class */ (function (_super) {
     __extends(ISOH, _super);
     function ISOH() {
-        return _super.call(this, "Inverted Spear of Heaven", "simplyswords:iron_sai", '{ISOH:1b}', "§f") || this;
+        return _super.call(this, "Inverted Spear of Heaven", "kubejs:isoh", '{ISOH:1b}', "§f") || this;
     }
     ISOH.prototype.entityLeftClick = function (event) {
         // Implement left click behavior here
