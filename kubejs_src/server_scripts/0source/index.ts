@@ -102,6 +102,7 @@ ServerEvents.commandRegistry(event => {
 });
 
 PlayerEvents.tick(event => {
+    var reach = 3.0;
     const player = event.player;
     const mainHand = player.getMainHandItem();
     const offhand = player.getOffhandItem();
@@ -139,7 +140,9 @@ PlayerEvents.tick(event => {
         mainHand.componentString.includes('ISOH');
 
     // Set reach based on both conditions
-    const reach = hasChain && hasISOHData ? 6.0 : 3.0;
+    if (hasChain && hasISOHData) {
+        reach = 6.0;
+    }
 
     player.setAttributeBaseValue(
         'minecraft:player.entity_interaction_range',

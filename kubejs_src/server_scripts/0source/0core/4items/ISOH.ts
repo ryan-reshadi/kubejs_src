@@ -25,6 +25,6 @@ class ISOH extends CustomItem {
         event.server.runCommandSilent("effect give " + event.player.username + " minecraft:strength 1 1 true")
         // event.server.runCommandSilent("effect give PVPDreadlord minecraft:strength infinite 1 true")
         event.player.hurtMarked = true;
-        this.addCooldown(event, 1);
+        this.addCooldown(event, 0.75);
     }
 }

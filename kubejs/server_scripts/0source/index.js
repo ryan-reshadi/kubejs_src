@@ -59,6 +59,7 @@ ServerEvents.commandRegistry(function (event) {
     })));
 });
 PlayerEvents.tick(function (event) {
+    var reach = 3.0;
     var player = event.player;
     var mainHand = player.getMainHandItem();
     var offhand = player.getOffhandItem();
@@ -82,6 +83,8 @@ PlayerEvents.tick(function (event) {
     var hasISOHData = hasISOHItem &&
         mainHand.componentString.includes('ISOH');
     // Set reach based on both conditions
-    var reach = hasChain && hasISOHData ? 6.0 : 3.0;
+    if (hasChain && hasISOHData) {
+        reach = 6.0;
+    }
     player.setAttributeBaseValue('minecraft:player.entity_interaction_range', reach);
 });

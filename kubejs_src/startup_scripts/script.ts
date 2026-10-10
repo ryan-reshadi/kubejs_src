@@ -13,5 +13,5 @@ StartupEvents.registry("item", (event) => {
     .maxStackSize(1)
     .texture("kubejs:item/isoh")
     .attackDamageBaseline(5.0)
-    .speedBaseline(-3);
+    .speedBaseline(-1.5);
 });
