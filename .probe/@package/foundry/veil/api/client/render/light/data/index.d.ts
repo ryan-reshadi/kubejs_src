@@ -1,0 +1,31 @@
+import { $Color, $Colorc } from "@package/foundry/veil/api/client/color";
+import { $CullFrustum } from "@package/foundry/veil/api/client/render";
+import { $Camera } from "@package/net/minecraft/client";
+import { $LightTypeRegistry$LightType } from "@package/foundry/veil/api/client/registry";
+import { $Vector3fc } from "@package/org/joml";
+
+declare module "@package/foundry/veil/api/client/render/light/data" {
+    export class $LightData {
+        getRevision(): number;
+        setColor(arg0: number, arg1: number, arg2: number): $LightData;
+        setColor(arg0: $Vector3fc): $LightData;
+        setColor(arg0: number): $LightData;
+        setColor(arg0: $Colorc): $LightData;
+        getType(): $LightTypeRegistry$LightType<never>;
+        setTo(arg0: $Camera): $LightData;
+        getBrightness(): number;
+        getColor(): $Color;
+        isVisible(arg0: $CullFrustum): boolean;
+        /**
+         * @deprecated
+         */
+        markDirty(): void;
+        getColorMutable(): $Color;
+        setBrightness(arg0: number): $LightData;
+        constructor();
+        get revision(): number;
+        get type(): $LightTypeRegistry$LightType<never>;
+        set to(value: $Camera);
+        get colorMutable(): $Color;
+    }
+}

@@ -553,51 +553,155 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
+  "netherexp:nether/soul_sand_valley/ghosts_busted": {
     "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
+      "netherexp:apparition": "2026-10-09 17:27:04 -0700",
+      "netherexp:wisp": "2026-10-09 17:27:07 -0700",
+      "netherexp:vessel": "2026-10-09 17:25:27 -0700"
+    },
+    "done": false
+  },
+  "createbigcannons:recipes/misc/cannon_mount_extension": {
+    "criteria": {
+      "has_cannon_mount": "2026-10-09 17:26:10 -0700"
     },
     "done": true
   },
-  "create:recipes/building_blocks/birch_window": {
+  "netherexp:recipes/sanctum/gargoyle_statue": {
     "criteria": {
-      "has_ingredient": "2026-10-09 19:12:41 -0700"
+      "has_item": "2026-10-09 17:26:59 -0700"
     },
     "done": true
   },
-  "supplementaries:recipe/flags/flag_white": {
+  "netherexp:recipes/misc/ecto_soul_sand": {
     "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+      "has_item": "2026-10-09 17:26:59 -0700"
     },
     "done": true
   },
-  "block_factorys_bosses:recipes/building_blocks/plank/plank": {
+  "supplementaries:husbandry/wrench": {
     "criteria": {
-      "has_item": "2026-10-09 19:12:41 -0700"
+      "wrench": "2026-10-09 17:28:20 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_button": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
+      "in_water": "2026-10-09 17:33:30 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_wood": {
+  "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "has_log": "2026-10-09 19:11:58 -0700"
+      "in_water": "2026-10-09 17:33:30 -0700"
     },
     "done": true
   },
-  "supplementaries:recipe/flags/flag_blue": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+      "in_water": "2026-10-09 17:33:30 -0700"
     },
     "done": true
   },
-  "supplementaries:recipe/flags/flag_lime": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+      "in_water": "2026-10-09 17:33:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-10-09 17:33:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-10-09 17:33:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-10-09 17:33:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-10-09 17:33:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-10-09 17:33:30 -0700"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2026-10-09 17:35:13 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematicannon": {
+    "criteria": {
+      "has_item": "2026-10-09 17:39:37 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_table": {
+    "criteria": {
+      "has_item": "2026-10-09 17:39:37 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:for_every_action": {
+    "criteria": {
+      "0": "2026-10-09 17:51:03 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:suns_blessing": {
+    "criteria": {
+      "get_suns_blessing": "2026-10-09 17:51:32 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_naga": {
+    "criteria": {
+      "naga": "2026-10-09 17:55:31 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/combat/naga_fang_dagger": {
+    "criteria": {
+      "has_naga_fang": "2026-10-09 17:55:35 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/combat/dart": {
+    "criteria": {
+      "has_naga_fang": "2026-10-09 17:55:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-10-09 17:59:47 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cog_block": {
+    "criteria": {
+      "has_item_minecraft_redstone_block_2": "2026-10-09 18:05:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-10-09 18:05:55 -0700"
     },
     "done": true
   },
@@ -613,57 +717,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_door": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_fence": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
   "supplementaries:recipe/checker": {
     "criteria": {
       "has_item_minecraft_cobblestone_1": "2026-10-09 18:21:25 -0700"
-    },
-    "done": true
-  },
-  "aeronautics:for_every_action": {
-    "criteria": {
-      "0": "2026-10-09 17:51:03 -0700"
-    },
-    "done": true
-  },
-  "mowziesmobs:recipes/combat/naga_fang_dagger": {
-    "criteria": {
-      "has_naga_fang": "2026-10-09 17:55:35 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/flags/flag_yellow": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "create:super_glue": {
-    "criteria": {
-      "0": "2026-10-09 17:35:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
     },
     "done": true
   },
@@ -673,173 +729,9 @@
     },
     "done": true
   },
-  "supplementaries:recipe/flags/flag_green": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/crank": {
-    "criteria": {
-      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_sign": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/wicker_fence": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_planks": {
-    "criteria": {
-      "has_log": "2026-10-09 18:55:19 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2026-10-09 18:21:25 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-10-09 18:47:31 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_slab": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/flags/flag_cyan": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "mowziesmobs:kill_naga": {
-    "criteria": {
-      "naga": "2026-10-09 17:55:31 -0700"
-    },
-    "done": true
-  },
-  "aquamirae:adventure/obtain_ship_graveyard_echo": {
-    "criteria": {
-      "aquamirae:ship_graveyard_echo": "2026-10-09 19:52:53 -0700"
-    },
-    "done": true
-  },
-  "aeronautics:recipes/misc/aviators_goggles": {
-    "criteria": {
-      "has_ingredient": "2026-10-09 19:52:29 -0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2026-10-09 19:32:47 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_core": "2026-10-09 17:59:47 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/flags/flag_black": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/timber_cross_brace": {
-    "criteria": {
-      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_stairs": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_stairs": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "netherexp:nether/soul_sand_valley/ghosts_busted": {
-    "criteria": {
-      "netherexp:apparition": "2026-10-09 17:27:04 -0700",
-      "netherexp:wisp": "2026-10-09 17:27:07 -0700",
-      "netherexp:vessel": "2026-10-09 17:25:27 -0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
-    "criteria": {
-      "has_log": "2026-10-09 18:47:31 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
-    "criteria": {
-      "has_log": "2026-10-09 18:55:19 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/flags/flag_red": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "lootr:social": {
-    "criteria": {
-      "opened_chest": "2026-10-09 18:55:37 -0700"
-    },
-    "done": false
-  },
-  "mowziesmobs:suns_blessing": {
-    "criteria": {
-      "get_suns_blessing": "2026-10-09 17:51:32 -0700"
-    },
-    "done": true
-  },
-  "mowziesmobs:recipes/combat/dart": {
-    "criteria": {
-      "has_naga_fang": "2026-10-09 17:55:35 -0700"
     },
     "done": true
   },
@@ -849,147 +741,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/schematics/schematicannon": {
-    "criteria": {
-      "has_item": "2026-10-09 17:39:37 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2026-10-09 18:47:31 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jungle_sign": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/hat_stand": {
-    "criteria": {
-      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/cog_block": {
-    "criteria": {
-      "has_item_minecraft_redstone_block_2": "2026-10-09 18:05:55 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_door": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/notice_board": {
-    "criteria": {
-      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-10-09 18:46:21 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:husbandry/wrench": {
-    "criteria": {
-      "wrench": "2026-10-09 17:28:20 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/contraption_diagram": {
-    "criteria": {
-      "has_ingredient": "2026-10-09 19:43:19 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2026-10-09 18:21:25 -0700"
     },
     "done": true
   },
-  "supplementaries:recipe/daub_cross_brace": {
-    "criteria": {
-      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jungle_fence": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/awnings/awning": {
-    "criteria": {
-      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2026-10-09 18:53:22 -0700"
-    },
-    "done": true
-  },
-  "simplyswords:the_watcher": {
-    "criteria": {
-      "requirement": "2026-10-09 19:53:49 -0700"
-    },
-    "done": true
-  },
   "supplementaries:recipe/blast_armor_trim_smithing_template": {
     "criteria": {
       "has_item_minecraft_cobblestone_2": "2026-10-09 18:21:25 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
     },
     "done": true
   },
@@ -1011,69 +771,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/jungle_window": {
-    "criteria": {
-      "has_ingredient": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2026-10-09 18:53:22 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-10-09 18:55:19 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_slab": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-10-09 18:38:17 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2026-10-09 18:21:25 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/faucet": {
-    "criteria": {
-      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "lootr:1chest": {
-    "criteria": {
-      "opened_chest": "2026-10-09 18:55:37 -0700"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/delayed_impact_fuze": {
-    "criteria": {
-      "has_impact_fuze": "2026-10-09 18:27:50 -0700"
-    },
-    "done": true
-  },
-  "endrem:main/fishing_eye": {
-    "criteria": {
-      "fishing_eye": "2026-10-09 19:42:26 -0700"
     },
     "done": true
   },
@@ -1095,27 +795,57 @@
     },
     "done": true
   },
-  "supplementaries:recipe/bed_from_feather_block": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_tag_minecraft_planks_2": "2026-10-09 19:12:41 -0700"
+      "has_cobblestone": "2026-10-09 18:21:25 -0700"
     },
     "done": true
   },
-  "createbigcannons:recipes/misc/cannon_mount_extension": {
+  "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
-      "has_cannon_mount": "2026-10-09 17:26:10 -0700"
+      "has_cobblestone": "2026-10-09 18:21:25 -0700"
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/flint_knife": {
+  "createbigcannons:recipes/misc/delayed_impact_fuze": {
     "criteria": {
-      "has_stick": "2026-10-09 19:38:13 -0700"
+      "has_impact_fuze": "2026-10-09 18:27:50 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "has_orange_terracotta": "2026-10-09 19:49:33 -0700"
+      "entered_end": "2026-10-09 18:38:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-10-09 18:38:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-10-09 18:46:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-10-09 18:47:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2026-10-09 18:47:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-10-09 18:47:31 -0700"
     },
     "done": true
   },
@@ -1125,9 +855,51 @@
     },
     "done": true
   },
-  "netherexp:recipes/sanctum/gargoyle_statue": {
+  "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
-      "has_item": "2026-10-09 17:26:59 -0700"
+      "has_logs": "2026-10-09 18:47:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-10-09 18:53:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-10-09 18:53:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2026-10-09 18:55:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2026-10-09 18:55:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-10-09 18:55:19 -0700"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2026-10-09 18:55:37 -0700"
+    },
+    "done": false
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2026-10-09 18:55:37 -0700"
     },
     "done": true
   },
@@ -1135,6 +907,348 @@
     "criteria": {
       "0": "2026-10-09 19:11:31 -0700",
       "1": "2026-10-09 19:52:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2026-10-09 19:11:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2026-10-09 19:11:58 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/birch_window": {
+    "criteria": {
+      "has_ingredient": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/plank/plank": {
+    "criteria": {
+      "has_item": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/hat_stand": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/notice_board": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bed_from_feather_block": {
+    "criteria": {
+      "has_tag_minecraft_planks_2": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/ship_rail": {
+    "criteria": {
+      "has_item": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/pulley": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cannon": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/clock_block": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/speaker_block": {
+    "criteria": {
+      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-09 19:12:44 -0700"
+    },
+    "done": true
+  },
+  "simplyswords:stars_edge": {
+    "criteria": {
+      "requirement": "2026-10-09 19:14:24 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2026-10-09 19:17:19 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2026-10-09 19:32:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_white": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_lime": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_yellow": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_green": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crank": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wicker_fence": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_cyan": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_black": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_red": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/faucet": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2026-10-09 19:38:13 -0700"
     },
     "done": true
   },
@@ -1156,24 +1270,6 @@
     },
     "done": true
   },
-  "block_factorys_bosses:recipes/building_blocks/ship_rail": {
-    "criteria": {
-      "has_item": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "aeronautics:high_fashion": {
-    "criteria": {
-      "0": "2026-10-09 19:51:54 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/pulley": {
-    "criteria": {
-      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
   "supplementaries:recipe/timber_frame": {
     "criteria": {
       "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
@@ -1183,24 +1279,6 @@
   "supplementaries:recipe/flags/flag_purple": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_redstone_block": "2026-10-09 18:05:55 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_button": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
     },
     "done": true
   },
@@ -1216,24 +1294,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/schematics/schematic_table": {
-    "criteria": {
-      "has_item": "2026-10-09 17:39:37 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
   "supplementaries:recipe/daub_brace": {
     "criteria": {
       "has_tag_c_rods_wooden_1": "2026-10-09 19:38:13 -0700"
@@ -1246,51 +1306,9 @@
     },
     "done": true
   },
-  "createbigcannons:recipes/misc/quickfiring_mechanism": {
-    "criteria": {
-      "has_lever": "2026-10-09 19:17:19 -0700"
-    },
-    "done": true
-  },
   "supplementaries:recipe/flags/flag_pink": {
     "criteria": {
       "has_tag_c_rods_wooden_2": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2026-10-09 18:47:31 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_logs": "2026-10-09 19:11:56 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/cannon": {
-    "criteria": {
-      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "aquamirae:recipes/ship_graveyard_echo": {
-    "criteria": {
-      "has_item": "2026-10-09 19:52:53 -0700"
     },
     "done": true
   },
@@ -1300,63 +1318,9 @@
     },
     "done": true
   },
-  "simulated:applied_kinematics": {
-    "criteria": {
-      "0": "2026-10-09 19:43:19 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "endrem:main/root": {
-    "criteria": {
-      "fishing_eye": "2026-10-09 19:42:26 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2026-10-09 18:38:17 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/clock_block": {
-    "criteria": {
-      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2026-10-09 18:21:25 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-10-09 19:12:41 -0700"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/decorations/cutting_board": {
     "criteria": {
       "has_stick": "2026-10-09 19:38:13 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/speaker_block": {
-    "criteria": {
-      "has_tag_minecraft_planks_1": "2026-10-09 19:12:41 -0700"
     },
     "done": true
   },
@@ -1378,27 +1342,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_hoe": {
+  "endrem:main/fishing_eye": {
     "criteria": {
-      "has_cobblestone": "2026-10-09 18:21:25 -0700"
+      "fishing_eye": "2026-10-09 19:42:26 -0700"
     },
     "done": true
   },
-  "netherexp:recipes/misc/ecto_soul_sand": {
+  "endrem:main/root": {
     "criteria": {
-      "has_item": "2026-10-09 17:26:59 -0700"
+      "fishing_eye": "2026-10-09 19:42:26 -0700"
     },
     "done": true
   },
-  "simplyswords:stars_edge": {
+  "simulated:recipes/misc/contraption_diagram": {
     "criteria": {
-      "requirement": "2026-10-09 19:14:24 -0700"
+      "has_ingredient": "2026-10-09 19:43:19 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "simulated:applied_kinematics": {
     "criteria": {
-      "in_water": "2026-10-09 17:33:30 -0700"
+      "0": "2026-10-09 19:43:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2026-10-09 19:49:33 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:high_fashion": {
+    "criteria": {
+      "0": "2026-10-09 19:51:54 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/aviators_goggles": {
+    "criteria": {
+      "has_ingredient": "2026-10-09 19:52:29 -0700"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_ship_graveyard_echo": {
+    "criteria": {
+      "aquamirae:ship_graveyard_echo": "2026-10-09 19:52:53 -0700"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/ship_graveyard_echo": {
+    "criteria": {
+      "has_item": "2026-10-09 19:52:53 -0700"
+    },
+    "done": true
+  },
+  "simplyswords:the_watcher": {
+    "criteria": {
+      "requirement": "2026-10-09 19:53:49 -0700"
+    },
+    "done": true
+  },
+  "createthrusters:gadgets_and_gizmos": {
+    "criteria": {
+      "joined_world": "2026-10-10 12:37:51 -0700"
     },
     "done": true
   },

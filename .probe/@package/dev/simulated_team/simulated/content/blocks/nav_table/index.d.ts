@@ -1,0 +1,48 @@
+import { $Clearable } from "@package/net/minecraft/world";
+import { $BlockPos_, $Direction_ } from "@package/net/minecraft/core";
+import { $ItemStack, $ItemStack_ } from "@package/net/minecraft/world/item";
+import { $SmartBlockEntity } from "@package/com/simibubi/create/foundation/blockEntity";
+import { $BlockState_ } from "@package/net/minecraft/world/level/block/state";
+import { $LerpedFloat } from "@package/net/createmod/catnip/animation";
+import { $SingleSlotContainer, $ContainerSlot } from "@package/dev/simulated_team/simulated/multiloader/inventory";
+import { $SubLevel } from "@package/dev/ryanhcode/sable/sublevel";
+import { $Vec3 } from "@package/net/minecraft/world/phys";
+import { $NavigationTarget } from "@package/dev/simulated_team/simulated/content/blocks/nav_table/navigation_target";
+import { $BlockEntityType_ } from "@package/net/minecraft/world/level/block/entity";
+import { $Quaterniond } from "@package/org/joml";
+export * as navigation_target from "@package/dev/simulated_team/simulated/content/blocks/nav_table/navigation_target";
+
+declare module "@package/dev/simulated_team/simulated/content/blocks/nav_table" {
+    export class $NavTableInventory extends $SingleSlotContainer {
+        maxStackSize: number;
+        slot: $ContainerSlot;
+        constructor(arg0: $NavTableBlockEntity);
+    }
+    export class $NavTableBlockEntity extends $SmartBlockEntity implements $Clearable {
+        getSublevelRot(): $Quaterniond;
+        getRedstoneStrength(arg0: $Direction_): number;
+        clearContent(): void;
+        getNavTableItem(): $NavigationTarget;
+        distanceToTarget(): number;
+        lastDistanceToTarget(): number;
+        getHeldItem(): $ItemStack;
+        dropHeldItem(): void;
+        getTargetPosition(arg0: boolean): $Vec3;
+        getProjectedSelfPos(): $Vec3;
+        getClientTargetAngle(arg0: number): number;
+        forceCurrentAngle(arg0: number): void;
+        setHeldItem(arg0: $ItemStack_): $ItemStack;
+        getRelativeAngle(): number;
+        isPowering: boolean;
+        currentTarget: $Vec3;
+        static ATTACHMENTS_NBT_KEY: string;
+        inventory: $NavTableInventory;
+        lerpedAngleDegrees: $LerpedFloat;
+        subLevel: $SubLevel;
+        constructor(arg0: $BlockEntityType_<never>, arg1: $BlockPos_, arg2: $BlockState_);
+        get sublevelRot(): $Quaterniond;
+        get navTableItem(): $NavigationTarget;
+        get projectedSelfPos(): $Vec3;
+        get relativeAngle(): number;
+    }
+}
