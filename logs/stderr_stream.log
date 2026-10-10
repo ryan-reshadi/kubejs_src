@@ -1,7 +1,0 @@
------------------------------------------------------------------------------------
-DateTime: 10.10.2026 11:41:07:296 -07:00; PID: 104540
-This file contains the stderr stream of the Minecraft process logged to a file.
-It does not include stdout or log (log4j) messages to avoid performance impact.
------------------------------------------------------------------------------------
-[11:41:58:214] [STDERR]: Oct 10, 2026 11:41:58 AM com.rieno.gadgetsandgizmos.content.SqliteDriverLoader getDriver
-[11:41:58:214] [STDERR]: INFO: Using bundled SQLite JDBC fallback
