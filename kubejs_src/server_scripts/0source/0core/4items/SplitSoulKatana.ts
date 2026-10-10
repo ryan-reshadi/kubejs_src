@@ -1,6 +1,6 @@
 class SplitSoulKatana extends CustomItem {
     constructor() {
-        super("Split Soul Katana", "simplyswords:whisperwind", '{SplitSoulKatana:1b}', "§f");
+        super("Split Soul Katana", "kubejs:soulsplitkatana", '{SplitSoulKatana:1b}', "§f");
     }
 
     public entityLeftClick(event: KubeEvent<typeof EntityEvents.hurt>): void {

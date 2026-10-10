@@ -17,7 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 var SplitSoulKatana = /** @class */ (function (_super) {
     __extends(SplitSoulKatana, _super);
     function SplitSoulKatana() {
-        return _super.call(this, "Split Soul Katana", "simplyswords:whisperwind", '{SplitSoulKatana:1b}', "§f") || this;
+        return _super.call(this, "Split Soul Katana", "kubejs:soulsplitkatana", '{SplitSoulKatana:1b}', "§f") || this;
     }
     SplitSoulKatana.prototype.entityLeftClick = function (event) {
         // Implement left click behavior here

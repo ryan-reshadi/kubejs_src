@@ -13,4 +13,11 @@ StartupEvents.registry("item", function (event) {
         .texture("kubejs:item/isoh")
         .attackDamageBaseline(5.0)
         .speedBaseline(-1.5);
+    event
+        .create("soulsplitkatana", "sword")
+        .displayName("Soulsplit Katana")
+        .maxStackSize(1)
+        .texture("kubejs:item/soulsplitkatana")
+        .attackDamageBaseline(5.0)
+        .speedBaseline(-2);
 });
