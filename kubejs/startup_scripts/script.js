@@ -11,6 +11,6 @@ StartupEvents.registry("item", function (event) {
         .displayName("Inverted Spear of Heaven")
         .maxStackSize(1)
         .texture("kubejs:item/isoh")
-        .attackDamageBaseline(7.0)
-        .speedBaseline(-2.4);
+        .attackDamageBaseline(5.0)
+        .speedBaseline(-3);
 });

@@ -1,4 +1,3 @@
-/reload
 /reoad
 /reload
 /give @s simplyswords:whisperwind[minecraft:custom_name='{"text":"Split Soul Katana","color":"gray","italic":false}']
@@ -48,3 +47,4 @@
 /reload
 /summon villager
 /reload
+/giveMythic isoh
