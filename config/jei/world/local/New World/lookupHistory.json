@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mowziesmobs:umvuthana_mask_rage"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplycataclysm:ignitium_longsword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:tidal_claws"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

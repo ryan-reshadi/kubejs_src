@@ -1,0 +1,6 @@
+{
+  "maxPlayers": 5,
+  "enablePrefix": true,
+  "enableHUD": true,
+  "allowLeaderKick": true
+}

@@ -1,0 +1,13 @@
+#Posición del botón respecto a la esquina superior izquierda de la GUI de comercio.
+#Los valores negativos permiten colocarlo fuera del panel vanilla.
+[button]
+	#Desplazamiento horizontal en píxeles. Valor por defecto: -20.
+	# Default: -20
+	# Range: -10000 ~ 10000
+	xOffset = -20
+	#Desplazamiento vertical en píxeles. Valor por defecto: 4.
+	# Default: 4
+	# Range: -10000 ~ 10000
+	yOffset = 4
+	#Muestra una descripción al colocar el cursor sobre el botón.
+	showTooltip = true

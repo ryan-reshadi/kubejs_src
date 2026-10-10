@@ -1,0 +1,440 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2026-10-09 22:36:24 -0700",
+      "minecraft:eroded_badlands": "2026-10-09 22:35:46 -0700",
+      "minecraft:deep_dark": "2026-10-10 01:01:57 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-09 22:35:48 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2026-10-09 22:35:48 -0700"
+    },
+    "done": true
+  },
+  "createthrusters:gadgets_and_gizmos": {
+    "criteria": {
+      "joined_world": "2026-10-09 22:35:48 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bornin_chaos": {
+    "criteria": {
+      "bornin_chaos_0": "2026-10-09 22:35:48 -0700"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2026-10-09 22:35:48 -0700"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_torch_from_fossil_fuel": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_skeleton_skull_candle": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/glowcheese": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/shroomlights/shroomlight": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/shroomlights/nightspores": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/magma_cream_block": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/root": {
+    "criteria": {
+      "crafting_table": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/smokestalk/planks": {
+    "criteria": {
+      "has_log": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "simplyswords:whisperwind": {
+    "criteria": {
+      "requirement": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/wither/soul_burning_skull_block": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/claret/planks": {
+    "criteria": {
+      "has_log": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_magma_block": {
+    "criteria": {
+      "has_item2": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/shroomlights/lightspores": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/soul_burning_skull_block": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/shroomlights/shroomnight": {
+    "criteria": {
+      "has_item": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_candle": {
+    "criteria": {
+      "has_planks": "2026-10-09 22:36:03 -0700"
+    },
+    "done": true
+  },
+  "simplyswords:wraithfang": {
+    "criteria": {
+      "requirement": "2026-10-09 22:36:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-10-09 23:27:13 -0700",
+      "minecraft:spider": "2026-10-10 00:42:56 -0700",
+      "minecraft:wither_skeleton": "2026-10-09 22:37:35 -0700",
+      "minecraft:creeper": "2026-10-10 00:49:28 -0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-10-09 22:37:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:wither_skeleton": "2026-10-09 22:37:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2026-10-09 23:24:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-10-09 23:24:24 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fine_wood": {
+    "criteria": {
+      "has_tag_minecraft_logs_1": "2026-10-09 23:24:24 -0700"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley/ghosts_busted": {
+    "criteria": {
+      "minecraft:skeleton": "2026-10-09 23:27:13 -0700"
+    },
+    "done": false
+  },
+  "netherexp:recipes/bone_blocks/bone_pike": {
+    "criteria": {
+      "has_item": "2026-10-09 23:27:14 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-10-09 23:27:14 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_fence": {
+    "criteria": {
+      "has_item": "2026-10-09 23:27:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-10-09 23:27:14 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2026-10-09 23:27:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-10-09 23:33:39 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/road_sign": {
+    "criteria": {
+      "structure_found": "2026-10-10 00:42:13 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-10 00:44:04 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-10-10 00:44:04 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_carriage": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_drop_mortar_end": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/machine_gun_round": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/gunpowder_pinch": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/empty_powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/spring_launcher": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_4": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/fixed_cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/confetti_popper": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_2": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/pair_of_cannon_wheels": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wrought_iron_drop_mortar_end_mirrored": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-10-10 00:50:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-10-10 01:01:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2026-10-10 01:15:03 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "parties": [
+    {
+      "id": "76f2bb50-e5e1-46b5-b84c-226c1f0b3d99",
+      "leaderId": "b88ab560-a0dd-40dc-b732-11ad6754f469",
+      "members": [
+        "b88ab560-a0dd-40dc-b732-11ad6754f469"
+      ],
+      "createdAt": 1791591124464,
+      "pvpEnabled": false
+    },
+    {
+      "id": "31497de5-784b-4075-9d03-7d720a4f9ca4",
+      "leaderId": "995ce45b-7c48-4398-b77c-c37b1022f4c7",
+      "name": "PPDread",
+      "members": [
+        "995ce45b-7c48-4398-b77c-c37b1022f4c7"
+      ],
+      "createdAt": 1791602443616,
+      "pvpEnabled": false
+    }
+  ]
+}
