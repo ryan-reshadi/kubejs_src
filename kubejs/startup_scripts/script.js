@@ -20,4 +20,11 @@ StartupEvents.registry("item", function (event) {
         .texture("kubejs:item/soulsplitkatana")
         .attackDamageBaseline(5.0)
         .speedBaseline(-2);
+    event
+        .create("excalibur", "sword")
+        .displayName("Excalibur")
+        .maxStackSize(1)
+        .texture("kubejs:item/excalibur")
+        .attackDamageBaseline(20)
+        .speedBaseline(-3);
 });

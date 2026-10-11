@@ -3,6 +3,7 @@
     "criteria": {
       "minecraft:badlands": "2026-10-09 22:36:24 -0700",
       "minecraft:eroded_badlands": "2026-10-09 22:35:46 -0700",
+      "minecraft:desert": "2026-10-10 15:50:17 -0700",
       "minecraft:deep_dark": "2026-10-10 01:01:57 -0700"
     },
     "done": false
@@ -688,6 +689,42 @@
       "cooked_beef": "2026-10-10 12:51:17 -0700"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-10-10 15:41:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-10-10 15:43:33 -0700"
+    },
+    "done": true
+  },
+  "simulated:rewind_time": {
+    "criteria": {
+      "0": "2026-10-10 15:49:57 -0700"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_barrel": "2026-10-10 15:51:13 -0700"
+    },
+    "done": false
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-10-10 15:51:13 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/onion_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-10 15:51:18 -0700"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

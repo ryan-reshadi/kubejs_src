@@ -12,3 +12,4 @@ ignoreHeightmaps:false
 //dimension types (DO NOT EDIT)
 dimensionType:minecraft$overworld:minecraft$overworld
 //third-party waypoints
+third-party-waypoint:dim%0:waystones:waystone:7b62c3b9-d788-4338-80f3-c446b50bbefb::false::::;

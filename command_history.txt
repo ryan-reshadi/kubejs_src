@@ -1,7 +1,3 @@
-/giveMythic ISOH
-/reload
-/giveMythic ISOH
-/reload
 /giveMythic
 /giveMythic ISOH
 /reload
@@ -48,3 +44,7 @@
 /reload
 /giveMythic splitsoulkatana
 /reload
+/summon minecraft:wither_skeleton
+/give @s mace
+/enchant @s minecraft:wind_burst 2
+/summon warden
