@@ -21,8 +21,8 @@ ItemEvents.rightClicked(function (event) {
     }
 });
 EntityEvents.beforeHurt(function (event) {
-    var attacker = event.source.getEntity();
-    if (event.entity.type == "minecraft:player") {
+    var attacker = event.source.getImmediate();
+    if (attacker.type == "minecraft:player") {
         var mainHand = attacker.getMainHandItem();
         var customData = getCustomData(mainHand);
         for (var customItemKey in customItems) {
@@ -35,9 +35,8 @@ EntityEvents.beforeHurt(function (event) {
     }
 });
 EntityEvents.afterHurt(function (event) {
-    var attacker = event.source.getEntity();
-    event.server.tell("hi");
-    if (event.entity.type == "minecraft:player") {
+    var attacker = event.source.getImmediate();
+    if (attacker.type == "minecraft:player") {
         var mainHand = attacker.getMainHandItem();
         var customData = getCustomData(mainHand);
         for (var customItemKey in customItems) {

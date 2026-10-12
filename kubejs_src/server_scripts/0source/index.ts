@@ -25,14 +25,17 @@ ItemEvents.rightClicked((event: KubeEvent<typeof ItemEvents.rightClicked>) => {
 
 });
 EntityEvents.beforeHurt((event: KubeEvent<typeof EntityEvents.beforeHurt>) => {
-    const attacker = event.source.getEntity();
-    if (event.entity.type == "minecraft:player") {
+    const attacker = event.source.getImmediate();
+    
+    if (attacker.type == "minecraft:player") {
         const mainHand = attacker.getMainHandItem();
         const customData = getCustomData(mainHand);
 
         for (const customItemKey in customItems) {
             const customItem = customItems[customItemKey];
+            
             if (customData !== null && customItem.getCustomData() === customData) {
+                
                 customItem.entityLeftClickBefore(event);
                 break;
             }
@@ -40,9 +43,8 @@ EntityEvents.beforeHurt((event: KubeEvent<typeof EntityEvents.beforeHurt>) => {
     }
 });
 EntityEvents.afterHurt((event: KubeEvent<typeof EntityEvents.afterHurt>) => {
-    const attacker = event.source.getEntity();
-    event.server.tell("hi")
-    if (event.entity.type == "minecraft:player") {
+    const attacker = event.source.getImmediate();
+    if (attacker.type == "minecraft:player") {
         const mainHand = attacker.getMainHandItem();
         const customData = getCustomData(mainHand);
 
@@ -54,10 +56,10 @@ EntityEvents.afterHurt((event: KubeEvent<typeof EntityEvents.afterHurt>) => {
             }
         }
         if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
-            
+
         }
         else {
-            
+
         }
 
     }
@@ -139,7 +141,7 @@ ServerEvents.commandRegistry(event => {
     );
 });
 
-PlayerEvents.tick(event => {
+PlayerEvents.tick((event: KubeEvent<typeof PlayerEvents.tick>) => {
     var reach = 3.0;
     const player = event.player;
     const mainHand = player.getMainHandItem();
@@ -186,4 +188,7 @@ PlayerEvents.tick(event => {
         'minecraft:player.entity_interaction_range',
         reach
     );
+
+
+    
 });

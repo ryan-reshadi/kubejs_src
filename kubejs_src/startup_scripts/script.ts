@@ -39,14 +39,19 @@ StartupEvents.registry('mob_effect', event => {
         .effectTick((entity, level) => {
             if (entity.age % 20 !== 0) return;
 
-            const effects = [...entity.getActiveEffects()];
+            const iterator = entity.getActiveEffects().iterator();
 
-            for (const effect of effects) {
+            while (iterator.hasNext()) {
+                const effect = iterator.next();
                 const effectId = effect.getEffect().getRegisteredName();
+
+                console.log(`[Cursebroken] found effect: ${effectId}`);
 
                 if (effectId !== 'kubejs:cursebroken') {
                     entity.removeEffect(effect.getEffect());
+                    console.log(`[Cursebroken] removed: ${effectId}`);
                 }
             }
+
         });
 });

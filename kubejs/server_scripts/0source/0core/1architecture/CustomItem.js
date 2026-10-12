@@ -15,15 +15,8 @@ var CustomItem = /** @class */ (function () {
         };
     }
     CustomItem.prototype.entityLeftClickBefore = function (event) {
-        event.server.tell("flag1");
         if (this.hasCapability("cursebreaker")) {
-            event.server.tell("flag2");
-            event.entity.getActiveEffects().forEach(function (effect) {
-                event.server.tell("Effect: ".concat(effect.getDescriptionId(), ", ") +
-                    "Duration: ".concat(effect.getDuration(), " ticks, ") +
-                    "Amplifier: ".concat(effect.getAmplifier()));
-            });
-            event.server.tell("flag3");
+            event.entity.potionEffects.add('kubejs:cursebroken', 20 * 60, 0);
         }
     };
     ;

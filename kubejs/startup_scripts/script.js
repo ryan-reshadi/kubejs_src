@@ -1,14 +1,5 @@
 "use strict";
 // bootstrap file
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
 StartupEvents.registry("item", function (event) {
     event
         .create("chain_of_a_thousand_miles")
@@ -43,12 +34,14 @@ StartupEvents.registry('mob_effect', function (event) {
         .effectTick(function (entity, level) {
         if (entity.age % 20 !== 0)
             return;
-        var effects = __spreadArray([], entity.getActiveEffects(), true);
-        for (var _i = 0, effects_1 = effects; _i < effects_1.length; _i++) {
-            var effect = effects_1[_i];
+        var iterator = entity.getActiveEffects().iterator();
+        while (iterator.hasNext()) {
+            var effect = iterator.next();
             var effectId = effect.getEffect().getRegisteredName();
+            console.log("[Cursebroken] found effect: ".concat(effectId));
             if (effectId !== 'kubejs:cursebroken') {
                 entity.removeEffect(effect.getEffect());
+                console.log("[Cursebroken] removed: ".concat(effectId));
             }
         }
     });

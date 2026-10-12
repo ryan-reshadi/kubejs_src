@@ -1,50 +1,50 @@
-/summon minecraft:wither_skeleton
-/gamerule keepInventory true
-/kill
-/attribute @s minecraft:player.entity_interaction_range base get
-/summon minecraft:wither_skeleton
-/gamerule keepInventory false
-/kill
-/attribute @s minecraft:player.entity_interaction_range base get
-/gamerule keepInventory true
-/attribute @s minecraft:player.entity_interaction_range base get
-/attribute @p minecraft:player.entity_interaction_range base set 3.0
-/kill
+/effect give @s kubejs:cursebroken
+/effect give @s aquamirae:armor_shatter
 /reload
-/summon villager
+/effect give @s kubejs:cursebroken
+/effect give @s aquamirae:armor_shatter
 /reload
-/giveMythic isoh
-/effect give @s minecraft:resistance 1000 5
-/effect clear
+/effect give @s kubejs:cursebroken
+/effect give @s aquamirae:armor_shatter
 /reload
-/giveMythic splitsoulkatana
+/effect give @s kubejs:cursebroken
+/effect give @s aquamirae:armor_shatter
 /reload
-/summon minecraft:wither_skeleton
-/give @s mace
-/enchant @s minecraft:wind_burst 2
-/summon warden
+/effect give @s kubejs:cursebroken infinite
+/reload
+/effect give @s minecraft:jump_boost infinite
+/reload
+/effect clear @s
+/effect give @s kubejs:cursebroken
+/effect give @s minecraft:poison
 /reload
 /summon zombie
 /reload
-/summon zombie
-/reload
-/probejs dump
-/probejs
+/summon minecraft:zombie
 /reload
 /summon minecraft:zombie
 /reload
-/enchant @s minecraft:fire_aspect
-/summon creeper
-/effect give @s minecraft:resistance infinite 10
-/reload
-/kill
-/effect give @s kubejs:cursebroken
-/giveMythic isoh
-/reload
-/effect give @s kubejs:cursebroken
 /summon minecraft:zombie
 /reload
-/effect give @s kubejs:cursebroken
+/summon minecraft:zombie
+/summon pig
 /reload
-/effect give @s kubejs:cursebroken
+/summon camel
 /reload
+/summon camel
+/reload
+/summon camel
+/reload
+/summon camel
+/re
+/reload
+/summon camel
+/locate structure bosses_of_mass_destruction:lich_tower
+/tp @s 3680 ~ -1360
+/summon bosses_of_mass_destruction:lich
+/summon bosses_of_mass_destruction:petal_blade
+/summon bosses_of_mass_destruction:gauntlet
+/summon bosses_of_mass_destruction:soul_star
+/summon bosses_of_mass_destruction:obsidilith
+/locate structure block_factorys_bosses:kraken_ship
+/tp @s -2400 ~ 32

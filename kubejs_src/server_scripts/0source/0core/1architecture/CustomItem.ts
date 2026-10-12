@@ -8,7 +8,7 @@ abstract class CustomItem {
     private customData: string;
     private name: string;
     private nameColor: string;
-    private capabilities: Record<Capability, boolean>;
+    protected capabilities: Record<Capability, boolean>;
     protected cursebreakerVulnerable: boolean = true;
 
     constructor(name: string, itemID: string, customData: string, nameColor: string = "§f", itemTexture: string = "") {
@@ -24,17 +24,9 @@ abstract class CustomItem {
     }
 
     public entityLeftClickBefore(event: KubeEvent<typeof EntityEvents.beforeHurt>): void {
-        event.server.tell("flag1")
         if (this.hasCapability("cursebreaker")) {
-            event.server.tell("flag2")
-            event.entity.getActiveEffects().forEach((effect: any) => {
-                event.server.tell(
-                    `Effect: ${effect.getDescriptionId()}, ` +
-                    `Duration: ${effect.getDuration()} ticks, ` +
-                    `Amplifier: ${effect.getAmplifier()}`
-                )
-            });
-            event.server.tell("flag3")
+            event.entity.potionEffects.add('kubejs:cursebroken', 20 * 60, 0);
+            
         }
     };
     public entityLeftClickAfter(event: KubeEvent<typeof EntityEvents.afterHurt>): void{
