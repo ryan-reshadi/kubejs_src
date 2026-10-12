@@ -1,17 +1,21 @@
 class SplitSoulKatana extends CustomItem {
     constructor() {
-        super("Split Soul Katana", "simplyswords:whisperwind", '{SplitSoulKatana:1b}', "§f");
+        super("Split Soul Katana", "kubejs:soulsplitkatana", '{SplitSoulKatana:1b}', "§f");
     }
 
-    public entityLeftClick(event: KubeEvent<typeof EntityEvents.hurt>): void {
+    public entityLeftClickBefore(event: KubeEvent<typeof EntityEvents.beforeHurt>): void {
         // Implement left click behavior here
+    }
+
+    public entityLeftClickAfter(event: KubeEvent<typeof EntityEvents.afterHurt>): void {
+        
     }
 
     public entityRightClick(event: KubeEvent<typeof ItemEvents.entityInteracted>): void {
         // Implement entity right click behavior here
     }
 
-    public rightClick(event: KubeEvent<typeof ItemEvents.rightClicked>): void {
+    protected onRightClick(event: KubeEvent<typeof ItemEvents.rightClicked>): void {
         const direction = event.player.getLookAngle();
 
         const speed = 3; // Define a speed value

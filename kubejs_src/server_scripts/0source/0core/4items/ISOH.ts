@@ -1,17 +1,23 @@
 class ISOH extends CustomItem {
     constructor() {
-        super("Inverted Spear of Heaven", "simplyswords:iron_sai", '{ISOH:1b}', "§f");
+        super("Inverted Spear of Heaven", "kubejs:isoh", '{ISOH:1b}', "§f");
+        this.setCapability("cursebreaker", true);
     }
 
-    public entityLeftClick(event: KubeEvent<typeof EntityEvents.hurt>): void {
-        // Implement left click behavior here
+    public entityLeftClickBefore(event: KubeEvent<typeof EntityEvents.beforeHurt>): void {
+        super.entityLeftClickBefore(event);
+        
+    }
+
+    public entityLeftClickAfter(event: KubeEvent<typeof EntityEvents.afterHurt>): void {
+        super.entityLeftClickAfter(event);
     }
 
     public entityRightClick(event: KubeEvent<typeof ItemEvents.entityInteracted>): void {
         // Implement entity right click behavior here
     }
 
-    public rightClick(event: KubeEvent<typeof ItemEvents.rightClicked>): void {
+    protected onRightClick(event: KubeEvent<typeof ItemEvents.rightClicked>): void {
         const direction = event.player.getLookAngle();
 
         const speed = 1.75; // Define a speed value
@@ -25,6 +31,6 @@ class ISOH extends CustomItem {
         event.server.runCommandSilent("effect give " + event.player.username + " minecraft:strength 1 1 true")
         // event.server.runCommandSilent("effect give PVPDreadlord minecraft:strength infinite 1 true")
         event.player.hurtMarked = true;
-        this.addCooldown(event, 1);
+        this.addCooldown(event, 0.75);
     }
 }

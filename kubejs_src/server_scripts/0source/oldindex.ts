@@ -205,18 +205,18 @@
 // //     }
 // // });
 
-// // EntityEvents.hurt((event: KubeEvent<typeof EntityEvents.hurt>) => {
+// EntityEvents.hurt((event: KubeEvent<typeof EntityEvents.hurt>) => {
 
-// //     if (event.entity.type == "minecraft:player") {
-// //         if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
-// //             Game.CurrentGame?.playerAttackPlayer(event);
-// //         }
-// //         else {
-// //             Game.CurrentGame?.playerDamaged(event);
-// //         }
+//     if (event.entity.type == "minecraft:player") {
+//         if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
+//             Game.CurrentGame?.playerAttackPlayer(event);
+//         }
+//         else {
+//             Game.CurrentGame?.playerDamaged(event);
+//         }
 
-// //     }
-// // });
+//     }
+// });
 
 // // PlayerEvents.chat((event: KubeEvent<typeof PlayerEvents.chat>) => {
 // //     if (event.message.includes("hey")) {

@@ -24,6 +24,46 @@ ItemEvents.rightClicked((event: KubeEvent<typeof ItemEvents.rightClicked>) => {
     }
 
 });
+EntityEvents.beforeHurt((event: KubeEvent<typeof EntityEvents.beforeHurt>) => {
+    const attacker = event.source.getImmediate();
+    
+    if (attacker.type == "minecraft:player") {
+        const mainHand = attacker.getMainHandItem();
+        const customData = getCustomData(mainHand);
+
+        for (const customItemKey in customItems) {
+            const customItem = customItems[customItemKey];
+            
+            if (customData !== null && customItem.getCustomData() === customData) {
+                
+                customItem.entityLeftClickBefore(event);
+                break;
+            }
+        }
+    }
+});
+EntityEvents.afterHurt((event: KubeEvent<typeof EntityEvents.afterHurt>) => {
+    const attacker = event.source.getImmediate();
+    if (attacker.type == "minecraft:player") {
+        const mainHand = attacker.getMainHandItem();
+        const customData = getCustomData(mainHand);
+
+        for (const customItemKey in customItems) {
+            const customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickAfter(event);
+                break;
+            }
+        }
+        if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
+
+        }
+        else {
+
+        }
+
+    }
+});
 
 ItemEvents.dropped("minecraft:end_crystal", (event: KubeEvent<typeof ItemEvents.dropped>) => {
 
@@ -101,21 +141,22 @@ ServerEvents.commandRegistry(event => {
     );
 });
 
-PlayerEvents.tick(event => {
+PlayerEvents.tick((event: KubeEvent<typeof PlayerEvents.tick>) => {
+    var reach = 3.0;
     const player = event.player;
     const mainHand = player.getMainHandItem();
     const offhand = player.getOffhandItem();
     const hasChain = offhand.id === 'kubejs:chain_of_a_thousand_miles';
-    if (hasChain){
+    if (hasChain) {
         const armorSlots = [
             player.getHeadArmorItem(),
             player.getChestArmorItem(),
             player.getLegsArmorItem(),
             player.getFeetArmorItem()
         ];
-    
+
         const wearingArmor = armorSlots.some(item => !item.isEmpty());
-    
+
         // Apply Resistance II when not wearing armor
         if (!wearingArmor) {
             player.potionEffects.add(
@@ -132,17 +173,22 @@ PlayerEvents.tick(event => {
 
 
 
-    const hasISOHItem = mainHand.id === 'simplyswords:iron_sai';
+    const hasISOHItem = mainHand.id === customItems['isoh'].getItemID();
 
     // Check for the ISOH custom data marker
     const hasISOHData = hasISOHItem &&
         mainHand.componentString.includes('ISOH');
 
     // Set reach based on both conditions
-    const reach = hasChain && hasISOHData ? 6.0 : 3.0;
+    if (hasChain && hasISOHData) {
+        reach = 6.0;
+    }
 
     player.setAttributeBaseValue(
         'minecraft:player.entity_interaction_range',
         reach
     );
+
+
+    
 });

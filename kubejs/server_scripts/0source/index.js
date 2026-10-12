@@ -20,6 +20,38 @@ ItemEvents.rightClicked(function (event) {
         }
     }
 });
+EntityEvents.beforeHurt(function (event) {
+    var attacker = event.source.getImmediate();
+    if (attacker.type == "minecraft:player") {
+        var mainHand = attacker.getMainHandItem();
+        var customData = getCustomData(mainHand);
+        for (var customItemKey in customItems) {
+            var customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickBefore(event);
+                break;
+            }
+        }
+    }
+});
+EntityEvents.afterHurt(function (event) {
+    var attacker = event.source.getImmediate();
+    if (attacker.type == "minecraft:player") {
+        var mainHand = attacker.getMainHandItem();
+        var customData = getCustomData(mainHand);
+        for (var customItemKey in customItems) {
+            var customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickAfter(event);
+                break;
+            }
+        }
+        if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
+        }
+        else {
+        }
+    }
+});
 ItemEvents.dropped("minecraft:end_crystal", function (event) {
 });
 ServerEvents.commandRegistry(function (event) {
@@ -59,6 +91,7 @@ ServerEvents.commandRegistry(function (event) {
     })));
 });
 PlayerEvents.tick(function (event) {
+    var reach = 3.0;
     var player = event.player;
     var mainHand = player.getMainHandItem();
     var offhand = player.getOffhandItem();
@@ -77,11 +110,13 @@ PlayerEvents.tick(function (event) {
         }
     }
     // Check main-hand and offhand items
-    var hasISOHItem = mainHand.id === 'simplyswords:iron_sai';
+    var hasISOHItem = mainHand.id === customItems['isoh'].getItemID();
     // Check for the ISOH custom data marker
     var hasISOHData = hasISOHItem &&
         mainHand.componentString.includes('ISOH');
     // Set reach based on both conditions
-    var reach = hasChain && hasISOHData ? 6.0 : 3.0;
+    if (hasChain && hasISOHData) {
+        reach = 6.0;
+    }
     player.setAttributeBaseValue('minecraft:player.entity_interaction_range', reach);
 });

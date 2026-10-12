@@ -17,15 +17,20 @@ var __extends = (this && this.__extends) || (function () {
 var ISOH = /** @class */ (function (_super) {
     __extends(ISOH, _super);
     function ISOH() {
-        return _super.call(this, "Inverted Spear of Heaven", "simplyswords:iron_sai", '{ISOH:1b}', "§f") || this;
+        var _this = _super.call(this, "Inverted Spear of Heaven", "kubejs:isoh", '{ISOH:1b}', "§f") || this;
+        _this.setCapability("cursebreaker", true);
+        return _this;
     }
-    ISOH.prototype.entityLeftClick = function (event) {
-        // Implement left click behavior here
+    ISOH.prototype.entityLeftClickBefore = function (event) {
+        _super.prototype.entityLeftClickBefore.call(this, event);
+    };
+    ISOH.prototype.entityLeftClickAfter = function (event) {
+        _super.prototype.entityLeftClickAfter.call(this, event);
     };
     ISOH.prototype.entityRightClick = function (event) {
         // Implement entity right click behavior here
     };
-    ISOH.prototype.rightClick = function (event) {
+    ISOH.prototype.onRightClick = function (event) {
         var direction = event.player.getLookAngle();
         var speed = 1.75; // Define a speed value
         var vx = Number(direction.x) * speed;
@@ -36,7 +41,7 @@ var ISOH = /** @class */ (function (_super) {
         event.server.runCommandSilent("effect give " + event.player.username + " minecraft:strength 1 1 true");
         // event.server.runCommandSilent("effect give PVPDreadlord minecraft:strength infinite 1 true")
         event.player.hurtMarked = true;
-        this.addCooldown(event, 1);
+        this.addCooldown(event, 0.75);
     };
     return ISOH;
 }(CustomItem));

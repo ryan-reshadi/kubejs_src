@@ -11,6 +11,8 @@
     "ignoreDeprecations": "6.0"
   },
   "include": [
-    "kubejs_src/**/*"
+    "kubejs_src/**/*.ts",
+    "kubejs_src/**/*.d.ts",
+    ".probe/**/*.d.ts"
   ]
 }
