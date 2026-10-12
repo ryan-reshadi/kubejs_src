@@ -8,3 +8,9 @@ logs
 XaeroWaypoints_BACKUP*
 .curseclient
 .DS_Store
+command_history.txt
+dyanmic-data-pack-cache
+xaero
+*cache*
+saves
+ponders_watched.json

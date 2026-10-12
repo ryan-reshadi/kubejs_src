@@ -1,0 +1,19 @@
+import { $MolangExpression_, $MolangExpression } from "@package/gg/moonflower/molangcompiler/api";
+import { $Collection } from "@package/java/util";
+
+declare module "@package/gg/moonflower/molangcompiler/api/object" {
+    export class $MolangObject {
+    }
+    export interface $MolangObject {
+        has(arg0: string): boolean;
+        getCopy(): $MolangObject;
+        getKeys(): $Collection<string>;
+        remove(arg0: string): void;
+        get(arg0: string): $MolangExpression;
+        set(arg0: string, arg1: $MolangExpression_): void;
+        isMutable(): boolean;
+        get copy(): $MolangObject;
+        get keys(): $Collection<string>;
+        get mutable(): boolean;
+    }
+}
