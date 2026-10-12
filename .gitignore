@@ -3,7 +3,6 @@ options.txt
 config
 essential
 local
-minecraftinstance.json
 logs
 XaeroWaypoints_BACKUP*
 .curseclient
