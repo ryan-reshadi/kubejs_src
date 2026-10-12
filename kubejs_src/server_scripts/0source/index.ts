@@ -24,6 +24,44 @@ ItemEvents.rightClicked((event: KubeEvent<typeof ItemEvents.rightClicked>) => {
     }
 
 });
+EntityEvents.beforeHurt((event: KubeEvent<typeof EntityEvents.beforeHurt>) => {
+    const attacker = event.source.getEntity();
+    if (event.entity.type == "minecraft:player") {
+        const mainHand = attacker.getMainHandItem();
+        const customData = getCustomData(mainHand);
+
+        for (const customItemKey in customItems) {
+            const customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickBefore(event);
+                break;
+            }
+        }
+    }
+});
+EntityEvents.afterHurt((event: KubeEvent<typeof EntityEvents.afterHurt>) => {
+    const attacker = event.source.getEntity();
+    event.server.tell("hi")
+    if (event.entity.type == "minecraft:player") {
+        const mainHand = attacker.getMainHandItem();
+        const customData = getCustomData(mainHand);
+
+        for (const customItemKey in customItems) {
+            const customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickAfter(event);
+                break;
+            }
+        }
+        if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
+            
+        }
+        else {
+            
+        }
+
+    }
+});
 
 ItemEvents.dropped("minecraft:end_crystal", (event: KubeEvent<typeof ItemEvents.dropped>) => {
 
@@ -107,16 +145,16 @@ PlayerEvents.tick(event => {
     const mainHand = player.getMainHandItem();
     const offhand = player.getOffhandItem();
     const hasChain = offhand.id === 'kubejs:chain_of_a_thousand_miles';
-    if (hasChain){
+    if (hasChain) {
         const armorSlots = [
             player.getHeadArmorItem(),
             player.getChestArmorItem(),
             player.getLegsArmorItem(),
             player.getFeetArmorItem()
         ];
-    
+
         const wearingArmor = armorSlots.some(item => !item.isEmpty());
-    
+
         // Apply Resistance II when not wearing armor
         if (!wearingArmor) {
             player.potionEffects.add(

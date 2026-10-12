@@ -167,10 +167,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-10-09 23:27:13 -0700",
+      "minecraft:phantom": "2026-10-11 18:53:18 -0700",
+      "minecraft:enderman": "2026-10-11 19:07:50 -0700",
       "minecraft:spider": "2026-10-10 00:42:56 -0700",
       "minecraft:wither_skeleton": "2026-10-09 22:37:35 -0700",
       "minecraft:zombie": "2026-10-10 12:40:39 -0700",
-      "minecraft:creeper": "2026-10-10 00:49:28 -0700"
+      "minecraft:creeper": "2026-10-10 00:49:28 -0700",
+      "minecraft:husk": "2026-10-11 19:08:30 -0700"
     },
     "done": false
   },
@@ -686,7 +689,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_beef": "2026-10-10 12:51:17 -0700"
+      "cooked_beef": "2026-10-10 12:51:17 -0700",
+      "golden_carrot": "2026-10-11 19:47:17 -0700"
     },
     "done": false
   },
@@ -723,6 +727,72 @@
   "farmersdelight:recipes/cooking/onion_soup": {
     "criteria": {
       "has_any_ingredient": "2026-10-10 15:51:18 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-10-11 17:43:07 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2026-10-11 19:09:55 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/ash_brick": {
+    "criteria": {
+      "has_tag_c_ash_1": "2026-10-11 19:11:57 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap": {
+    "criteria": {
+      "has_tag_c_ash_2": "2026-10-11 19:11:57 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/pancake_fd": {
+    "criteria": {
+      "has_tag_c_milk_2": "2026-10-11 19:53:53 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-11 19:53:53 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-11 19:53:53 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cake_from_milk_bottle": {
+    "criteria": {
+      "has_milk_bottle": "2026-10-11 19:53:53 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/milk_bucket_from_bottles": {
+    "criteria": {
+      "has_milk_bottle": "2026-10-11 19:53:53 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-11 19:53:53 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lumisene_bottle": {
+    "criteria": {
+      "has_item_minecraft_glass_bottle_2": "2026-10-11 19:54:11 -0700"
     },
     "done": true
   },

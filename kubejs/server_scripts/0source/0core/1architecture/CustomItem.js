@@ -3,11 +3,39 @@ var CustomItem = /** @class */ (function () {
     function CustomItem(name, itemID, customData, nameColor, itemTexture) {
         if (nameColor === void 0) { nameColor = "§f"; }
         if (itemTexture === void 0) { itemTexture = ""; }
+        this.cursebreakerVulnerable = true;
         this.name = name;
         this.itemID = itemID;
         this.customData = customData;
         this.nameColor = nameColor;
+        this.capabilities = {
+            cursebreaker: false,
+            poison: false,
+            lifesteal: false
+        };
     }
+    CustomItem.prototype.entityLeftClickBefore = function (event) {
+        event.server.tell("flag1");
+        if (this.hasCapability("cursebreaker")) {
+            event.server.tell("flag2");
+            event.entity.getActiveEffects().forEach(function (effect) {
+                event.server.tell("Effect: ".concat(effect.getDescriptionId(), ", ") +
+                    "Duration: ".concat(effect.getDuration(), " ticks, ") +
+                    "Amplifier: ".concat(effect.getAmplifier()));
+            });
+            event.server.tell("flag3");
+        }
+    };
+    ;
+    CustomItem.prototype.entityLeftClickAfter = function (event) {
+    };
+    ;
+    CustomItem.prototype.rightClick = function (event) {
+        if (event.player.hasEffect('kubejs:cursebroken') && this.cursebreakerVulnerable) {
+            return;
+        }
+        this.onRightClick(event);
+    };
     CustomItem.prototype.getName = function () {
         return this.name;
     };
@@ -33,6 +61,18 @@ var CustomItem = /** @class */ (function () {
     };
     CustomItem.prototype.addCooldown = function (event, seconds) {
         event.player.addItemCooldown(event.item, seconds * 20);
+    };
+    CustomItem.prototype.setCapability = function (capability, value) {
+        this.capabilities[capability] = value;
+    };
+    CustomItem.prototype.hasCapability = function (capability) {
+        return this.capabilities[capability];
+    };
+    CustomItem.prototype.removeCapability = function (capability) {
+        this.capabilities[capability] = false;
+    };
+    CustomItem.prototype.toggleCapability = function (capability) {
+        this.capabilities[capability] = !this.capabilities[capability];
     };
     return CustomItem;
 }());

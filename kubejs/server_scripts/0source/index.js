@@ -20,6 +20,39 @@ ItemEvents.rightClicked(function (event) {
         }
     }
 });
+EntityEvents.beforeHurt(function (event) {
+    var attacker = event.source.getEntity();
+    if (event.entity.type == "minecraft:player") {
+        var mainHand = attacker.getMainHandItem();
+        var customData = getCustomData(mainHand);
+        for (var customItemKey in customItems) {
+            var customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickBefore(event);
+                break;
+            }
+        }
+    }
+});
+EntityEvents.afterHurt(function (event) {
+    var attacker = event.source.getEntity();
+    event.server.tell("hi");
+    if (event.entity.type == "minecraft:player") {
+        var mainHand = attacker.getMainHandItem();
+        var customData = getCustomData(mainHand);
+        for (var customItemKey in customItems) {
+            var customItem = customItems[customItemKey];
+            if (customData !== null && customItem.getCustomData() === customData) {
+                customItem.entityLeftClickAfter(event);
+                break;
+            }
+        }
+        if (event.source.getImmediate() && (event.source.getImmediate()).type == "minecraft:player") {
+        }
+        else {
+        }
+    }
+});
 ItemEvents.dropped("minecraft:end_crystal", function (event) {
 });
 ServerEvents.commandRegistry(function (event) {

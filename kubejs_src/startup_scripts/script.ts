@@ -14,7 +14,7 @@ StartupEvents.registry("item", (event) => {
         .texture("kubejs:item/isoh")
         .attackDamageBaseline(5.0)
         .speedBaseline(-1.5);
-    
+
     event
         .create("soulsplitkatana", "sword")
         .displayName("Soulsplit Katana")
@@ -22,7 +22,7 @@ StartupEvents.registry("item", (event) => {
         .texture("kubejs:item/soulsplitkatana")
         .attackDamageBaseline(5.0)
         .speedBaseline(-2);
-    
+
     event
         .create("excalibur", "sword")
         .displayName("Excalibur")
@@ -30,4 +30,23 @@ StartupEvents.registry("item", (event) => {
         .texture("kubejs:item/excalibur")
         .attackDamageBaseline(20)
         .speedBaseline(-3);
+
+});
+
+StartupEvents.registry('mob_effect', event => {
+    event.create('cursebroken')
+        .color(0x808080)
+        .effectTick((entity, level) => {
+            if (entity.age % 20 !== 0) return;
+
+            const effects = [...entity.getActiveEffects()];
+
+            for (const effect of effects) {
+                const effectId = effect.getEffect().getRegisteredName();
+
+                if (effectId !== 'kubejs:cursebroken') {
+                    entity.removeEffect(effect.getEffect());
+                }
+            }
+        });
 });

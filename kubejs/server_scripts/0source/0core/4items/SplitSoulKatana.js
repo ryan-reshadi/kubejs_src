@@ -19,13 +19,15 @@ var SplitSoulKatana = /** @class */ (function (_super) {
     function SplitSoulKatana() {
         return _super.call(this, "Split Soul Katana", "kubejs:soulsplitkatana", '{SplitSoulKatana:1b}', "§f") || this;
     }
-    SplitSoulKatana.prototype.entityLeftClick = function (event) {
+    SplitSoulKatana.prototype.entityLeftClickBefore = function (event) {
         // Implement left click behavior here
+    };
+    SplitSoulKatana.prototype.entityLeftClickAfter = function (event) {
     };
     SplitSoulKatana.prototype.entityRightClick = function (event) {
         // Implement entity right click behavior here
     };
-    SplitSoulKatana.prototype.rightClick = function (event) {
+    SplitSoulKatana.prototype.onRightClick = function (event) {
         var direction = event.player.getLookAngle();
         var speed = 3; // Define a speed value
         var vx = Number(direction.x) * speed;

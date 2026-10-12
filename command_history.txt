@@ -1,28 +1,3 @@
-/giveMythic
-/giveMythic ISOH
-/reload
-/giveMythic isoh
-/reload
-/giveMythic isoh
-/reload
-/summon cataclysm:clawdian
-/reload
-/giveMythic isoh
-/reload
-/giveMythic splitsoulkatana
-/reload
-/give @s kubejs:mystic_token
-/give @s kubejs:chain_of_a_thousand_miles
-/
-/reload
-/effect give PVPDreadlord minecraft:strength infinite 1 true
-/effect clear
-/reload
-/effect clear @s
-/reload
-/giveMythic splitsoulkatana
-/reload
-/attribute @s minecraft:player.entity_interaction_range base set 100
 /summon minecraft:wither_skeleton
 /gamerule keepInventory true
 /kill
@@ -48,3 +23,28 @@
 /give @s mace
 /enchant @s minecraft:wind_burst 2
 /summon warden
+/reload
+/summon zombie
+/reload
+/summon zombie
+/reload
+/probejs dump
+/probejs
+/reload
+/summon minecraft:zombie
+/reload
+/enchant @s minecraft:fire_aspect
+/summon creeper
+/effect give @s minecraft:resistance infinite 10
+/reload
+/kill
+/effect give @s kubejs:cursebroken
+/giveMythic isoh
+/reload
+/effect give @s kubejs:cursebroken
+/summon minecraft:zombie
+/reload
+/effect give @s kubejs:cursebroken
+/reload
+/effect give @s kubejs:cursebroken
+/reload
