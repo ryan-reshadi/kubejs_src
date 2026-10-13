@@ -23,5 +23,17 @@
     },
     "done": false
   },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2026-10-12 17:48:39 -0700"
+    },
+    "done": true
+  },
+  "createthrusters:gadgets_and_gizmos": {
+    "criteria": {
+      "joined_world": "2026-10-12 17:48:39 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
