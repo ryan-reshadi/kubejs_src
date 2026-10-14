@@ -7,6 +7,12 @@ export function match(input, conditions) {
   return [false, -1];
 }
 
+export function safe_loop(count, runnable) {
+  for (let i = 0; i < count; i++) {
+    runnable(i);
+  }
+}
+
 const color_mappings = {
   "&0": Component.black,
   "&1": Component.darkBlue,
@@ -59,4 +65,8 @@ export function textFormat(str) {
   }
   final.append(fo(opperation(built)));
   return final;
+}
+
+export function log(str, player) {
+  player.sendSystemMessage(textFormat(str));
 }
