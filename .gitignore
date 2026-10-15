@@ -16,3 +16,8 @@ ponders_watched.json
 screenshots
 servers.*
 crash-reports
+
+/saves/*
+!/saves/New World (3)/
+
+.mixin*
