@@ -1,1 +1,18 @@
-{"invited":["adf2543a-af47-4b37-8b42-d5b444903654","b88ab560-a0dd-40dc-b732-11ad6754f469","4f00cb01-6e56-4797-8a21-4ae635097c75","995ce45b-7c48-4398-b77c-c37b1022f4c7"],"shareResourcePack":true,"gameSettings":{"gameMode":"Survival","difficulty":"Normal","cheats":true,"ops":["b88ab560-a0dd-40dc-b732-11ad6754f469"]}}
+{
+  "invited": [
+    "adf2543a-af47-4b37-8b42-d5b444903654",
+    "b88ab560-a0dd-40dc-b732-11ad6754f469",
+    "4f00cb01-6e56-4797-8a21-4ae635097c75",
+    "995ce45b-7c48-4398-b77c-c37b1022f4c7"
+  ],
+  "shareResourcePack": true,
+  "gameSettings": {
+    "gameMode": "Survival",
+    "difficulty": "Normal",
+    "cheats": true,
+    "ops": [
+      "b88ab560-a0dd-40dc-b732-11ad6754f469",
+      "995ce45b-7c48-4398-b77c-c37b1022f4c7"
+    ]
+  }
+}
