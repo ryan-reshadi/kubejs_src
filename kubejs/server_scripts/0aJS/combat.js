@@ -6,7 +6,6 @@ EntityEvents.afterHurt((event) => {
   const attacker = event.source.actual;
   if (attacker.isPlayer()) {
     event.player.persistentData.put("in_combat", Date.now());
-    event.player.sendSystemMessage(Component.red(`You have ben ataked`));
   }
 });
 
@@ -20,7 +19,6 @@ PlayerEvents.tick((event) => {
   const lastHit = player.persistentData.getDouble("in_combat");
   if (Date.now() - lastHit >= expire) {
     player.persistentData.remove("in_combat");
-    event.player.sendSystemMessage(Component.green(`You have ben ataked`));
   }
 });
 
