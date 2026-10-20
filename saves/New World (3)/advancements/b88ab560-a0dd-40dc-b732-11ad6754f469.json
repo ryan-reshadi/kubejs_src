@@ -2051,16 +2051,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-10-14 15:21:01 -0700",
-      "minecraft:cave_spider": "2026-10-15 22:43:14 -0700",
       "minecraft:skeleton": "2026-10-14 15:24:04 -0700",
       "minecraft:phantom": "2026-10-16 21:09:57 -0700",
+      "minecraft:wither_skeleton": "2026-10-16 21:25:17 -0700",
+      "minecraft:cave_spider": "2026-10-15 22:43:14 -0700",
       "minecraft:vindicator": "2026-10-16 14:51:11 -0700",
       "minecraft:stray": "2026-10-15 22:41:50 -0700",
       "minecraft:spider": "2026-10-14 15:47:53 -0700",
       "minecraft:piglin_brute": "2026-10-16 15:31:22 -0700",
-      "minecraft:wither_skeleton": "2026-10-16 21:25:17 -0700",
       "minecraft:zombie": "2026-10-12 18:15:29 -0700",
       "minecraft:creeper": "2026-10-12 18:14:22 -0700",
+      "minecraft:drowned": "2026-10-20 15:40:47 -0700",
       "minecraft:zombie_villager": "2026-10-14 23:10:03 -0700"
     },
     "done": false
@@ -6591,9 +6592,9 @@
     },
     "done": true
   },
-  "createbigcannons:recipes/tools/block_armor_inspection_tool": {
+  "archaion:root": {
     "criteria": {
-      "has_precision_mechanism": "2026-10-17 21:08:20 -0700"
+      "tick_player": "2026-10-17 20:45:20 -0700"
     },
     "done": true
   },
@@ -6603,21 +6604,471 @@
     },
     "done": true
   },
+  "createbigcannons:recipes/tools/block_armor_inspection_tool": {
+    "criteria": {
+      "has_precision_mechanism": "2026-10-17 21:08:20 -0700"
+    },
+    "done": true
+  },
   "simulated:recipes/misc/navigation_table": {
     "criteria": {
       "has_ingredient": "2026-10-17 21:08:20 -0700"
     },
     "done": true
   },
-  "archaion:root": {
-    "criteria": {
-      "tick_player": "2026-10-17 20:45:20 -0700"
-    },
-    "done": true
-  },
   "create:precision_mechanism": {
     "criteria": {
       "0": "2026-10-17 21:08:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_lime_dye": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/building_blocks/painted_acacia": {
+    "criteria": {
+      "has_painted_acacia_materials": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_gray_dye": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/bread": {
+    "criteria": {
+      "has_item": "2026-10-20 15:24:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning_light_gray": {
+    "criteria": {
+      "has_tag_c_dyes_light_gray_2": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2026-10-20 15:47:25 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/industrial_iron_window": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:21:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-10-20 15:42:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smoking/bread": {
+    "criteria": {
+      "has_item": "2026-10-20 15:24:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_golden_knife": "2026-10-20 15:32:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/cake": {
+    "criteria": {
+      "has_item": "2026-10-20 15:24:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning_green": {
+    "criteria": {
+      "has_tag_c_dyes_green_2": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/buntings/bunting_lime": {
+    "criteria": {
+      "has_tag_c_dyes_lime_2": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/buntings/bunting_light_gray": {
+    "criteria": {
+      "has_tag_c_dyes_light_gray_2": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/campfire_cooking/bread": {
+    "criteria": {
+      "has_item": "2026-10-20 15:24:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2026-10-20 15:42:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "create:millstone": {
+    "criteria": {
+      "0": "2026-10-20 15:43:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "create_lnl:recipes/misc/monstrous_slime_tire": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/use_ability": {
+    "criteria": {
+      "awarded": "2026-10-20 15:34:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candle_holders/candle_holder_light_gray_dye": {
+    "criteria": {
+      "has_tag_c_dyes_light_gray_1": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning_white": {
+    "criteria": {
+      "has_tag_c_dyes_white_2": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "create_lnl:recipes/misc/large_slime_tire": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning_lime": {
+    "criteria": {
+      "has_tag_c_dyes_lime_2": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_redstone": {
+    "criteria": {
+      "inv_changed-redstone": "2026-10-20 15:19:48 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/buntings/bunting_green": {
+    "criteria": {
+      "has_tag_c_dyes_green_2": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-10-20 15:28:15 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/buntings/bunting_white": {
+    "criteria": {
+      "has_tag_c_dyes_white_2": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/rockcutting_wheel": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:21:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/root": {
+    "criteria": {
+      "awarded": "2026-10-20 15:29:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_green_dye": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-10-20 15:28:15 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candle_holders/candle_holder_green_dye": {
+    "criteria": {
+      "has_tag_c_dyes_green_1": "2026-10-20 15:43:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "create_lnl:recipes/misc/slime_tire": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-10-20 15:31:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-10-20 15:28:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2026-10-20 15:28:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2026-10-20 15:42:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-10-20 15:28:15 -0700"
+    },
+    "done": false
+  },
+  "simulated:what_goes_down": {
+    "criteria": {
+      "0": "2026-10-20 15:25:31 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_golden_knife": "2026-10-20 15:32:03 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candle_holders/candle_holder_white_dye": {
+    "criteria": {
+      "has_tag_c_dyes_white_1": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "create_lnl:recipes/misc/small_slime_tire": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:44:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candle_holders/candle_holder_lime_dye": {
+    "criteria": {
+      "has_tag_c_dyes_lime_1": "2026-10-20 15:44:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-10-20 15:42:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-10-20 15:28:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-10-20 15:37:41 -0700"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/borehead_bearing": {
+    "criteria": {
+      "has_ingredient": "2026-10-20 15:21:50 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/slime_ball": {
+    "criteria": {
+      "has_item": "2026-10-20 15:24:31 -0700"
     },
     "done": true
   },
