@@ -5920,33 +5920,39 @@
     },
     "done": true
   },
-  "waystones:recipes/decorations/warp_scroll": {
-    "criteria": {
-      "has_ender_pearl": "2026-10-16 16:46:45 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/soap/map": {
-    "criteria": {
-      "has_item_minecraft_filled_map_1": "2026-10-16 16:46:52 -0700"
-    },
-    "done": true
-  },
   "supplementaries:recipe/fodder": {
     "criteria": {
       "has_item_minecraft_hay_block_1": "2026-10-16 16:45:16 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/map": {
+  "createbigcannons:recipes/misc/smoke_shell": {
     "criteria": {
-      "has_compass": "2026-10-16 16:47:02 -0700"
+      "has_hay_block": "2026-10-16 16:45:16 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/misc/wheat": {
     "criteria": {
-      "has_mossy_cobblestone": "2026-10-16 16:57:28 -0700"
+      "has_hay_block": "2026-10-16 16:45:16 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/rope_connector": {
+    "criteria": {
+      "has_ingredient": "2026-10-16 16:46:34 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/rope_winch": {
+    "criteria": {
+      "has_ingredient": "2026-10-16 16:46:34 -0700"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_ender_pearl": "2026-10-16 16:46:45 -0700"
     },
     "done": true
   },
@@ -5962,21 +5968,57 @@
     },
     "done": true
   },
-  "createbigcannons:recipes/misc/smoke_shell": {
+  "waystones:recipes/decorations/portal_scroll": {
     "criteria": {
-      "has_hay_block": "2026-10-16 16:45:16 -0700"
+      "has_ender_pearl": "2026-10-16 16:46:45 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+  "waystones:recipes/decorations/warp_stone": {
     "criteria": {
-      "has_mossy_cobblestone": "2026-10-16 16:57:28 -0700"
+      "has_ender_pearl": "2026-10-16 16:46:45 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap/map": {
+    "criteria": {
+      "has_item_minecraft_filled_map_1": "2026-10-16 16:46:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2026-10-16 16:47:02 -0700"
     },
     "done": true
   },
   "explorerscompass:explorers_compass": {
     "criteria": {
       "has_compass": "2026-10-16 16:47:02 -0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cobweb": {
+    "criteria": {
+      "has_recipe": "2026-10-16 16:47:02 -0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cracked_stone_bricks": {
+    "criteria": {
+      "has_recipe": "2026-10-16 16:47:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-10-16 16:57:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-10-16 16:57:28 -0700"
     },
     "done": true
   },
@@ -5992,57 +6034,39 @@
     },
     "done": true
   },
-  "waystones:recipes/decorations/portal_scroll": {
-    "criteria": {
-      "has_ender_pearl": "2026-10-16 16:46:45 -0700"
-    },
-    "done": true
-  },
-  "explorerscompass:explorers_compass_cobweb": {
-    "criteria": {
-      "has_recipe": "2026-10-16 16:47:02 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/rope_connector": {
-    "criteria": {
-      "has_ingredient": "2026-10-16 16:46:34 -0700"
-    },
-    "done": true
-  },
-  "waystones:recipes/decorations/warp_stone": {
-    "criteria": {
-      "has_ender_pearl": "2026-10-16 16:46:45 -0700"
-    },
-    "done": true
-  },
-  "explorerscompass:explorers_compass_cracked_stone_bricks": {
-    "criteria": {
-      "has_recipe": "2026-10-16 16:47:02 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2026-10-16 16:57:28 -0700"
     },
     "done": true
   },
-  "simulated:recipes/misc/rope_winch": {
-    "criteria": {
-      "has_ingredient": "2026-10-16 16:46:34 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2026-10-16 16:45:16 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2026-10-16 16:57:28 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/tracker": {
+    "criteria": {
+      "has_compass": "2026-10-23 17:31:16 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_redstone": {
+    "criteria": {
+      "inv_changed-redstone": "2026-10-23 17:31:16 -0700"
+    },
+    "done": true
+  },
+  "archaion:root": {
+    "criteria": {
+      "tick_player": "2026-10-23 17:31:16 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2026-10-23 17:31:16 -0700"
     },
     "done": true
   },
