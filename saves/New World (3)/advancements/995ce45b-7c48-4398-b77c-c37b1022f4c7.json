@@ -32,13 +32,19 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2026-10-16 15:01:29 -0700",
+      "minecraft:dark_forest": "2026-10-23 18:35:40 -0700",
+      "minecraft:forest": "2026-10-23 18:11:49 -0700",
       "minecraft:taiga": "2026-10-12 17:49:23 -0700",
-      "minecraft:windswept_forest": "2026-10-16 14:37:35 -0700",
       "minecraft:river": "2026-10-16 14:39:07 -0700",
+      "minecraft:snowy_plains": "2026-10-23 18:54:28 -0700",
       "minecraft:lush_caves": "2026-10-12 17:59:02 -0700",
+      "minecraft:snowy_taiga": "2026-10-12 19:14:21 -0700",
+      "minecraft:old_growth_birch_forest": "2026-10-23 18:35:39 -0700",
+      "minecraft:frozen_river": "2026-10-23 19:02:26 -0700",
+      "minecraft:windswept_forest": "2026-10-16 14:37:35 -0700",
       "minecraft:windswept_gravelly_hills": "2026-10-16 15:00:55 -0700",
-      "minecraft:old_growth_spruce_taiga": "2026-10-16 15:58:43 -0700",
-      "minecraft:snowy_taiga": "2026-10-12 19:14:21 -0700"
+      "minecraft:windswept_hills": "2026-10-23 18:11:15 -0700",
+      "minecraft:old_growth_spruce_taiga": "2026-10-16 15:58:43 -0700"
     },
     "done": false
   },
@@ -1221,20 +1227,31 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-10-16 14:14:23 -0700",
-      "minecraft:cave_spider": "2026-10-16 18:30:55 -0700",
+      "minecraft:blaze": "2026-10-23 19:14:12 -0700",
       "minecraft:skeleton": "2026-10-12 18:01:04 -0700",
-      "minecraft:enderman": "2026-10-16 16:04:49 -0700",
+      "minecraft:zombified_piglin": "2026-10-23 19:21:17 -0700",
       "minecraft:witch": "2026-10-16 18:07:59 -0700",
+      "minecraft:wither_skeleton": "2026-10-23 19:14:13 -0700",
+      "minecraft:ghast": "2026-10-23 19:22:16 -0700",
+      "minecraft:cave_spider": "2026-10-16 18:30:55 -0700",
+      "minecraft:enderman": "2026-10-16 16:04:49 -0700",
+      "minecraft:stray": "2026-10-23 19:03:42 -0700",
+      "minecraft:magma_cube": "2026-10-23 19:14:10 -0700",
       "minecraft:spider": "2026-10-12 19:15:20 -0700",
       "minecraft:zombie": "2026-10-12 18:08:10 -0700",
       "minecraft:creeper": "2026-10-12 18:12:24 -0700",
-      "minecraft:zombie_villager": "2026-10-16 13:53:31 -0700"
+      "minecraft:zombie_villager": "2026-10-16 13:53:31 -0700",
+      "minecraft:slime": "2026-10-23 18:05:29 -0700"
     },
     "done": false
   },
   "netherexp:nether/soul_sand_valley/ghosts_busted": {
     "criteria": {
-      "minecraft:skeleton": "2026-10-12 18:01:04 -0700"
+      "netherexp:apparition": "2026-10-23 19:17:53 -0700",
+      "minecraft:skeleton": "2026-10-12 18:01:04 -0700",
+      "netherexp:wisp": "2026-10-23 19:18:40 -0700",
+      "netherexp:vessel": "2026-10-23 19:18:20 -0700",
+      "minecraft:ghast": "2026-10-23 19:22:16 -0700"
     },
     "done": false
   },
@@ -5582,6 +5599,132 @@
     },
     "done": false
   },
+  "archaion:root": {
+    "criteria": {
+      "tick_player": "2026-10-17 20:20:23 -0700"
+    },
+    "done": true
+  },
+  "jrftl:unlock_prepared_flesh": {
+    "criteria": {
+      "have_rotten_flesh": "2026-10-17 20:46:55 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/big_cartridge_sheet": {
+    "criteria": {
+      "has_brass_sheet": "2026-10-17 20:57:43 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_the_recipe": "2026-10-17 20:59:28 -0700"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2026-10-17 21:00:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/big_cannon_sheet_inexpensive": {
+    "criteria": {
+      "has_inexpensive_big_cartridge_sheet": "2026-10-17 21:01:38 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/brown_toolbox": {
+    "criteria": {
+      "has_item": "2026-10-17 21:01:38 -0700"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2026-10-17 21:02:01 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/mangrove_window": {
+    "criteria": {
+      "has_ingredient": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2026-10-17 21:02:58 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/tools/block_armor_inspection_tool": {
+    "criteria": {
+      "has_precision_mechanism": "2026-10-17 21:08:16 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/navigation_table": {
+    "criteria": {
+      "has_ingredient": "2026-10-17 21:08:16 -0700"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2026-10-17 21:08:16 -0700"
+    },
+    "done": true
+  },
   "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
     "criteria": {
       "has_ingots_brass": "2026-10-17 21:09:33 -0700"
@@ -5597,12 +5740,6 @@
   "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
     "criteria": {
       "has_ingots_brass": "2026-10-17 21:09:33 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/big_cannon_sheet_inexpensive": {
-    "criteria": {
-      "has_inexpensive_big_cartridge_sheet": "2026-10-17 21:01:38 -0700"
     },
     "done": true
   },
@@ -5636,12 +5773,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/attribute_filter": {
     "criteria": {
       "has_item": "2026-10-17 21:09:33 -0700"
@@ -5651,60 +5782,6 @@
   "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
     "criteria": {
       "has_item": "2026-10-17 21:09:33 -0700"
-    },
-    "done": true
-  },
-  "create:deployer": {
-    "criteria": {
-      "0": "2026-10-17 21:00:19 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_sign": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/tools/block_armor_inspection_tool": {
-    "criteria": {
-      "has_precision_mechanism": "2026-10-17 21:08:16 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_stairs": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
-  "create:wrench_goggles": {
-    "criteria": {
-      "0": "2026-10-17 21:02:01 -0700"
-    },
-    "done": false
-  },
-  "create:recipes/misc/crafting/kinetics/brass_hand": {
-    "criteria": {
-      "has_the_recipe": "2026-10-17 20:59:28 -0700"
-    },
-    "done": true
-  },
-  "jrftl:unlock_prepared_flesh": {
-    "criteria": {
-      "have_rotten_flesh": "2026-10-17 20:46:55 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_door": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/navigation_table": {
-    "criteria": {
-      "has_ingredient": "2026-10-17 21:08:16 -0700"
     },
     "done": true
   },
@@ -5732,51 +5809,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mangrove_fence": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
-  "archaion:root": {
-    "criteria": {
-      "tick_player": "2026-10-17 20:20:23 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/mangrove_window": {
-    "criteria": {
-      "has_ingredient": "2026-10-17 21:02:58 -0700"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/flywheel": {
     "criteria": {
       "has_item": "2026-10-17 21:09:33 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/curiosities/brown_toolbox": {
-    "criteria": {
-      "has_item": "2026-10-17 21:01:38 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_button": {
-    "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
     },
     "done": true
   },
@@ -5792,21 +5827,383 @@
     },
     "done": true
   },
-  "createbigcannons:recipes/misc/big_cartridge_sheet": {
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
     "criteria": {
-      "has_brass_sheet": "2026-10-17 20:57:43 -0700"
+      "has_item": "2026-10-23 19:23:16 -0700"
     },
     "done": true
   },
-  "create:precision_mechanism": {
+  "born_in_chaos_v1:charm_collector": {
     "criteria": {
-      "0": "2026-10-17 21:08:16 -0700"
+      "charm_collector_2": "2026-10-23 17:53:05 -0700"
+    },
+    "done": false
+  },
+  "supplementaries:recipe/soap/tipped_arrow": {
+    "criteria": {
+      "has_item_minecraft_tipped_arrow_1": "2026-10-23 19:03:47 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_slab": {
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
-      "has_planks": "2026-10-17 21:02:58 -0700"
+      "has_chicken": "2026-10-23 17:42:37 -0700"
+    },
+    "done": true
+  },
+  "waystones:recipes/tools/twinbound_feather": {
+    "criteria": {
+      "has_feather": "2026-10-23 18:36:08 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthana_raptor": {
+    "criteria": {
+      "umvuthana_raptor": "2026-10-23 19:52:25 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_ferrous_wroughtnaut": {
+    "criteria": {
+      "ferrous_wroughtnaut": "2026-10-23 18:10:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:44:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-10-23 19:14:09 -0700",
+      "minecraft:soul_sand_valley": "2026-10-23 19:13:18 -0700",
+      "minecraft:warped_forest": "2026-10-23 19:17:15 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-10-23 19:03:09 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/unlock_ability": {
+    "criteria": {
+      "awarded": "2026-10-23 17:49:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2026-10-23 19:03:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-10-23 19:14:17 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2026-10-23 17:42:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-10-23 19:21:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2026-10-23 19:03:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:44:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2026-10-23 19:31:06 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2026-10-23 17:52:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-10-23 17:42:37 -0700"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "opened_25": "2026-10-23 18:56:40 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/soul_vessel": {
+    "criteria": {
+      "has_bone": "2026-10-23 17:50:41 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:double_trouble": {
+    "criteria": {
+      "double_trouble_0": "2026-10-23 19:36:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-10-23 19:20:21 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_ghast_tear": "2026-10-23 19:23:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:44:31 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/ship_lantern": {
+    "criteria": {
+      "has_item": "2026-10-23 18:44:31 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2026-10-23 17:52:54 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/use_ability": {
+    "criteria": {
+      "awarded": "2026-10-23 17:40:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-10-23 19:13:40 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-10-23 19:23:16 -0700"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley/soul_sand_valley": {
+    "criteria": {
+      "condition": "2026-10-23 19:13:18 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/hardened_nitro": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:44:31 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2026-10-23 18:44:52 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2026-10-23 19:03:46 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2026-10-23 17:42:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-10-23 18:44:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-10-23 17:42:38 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/water_flask": {
+    "criteria": {
+      "has_leather": "2026-10-23 17:42:39 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_redstone": {
+    "criteria": {
+      "inv_changed-redstone": "2026-10-23 17:39:08 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2026-10-23 19:03:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-10-23 17:42:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-10-23 19:13:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-10-23 19:21:30 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/gargoyle_statue": {
+    "criteria": {
+      "has_item": "2026-10-23 19:19:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2026-10-23 19:03:47 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/tracer_tip": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:44:31 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/siege_altar": {
+    "criteria": {
+      "has_relic": "2026-10-23 18:10:09 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/root": {
+    "criteria": {
+      "awarded": "2026-10-23 17:39:30 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/coin_pile": {
+    "criteria": {
+      "has_item": "2026-10-23 19:21:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2026-10-23 17:51:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-10-23 19:13:17 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2026-10-23 17:39:08 -0700"
+    },
+    "done": true
+  },
+  "netherexp:nether/overkill": {
+    "criteria": {
+      "overkill": "2026-10-23 18:11:45 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/lesion": {
+    "criteria": {
+      "has_item": "2026-10-23 19:23:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-10-23 19:14:17 -0700"
+    },
+    "done": true
+  },
+  "simulated:you_spin_me_right_round": {
+    "criteria": {
+      "0": "2026-10-23 17:48:32 -0700"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley/frightening_rush": {
+    "criteria": {
+      "condition": "2026-10-23 19:17:12 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/feather_block": {
+    "criteria": {
+      "has_item_minecraft_feather_1": "2026-10-23 18:36:08 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/ecto_soul_sand": {
+    "criteria": {
+      "has_item": "2026-10-23 19:19:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2026-10-23 19:14:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-10-23 19:03:09 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2026-10-23 17:42:38 -0700"
     },
     "done": true
   },

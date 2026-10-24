@@ -653,6 +653,7 @@
       "cooked_beef": "2026-10-14 15:07:16 -0700",
       "baked_potato": "2026-10-14 14:39:04 -0700",
       "cooked_salmon": "2026-10-16 15:21:44 -0700",
+      "golden_carrot": "2026-10-23 18:19:32 -0700",
       "carrot": "2026-10-16 15:07:29 -0700"
     },
     "done": false
@@ -2053,12 +2054,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-10-14 15:21:01 -0700",
+      "minecraft:blaze": "2026-10-23 19:56:47 -0700",
       "minecraft:skeleton": "2026-10-14 15:24:04 -0700",
       "minecraft:phantom": "2026-10-16 21:09:57 -0700",
       "minecraft:wither_skeleton": "2026-10-16 21:25:17 -0700",
       "minecraft:cave_spider": "2026-10-15 22:43:14 -0700",
       "minecraft:vindicator": "2026-10-16 14:51:11 -0700",
       "minecraft:stray": "2026-10-15 22:41:50 -0700",
+      "minecraft:enderman": "2026-10-23 19:24:13 -0700",
       "minecraft:spider": "2026-10-14 15:47:53 -0700",
       "minecraft:piglin_brute": "2026-10-16 15:31:22 -0700",
       "minecraft:zombie": "2026-10-12 18:15:29 -0700",
@@ -5972,7 +5975,9 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2026-10-16 15:20:15 -0700",
-      "minecraft:soul_sand_valley": "2026-10-16 15:32:22 -0700"
+      "minecraft:soul_sand_valley": "2026-10-16 15:32:22 -0700",
+      "minecraft:basalt_deltas": "2026-10-23 19:20:48 -0700",
+      "minecraft:warped_forest": "2026-10-23 19:21:26 -0700"
     },
     "done": false
   },
@@ -7287,6 +7292,312 @@
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2026-10-23 17:26:34 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/challenge_post": {
+    "criteria": {
+      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "archaion:recipes/combat/echo_mace_upgrade_smithing": {
+    "criteria": {
+      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-10-23 19:04:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-10-23 19:20:00 -0700"
+    },
+    "done": true
+  },
+  "simulated:rewind_time": {
+    "criteria": {
+      "0": "2026-10-23 18:18:28 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2026-10-23 19:24:15 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_stamina_matrix": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-10-23 18:55:10 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2026-10-23 19:41:44 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_frame_from_conversion": {
+    "criteria": {
+      "has_item": "2026-10-23 18:17:56 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/contraption_diagram": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:23:47 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_lore": {
+    "criteria": {
+      "has_item_minecraft_name_tag_1": "2026-10-23 18:56:55 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_flux_conduit": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:grave_ravager": {
+    "criteria": {
+      "grave_ravager_0": "2026-10-23 18:54:21 -0700"
+    },
+    "done": true
+  },
+  "awakened:defeat_overseer": {
+    "criteria": {
+      "kill_overseer": "2026-10-23 19:39:46 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2026-10-23 18:10:28 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
+    "criteria": {
+      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/sun_axe_head": {
+    "criteria": {
+      "has_gold_block": "2026-10-23 19:30:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom_stew": "2026-10-23 18:30:01 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-10-23 19:20:00 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bury_them_all": {
+    "criteria": {
+      "bury_them_all_1": "2026-10-23 18:54:22 -0700"
+    },
+    "done": false
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/siege_altar": {
+    "criteria": {
+      "has_relic": "2026-10-23 18:56:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-10-23 18:55:42 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/coin_pile": {
+    "criteria": {
+      "has_item": "2026-10-23 19:20:00 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2026-10-23 18:53:11 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "simplyswords:simplyswords": {
+    "criteria": {
+      "requirement": "2026-10-23 19:19:55 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/white_symmetric_sail": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:17:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "simulated:applied_kinematics": {
+    "criteria": {
+      "0": "2026-10-23 18:23:47 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom_stew": "2026-10-23 18:30:01 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-10-23 18:24:54 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/white_sail": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:24:39 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-10-23 19:04:00 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/timed_fuze": {
+    "criteria": {
+      "has_clock": "2026-10-23 19:19:59 -0700"
     },
     "done": true
   },

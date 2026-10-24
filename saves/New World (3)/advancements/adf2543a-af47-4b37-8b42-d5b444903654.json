@@ -36,11 +36,13 @@
       "minecraft:forest": "2026-10-12 18:15:44 -0700",
       "minecraft:taiga": "2026-10-12 17:50:59 -0700",
       "minecraft:river": "2026-10-12 18:12:14 -0700",
+      "minecraft:snowy_plains": "2026-10-23 18:55:03 -0700",
       "minecraft:lush_caves": "2026-10-12 17:56:33 -0700",
       "minecraft:snowy_taiga": "2026-10-12 18:21:35 -0700",
       "minecraft:dripstone_caves": "2026-10-16 16:49:15 -0700",
       "minecraft:frozen_river": "2026-10-12 17:54:07 -0700",
       "minecraft:windswept_forest": "2026-10-14 16:11:18 -0700",
+      "minecraft:ocean": "2026-10-23 18:36:23 -0700",
       "minecraft:swamp": "2026-10-16 14:54:52 -0700",
       "minecraft:windswept_gravelly_hills": "2026-10-14 14:52:35 -0700",
       "minecraft:windswept_hills": "2026-10-14 14:51:01 -0700",
@@ -4627,11 +4629,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-10-14 15:59:28 -0700",
+      "minecraft:blaze": "2026-10-23 19:56:47 -0700",
       "minecraft:skeleton": "2026-10-14 15:46:14 -0700",
       "minecraft:vindicator": "2026-10-16 14:51:12 -0700",
+      "minecraft:zombified_piglin": "2026-10-23 19:21:22 -0700",
       "minecraft:enderman": "2026-10-16 16:30:13 -0700",
+      "minecraft:witch": "2026-10-23 18:05:54 -0700",
       "minecraft:spider": "2026-10-14 15:46:03 -0700",
       "minecraft:zombie": "2026-10-14 16:56:46 -0700",
+      "minecraft:creeper": "2026-10-23 17:56:28 -0700",
       "minecraft:zombie_villager": "2026-10-14 16:28:31 -0700"
     },
     "done": false
@@ -5850,7 +5856,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2026-10-16 16:18:14 -0700"
+      "minecraft:nether_wastes": "2026-10-16 16:18:14 -0700",
+      "minecraft:soul_sand_valley": "2026-10-23 19:56:47 -0700"
     },
     "done": false
   },
@@ -6067,6 +6074,547 @@
   "toms_storage:unlock_dia_pearl": {
     "criteria": {
       "inv_changed-ender_pearl": "2026-10-23 17:31:16 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2026-10-23 18:32:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2026-10-23 18:24:32 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:charm_collector": {
+    "criteria": {
+      "charm_collector_0": "2026-10-23 19:06:15 -0700",
+      "charm_collector_3": "2026-10-23 19:06:15 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2026-10-23 17:53:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-10-23 18:29:34 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_ferrous_wroughtnaut": {
+    "criteria": {
+      "ferrous_wroughtnaut": "2026-10-23 19:17:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:18:54 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:big_boy": {
+    "criteria": {
+      "big_boy_0": "2026-10-23 19:40:15 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_kinetic_band": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/unlock_ability": {
+    "criteria": {
+      "awarded": "2026-10-23 18:03:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-10-23 19:57:02 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_warding_plate": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-10-23 18:50:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:18:54 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_focus_lens": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/void_lily": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/catalyst": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-10-23 18:32:34 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_frame_from_conversion": {
+    "criteria": {
+      "has_item": "2026-10-23 18:24:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-10-23 18:32:34 -0700"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "opened_25": "2026-10-23 18:24:45 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/soul_vessel": {
+    "criteria": {
+      "has_bone": "2026-10-23 17:52:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/pedestal": {
+    "criteria": {
+      "has_item_minecraft_stone_brick_slab_1": "2026-10-23 18:57:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:18:54 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/ship_lantern": {
+    "criteria": {
+      "has_item": "2026-10-23 18:18:54 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2026-10-23 19:06:12 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/use_ability": {
+    "criteria": {
+      "awarded": "2026-10-23 17:49:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-10-23 19:55:41 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley/soul_sand_valley": {
+    "criteria": {
+      "condition": "2026-10-23 19:56:47 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bamboo_spikes": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/hardened_nitro": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:18:54 -0700"
+    },
+    "done": true
+  },
+  "waystones:recipes/combat/epitaph": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-10-23 18:41:39 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crystal_display": {
+    "criteria": {
+      "has_item_minecraft_amethyst_shard_2": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/water_flask": {
+    "criteria": {
+      "has_leather": "2026-10-23 18:59:44 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/combat/blowgun": {
+    "criteria": {
+      "has_bamboo": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-10-23 18:32:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2026-10-23 18:59:35 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/tracer_tip": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-23 18:18:54 -0700"
+    },
+    "done": true
+  },
+  "jrftl:unlock_prepared_flesh": {
+    "criteria": {
+      "have_rotten_flesh": "2026-10-23 17:53:08 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/siege_altar": {
+    "criteria": {
+      "has_relic": "2026-10-23 19:40:15 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_swift_cells": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/root": {
+    "criteria": {
+      "awarded": "2026-10-23 17:46:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-10-23 18:59:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-10-23 18:33:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2026-10-23 18:43:25 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_iron_charm": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/stone_tile": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_1": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-10-23 18:32:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2026-10-23 17:53:08 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2026-10-23 18:45:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-10-23 18:43:25 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/white_symmetric_sail": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:24:34 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:exorcism": {
+    "criteria": {
+      "exorcism_0": "2026-10-23 19:06:12 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stone_tile": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_1": "2026-10-23 18:59:59 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flute": {
+    "criteria": {
+      "has_item_minecraft_bamboo_1": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-10-23 19:57:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-23 19:56:22 -0700"
+    },
+    "done": true
+  },
+  "simulated:you_spin_me_right_round": {
+    "criteria": {
+      "0": "2026-10-23 17:48:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:horrorofthe_depths": {
+    "criteria": {
+      "horrorofthe_depths_0": "2026-10-23 18:31:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "awakened:awakened/reroll": {
+    "criteria": {
+      "awarded": "2026-10-23 19:32:35 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:disgusting_lootbox": {
+    "criteria": {
+      "disgusting_lootbox_0": "2026-10-23 18:32:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/white_sail": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:25:12 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lunch_basket": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-10-23 18:11:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2026-10-23 19:57:02 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_belt": {
+    "criteria": {
+      "has_amethyst_shard": "2026-10-23 19:24:51 -0700"
     },
     "done": true
   },
