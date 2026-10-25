@@ -6215,5 +6215,11 @@
     },
     "done": true
   },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-10-25 12:56:02 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
