@@ -45,6 +45,7 @@
       "minecraft:old_growth_birch_forest": "2026-10-14 14:09:39 -0700",
       "minecraft:frozen_river": "2026-10-12 18:49:52 -0700",
       "minecraft:windswept_forest": "2026-10-14 16:11:18 -0700",
+      "minecraft:swamp": "2026-10-24 13:24:37 -0700",
       "minecraft:windswept_gravelly_hills": "2026-10-14 14:44:54 -0700",
       "minecraft:windswept_hills": "2026-10-14 14:25:57 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-10-23 17:28:42 -0700",
@@ -7295,9 +7296,45 @@
     },
     "done": true
   },
-  "awakened:recipes/challenge_post": {
+  "farmersdelight:recipes/food/horse_feed": {
     "criteria": {
-      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+      "has_golden_carrot": "2026-10-23 18:10:28 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_frame_from_conversion": {
+    "criteria": {
+      "has_item": "2026-10-23 18:17:56 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/white_symmetric_sail": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:17:56 -0700"
+    },
+    "done": true
+  },
+  "simulated:rewind_time": {
+    "criteria": {
+      "0": "2026-10-23 18:18:28 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/contraption_diagram": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:23:47 -0700"
+    },
+    "done": true
+  },
+  "simulated:applied_kinematics": {
+    "criteria": {
+      "0": "2026-10-23 18:23:47 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/white_sail": {
+    "criteria": {
+      "has_ingredient": "2026-10-23 18:24:39 -0700"
     },
     "done": true
   },
@@ -7313,51 +7350,9 @@
     },
     "done": true
   },
-  "archaion:recipes/combat/echo_mace_upgrade_smithing": {
-    "criteria": {
-      "has_echo_shard": "2026-10-23 19:39:48 -0700"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-10-23 18:24:54 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2026-10-23 19:04:00 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2026-10-23 19:20:00 -0700"
-    },
-    "done": true
-  },
-  "simulated:rewind_time": {
-    "criteria": {
-      "0": "2026-10-23 18:18:28 -0700"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/mob_ward": {
-    "criteria": {
-      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2026-10-23 19:24:15 -0700"
-    },
-    "done": true
-  },
-  "awakened:recipes/relic_stamina_matrix": {
-    "criteria": {
-      "has_binder": "2026-10-23 19:39:48 -0700"
     },
     "done": true
   },
@@ -7367,75 +7362,9 @@
     },
     "done": true
   },
-  "bosses_of_mass_destruction:recipes/levitation_block": {
-    "criteria": {
-      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-10-23 18:24:54 -0700"
-    },
-    "done": true
-  },
-  "lootr:50loot": {
-    "criteria": {
-      "opened_50": "2026-10-23 18:55:10 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:good_demoman": {
-    "criteria": {
-      "good_demoman_0": "2026-10-23 19:41:44 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/sail_frame_from_conversion": {
-    "criteria": {
-      "has_item": "2026-10-23 18:17:56 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/contraption_diagram": {
-    "criteria": {
-      "has_ingredient": "2026-10-23 18:23:47 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/item_lore": {
-    "criteria": {
-      "has_item_minecraft_name_tag_1": "2026-10-23 18:56:55 -0700"
-    },
-    "done": true
-  },
-  "awakened:recipes/relic_flux_conduit": {
-    "criteria": {
-      "has_binder": "2026-10-23 19:39:48 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:grave_ravager": {
-    "criteria": {
-      "grave_ravager_0": "2026-10-23 18:54:21 -0700"
-    },
-    "done": true
-  },
-  "awakened:defeat_overseer": {
-    "criteria": {
-      "kill_overseer": "2026-10-23 19:39:46 -0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/horse_feed": {
-    "criteria": {
-      "has_golden_carrot": "2026-10-23 18:10:28 -0700"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
-    "criteria": {
-      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
     },
     "done": true
   },
@@ -7445,35 +7374,11 @@
     },
     "done": true
   },
-  "awakened:recipes/sun_axe_head": {
-    "criteria": {
-      "has_gold_block": "2026-10-23 19:30:50 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_mushroom_stew": "2026-10-23 18:30:01 -0700"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-10-23 18:24:54 -0700"
     },
     "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2026-10-23 19:20:00 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:bury_them_all": {
-    "criteria": {
-      "bury_them_all_1": "2026-10-23 18:54:22 -0700"
-    },
-    "done": false
   },
   "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
     "criteria": {
@@ -7484,24 +7389,6 @@
   "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-10-23 18:24:54 -0700"
-    },
-    "done": true
-  },
-  "awakened:recipes/siege_altar": {
-    "criteria": {
-      "has_relic": "2026-10-23 18:56:00 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_ice": {
-    "criteria": {
-      "has_ice": "2026-10-23 18:55:42 -0700"
-    },
-    "done": true
-  },
-  "block_factorys_bosses:recipes/building_blocks/coin_pile": {
-    "criteria": {
-      "has_item": "2026-10-23 19:20:00 -0700"
     },
     "done": true
   },
@@ -7517,39 +7404,9 @@
     },
     "done": true
   },
-  "mowziesmobs:kill_frostmaw": {
-    "criteria": {
-      "frostmaw": "2026-10-23 18:53:11 -0700"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-10-23 18:24:54 -0700"
-    },
-    "done": true
-  },
-  "simplyswords:simplyswords": {
-    "criteria": {
-      "requirement": "2026-10-23 19:19:55 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/white_symmetric_sail": {
-    "criteria": {
-      "has_ingredient": "2026-10-23 18:17:56 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/recovery_compass": {
-    "criteria": {
-      "has_echo_shard": "2026-10-23 19:39:48 -0700"
-    },
-    "done": true
-  },
-  "simulated:applied_kinematics": {
-    "criteria": {
-      "0": "2026-10-23 18:23:47 -0700"
     },
     "done": true
   },
@@ -7571,21 +7428,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_mushroom_stew": "2026-10-23 18:30:01 -0700"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2026-10-23 18:24:54 -0700"
     },
     "done": true
   },
-  "create:recipes/misc/white_sail": {
+  "minecraft:recipes/misc/bowl": {
     "criteria": {
-      "has_ingredient": "2026-10-23 18:24:39 -0700"
+      "has_mushroom_stew": "2026-10-23 18:30:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom_stew": "2026-10-23 18:30:01 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2026-10-23 18:53:11 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:grave_ravager": {
+    "criteria": {
+      "grave_ravager_0": "2026-10-23 18:54:21 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:bury_them_all": {
+    "criteria": {
+      "bury_them_all_1": "2026-10-23 18:54:22 -0700"
+    },
+    "done": false
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-10-23 18:55:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-10-23 18:55:42 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/siege_altar": {
+    "criteria": {
+      "has_relic": "2026-10-23 18:56:00 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_lore": {
+    "criteria": {
+      "has_item_minecraft_name_tag_1": "2026-10-23 18:56:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-10-23 19:04:00 -0700"
     },
     "done": true
   },
@@ -7595,9 +7500,159 @@
     },
     "done": true
   },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
+    "criteria": {
+      "has_ancient_anima": "2026-10-23 19:04:20 -0700"
+    },
+    "done": true
+  },
+  "simplyswords:simplyswords": {
+    "criteria": {
+      "requirement": "2026-10-23 19:19:55 -0700"
+    },
+    "done": true
+  },
   "createbigcannons:recipes/misc/timed_fuze": {
     "criteria": {
       "has_clock": "2026-10-23 19:19:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2026-10-23 19:20:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2026-10-23 19:20:00 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/coin_pile": {
+    "criteria": {
+      "has_item": "2026-10-23 19:20:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2026-10-23 19:24:15 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/sun_axe_head": {
+    "criteria": {
+      "has_gold_block": "2026-10-23 19:30:50 -0700"
+    },
+    "done": true
+  },
+  "awakened:defeat_overseer": {
+    "criteria": {
+      "kill_overseer": "2026-10-23 19:39:46 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/challenge_post": {
+    "criteria": {
+      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "archaion:recipes/combat/echo_mace_upgrade_smithing": {
+    "criteria": {
+      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_stamina_matrix": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_flux_conduit": {
+    "criteria": {
+      "has_binder": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-10-23 19:39:48 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2026-10-23 19:41:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-10-24 13:18:26 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lapis_bricks": {
+    "criteria": {
+      "has_item_minecraft_lapis_lazuli_1": "2026-10-24 13:18:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-10-24 13:18:26 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:big_boy": {
+    "criteria": {
+      "big_boy_0": "2026-10-24 13:33:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2026-10-24 13:40:45 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/tracker": {
+    "criteria": {
+      "has_compass": "2026-10-24 13:40:45 -0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_compass": "2026-10-24 13:40:45 -0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cobweb": {
+    "criteria": {
+      "has_recipe": "2026-10-24 13:40:45 -0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cracked_stone_bricks": {
+    "criteria": {
+      "has_recipe": "2026-10-24 13:40:45 -0700"
     },
     "done": true
   },
