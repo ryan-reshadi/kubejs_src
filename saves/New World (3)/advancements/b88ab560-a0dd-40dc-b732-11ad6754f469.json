@@ -7861,5 +7861,17 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2026-10-26 14:48:23 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:trickor_treat": {
+    "criteria": {
+      "trickor_treat_6": "2026-10-26 14:48:05 -0700"
+    },
+    "done": false
+  },
   "DataVersion": 3955
 }

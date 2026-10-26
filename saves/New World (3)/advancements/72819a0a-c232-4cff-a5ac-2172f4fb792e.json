@@ -241,6 +241,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2026-10-23 17:30:43 -0700",
+      "potato": "2026-10-26 14:45:54 -0700",
       "glow_berries": "2026-10-23 17:18:57 -0700",
       "cooked_beef": "2026-10-23 18:55:35 -0700",
       "baked_potato": "2026-10-23 18:20:56 -0700",
@@ -1455,6 +1456,7 @@
     "criteria": {
       "minecraft:pillager": "2026-10-23 18:37:57 -0700",
       "minecraft:skeleton": "2026-10-23 17:51:54 -0700",
+      "minecraft:spider": "2026-10-26 14:52:22 -0700",
       "minecraft:zombie": "2026-10-23 17:29:35 -0700",
       "minecraft:creeper": "2026-10-23 17:51:58 -0700"
     },
@@ -3788,6 +3790,12 @@
     },
     "done": true
   },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-10-25 19:11:49 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2026-10-25 19:12:49 -0700"
@@ -3797,12 +3805,6 @@
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2026-10-25 19:12:49 -0700"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2026-10-25 19:11:49 -0700"
     },
     "done": true
   },
@@ -3827,6 +3829,123 @@
   "createbigcannons:recipes/misc/tracer_tip": {
     "criteria": {
       "has_blaze_powder": "2026-10-25 19:12:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-10-26 14:34:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2026-10-26 14:22:08 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/planter_rich_fd": {
+    "criteria": {
+      "has_item_minecraft_bone_meal_2": "2026-10-26 14:34:55 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bale": {
+    "criteria": {
+      "has_rice_panicle": "2026-10-26 14:38:37 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-26 14:39:51 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-10-26 14:50:22 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "onion": "2026-10-26 14:40:34 -0700",
+      "potato": "2026-10-26 14:40:09 -0700",
+      "tomato": "2026-10-26 14:40:13 -0700"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/rice": {
+    "criteria": {
+      "has_rice_panicle": "2026-10-26 14:38:37 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-10-26 14:34:55 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2026-10-26 14:39:51 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-10-26 14:23:20 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2026-10-26 14:47:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-10-26 14:34:55 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:trickor_treat": {
+    "criteria": {
+      "trickor_treat_0": "2026-10-26 14:20:50 -0700",
+      "trickor_treat_7": "2026-10-26 14:49:01 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-10-26 14:46:27 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2026-10-26 14:39:51 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2026-10-26 14:39:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-10-26 14:46:27 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-10-26 14:46:27 -0700"
     },
     "done": true
   },
