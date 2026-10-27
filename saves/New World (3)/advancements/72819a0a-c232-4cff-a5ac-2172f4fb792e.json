@@ -40,12 +40,13 @@
       "minecraft:cold_ocean": "2026-10-23 17:17:18 -0700",
       "minecraft:beach": "2026-10-23 17:16:14 -0700",
       "minecraft:old_growth_pine_taiga": "2026-10-23 17:27:39 -0700",
-      "minecraft:frozen_river": "2026-10-23 19:02:33 -0700",
+      "minecraft:dark_forest": "2026-10-26 16:46:00 -0700",
       "minecraft:forest": "2026-10-23 17:09:38 -0700",
       "minecraft:taiga": "2026-10-23 17:27:40 -0700",
       "minecraft:river": "2026-10-23 17:22:12 -0700",
       "minecraft:snowy_plains": "2026-10-23 18:54:58 -0700",
       "minecraft:lush_caves": "2026-10-23 17:57:19 -0700",
+      "minecraft:frozen_river": "2026-10-23 19:02:33 -0700",
       "minecraft:windswept_gravelly_hills": "2026-10-23 17:11:24 -0700",
       "minecraft:windswept_hills": "2026-10-23 17:08:59 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-10-23 17:28:32 -0700"
@@ -1456,6 +1457,8 @@
     "criteria": {
       "minecraft:pillager": "2026-10-23 18:37:57 -0700",
       "minecraft:skeleton": "2026-10-23 17:51:54 -0700",
+      "minecraft:piglin": "2026-10-26 16:24:02 -0700",
+      "minecraft:zombified_piglin": "2026-10-26 16:25:01 -0700",
       "minecraft:spider": "2026-10-26 14:52:22 -0700",
       "minecraft:zombie": "2026-10-23 17:29:35 -0700",
       "minecraft:creeper": "2026-10-23 17:51:58 -0700"
@@ -3832,15 +3835,30 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
+  "born_in_chaos_v1:trickor_treat": {
     "criteria": {
-      "has_bone_meal": "2026-10-26 14:34:55 -0700"
+      "trickor_treat_0": "2026-10-26 14:20:50 -0700",
+      "trickor_treat_2": "2026-10-26 16:46:18 -0700",
+      "trickor_treat_4": "2026-10-26 16:46:19 -0700",
+      "trickor_treat_7": "2026-10-26 14:49:01 -0700"
     },
-    "done": true
+    "done": false
   },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_helmet": "2026-10-26 14:22:08 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-10-26 14:23:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-10-26 14:34:55 -0700"
     },
     "done": true
   },
@@ -3850,7 +3868,25 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-10-26 14:34:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-10-26 14:34:55 -0700"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/building_blocks/rice_bale": {
+    "criteria": {
+      "has_rice_panicle": "2026-10-26 14:38:37 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice": {
     "criteria": {
       "has_rice_panicle": "2026-10-26 14:38:37 -0700"
     },
@@ -3862,66 +3898,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
-    "criteria": {
-      "has_diamond_backpack": "2026-10-26 14:50:22 -0700"
-    },
-    "done": true
-  },
-  "farmersdelight:main/plant_all_crops": {
-    "criteria": {
-      "onion": "2026-10-26 14:40:34 -0700",
-      "potato": "2026-10-26 14:40:09 -0700",
-      "tomato": "2026-10-26 14:40:13 -0700"
-    },
-    "done": false
-  },
-  "farmersdelight:recipes/food/rice": {
-    "criteria": {
-      "has_rice_panicle": "2026-10-26 14:38:37 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
-    "criteria": {
-      "has_item": "2026-10-26 14:34:55 -0700"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/building_blocks/tomato_crate": {
     "criteria": {
       "has_tomato": "2026-10-26 14:39:51 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/rope_arrow_create": {
-    "criteria": {
-      "has_item_minecraft_arrow_1": "2026-10-26 14:23:20 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:junior_summoner": {
-    "criteria": {
-      "junior_summoner_0": "2026-10-26 14:47:57 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2026-10-26 14:34:55 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:trickor_treat": {
-    "criteria": {
-      "trickor_treat_0": "2026-10-26 14:20:50 -0700",
-      "trickor_treat_7": "2026-10-26 14:49:01 -0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2026-10-26 14:46:27 -0700"
     },
     "done": true
   },
@@ -3937,6 +3916,20 @@
     },
     "done": true
   },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "onion": "2026-10-26 14:40:34 -0700",
+      "potato": "2026-10-26 14:40:09 -0700",
+      "tomato": "2026-10-26 14:40:13 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-10-26 14:46:27 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2026-10-26 14:46:27 -0700"
@@ -3946,6 +3939,367 @@
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2026-10-26 14:46:27 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2026-10-26 14:47:57 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2026-10-26 14:50:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:charm_collector": {
+    "criteria": {
+      "charm_collector_0": "2026-10-26 16:23:32 -0700",
+      "charm_collector_3": "2026-10-26 16:23:32 -0700"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-10-26 16:23:32 -0700"
+    },
+    "done": false
+  },
+  "create:recipes/building_blocks/polished_cut_tuff_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_tuff_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap/map": {
+    "criteria": {
+      "has_item_minecraft_filled_map_1": "2026-10-26 16:50:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gravel_bricks": {
+    "criteria": {
+      "has_item_minecraft_gravel_1": "2026-10-26 16:27:25 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:arachnophobes_nightmare": {
+    "criteria": {
+      "arachnophobes_nightmare_0": "2026-10-26 17:08:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_tuff_stairs_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_stairs_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tuff_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/mortar_stone": {
+    "criteria": {
+      "has_stone": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-10-26 16:58:36 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_tuff_brick_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2026-10-26 16:34:00 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2026-10-26 16:34:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_brick_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-10-26 16:46:52 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cannonball": {
+    "criteria": {
+      "has_item_minecraft_iron_block_1": "2026-10-26 16:46:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2026-10-26 16:34:00 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_tuff_brick_stairs_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2026-10-26 16:27:25 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_tuff_bricks_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-10-26 16:23:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_tuff_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_brick_stairs_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tuff_pillar_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_brick_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2026-10-26 16:22:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2026-10-26 17:09:18 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-10-26 17:09:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-10-26 16:23:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-10-26 16:22:01 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_tuff_brick_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_bricks_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_gravel": {
+    "criteria": {
+      "has_item_minecraft_gravel_1": "2026-10-26 16:27:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-10-26 16:46:52 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-10-26 16:57:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2026-10-26 16:34:00 -0700"
     },
     "done": true
   },

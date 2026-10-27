@@ -7861,17 +7861,29 @@
     },
     "done": false
   },
+  "born_in_chaos_v1:trickor_treat": {
+    "criteria": {
+      "trickor_treat_6": "2026-10-26 14:48:05 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2026-10-26 14:48:23 -0700"
     },
     "done": true
   },
-  "born_in_chaos_v1:trickor_treat": {
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
-      "trickor_treat_6": "2026-10-26 14:48:05 -0700"
+      "kill_mob_near_sculk_catalyst": "2026-10-26 17:04:39 -0700"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-10-26 17:07:35 -0700"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

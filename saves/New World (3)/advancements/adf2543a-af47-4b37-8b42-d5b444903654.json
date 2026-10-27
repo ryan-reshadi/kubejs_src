@@ -34,6 +34,7 @@
       "minecraft:cold_ocean": "2026-10-14 14:52:43 -0700",
       "minecraft:beach": "2026-10-12 18:11:34 -0700",
       "minecraft:old_growth_pine_taiga": "2026-10-24 12:57:03 -0700",
+      "minecraft:dark_forest": "2026-10-26 16:45:52 -0700",
       "minecraft:forest": "2026-10-12 18:15:44 -0700",
       "minecraft:taiga": "2026-10-12 17:50:59 -0700",
       "minecraft:river": "2026-10-12 18:12:14 -0700",
@@ -6755,39 +6756,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_the_recipe": "2026-10-25 18:59:25 -0700"
-    },
-    "done": true
-  },
-  "endrem:main/potato_eye": {
-    "criteria": {
-      "potato_eye": "2026-10-25 19:05:32 -0700"
-    },
-    "done": true
-  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2026-10-25 18:49:42 -0700"
-    },
-    "done": true
-  },
-  "awakened:adamantium/root": {
-    "criteria": {
-      "has_raw": "2026-10-25 19:02:03 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
-    "criteria": {
-      "has_orange_tulip": "2026-10-25 19:08:58 -0700"
-    },
-    "done": true
-  },
-  "awakened:recipes/adamantium_ingot_from_blasting": {
-    "criteria": {
-      "has_raw_adamantium": "2026-10-25 19:02:03 -0700"
     },
     "done": true
   },
@@ -6797,15 +6768,21 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:trickor_treat": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
-      "trickor_treat_2": "2026-10-25 19:20:06 -0700"
+      "has_the_recipe": "2026-10-25 18:59:25 -0700"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:recipes/misc/paper": {
+  "awakened:adamantium/root": {
     "criteria": {
-      "has_reeds": "2026-10-25 19:04:47 -0700"
+      "has_raw": "2026-10-25 19:02:03 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/adamantium_ingot_from_blasting": {
+    "criteria": {
+      "has_raw_adamantium": "2026-10-25 19:02:03 -0700"
     },
     "done": true
   },
@@ -6815,9 +6792,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2026-10-25 19:04:47 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2026-10-25 19:04:47 -0700"
+    },
+    "done": true
+  },
+  "endrem:main/potato_eye": {
+    "criteria": {
+      "potato_eye": "2026-10-25 19:05:32 -0700"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "potato_eye": "2026-10-25 19:05:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-10-25 19:08:58 -0700"
     },
     "done": true
   },
@@ -6833,9 +6834,71 @@
     },
     "done": true
   },
-  "endrem:main/root": {
+  "born_in_chaos_v1:trickor_treat": {
     "criteria": {
-      "potato_eye": "2026-10-25 19:05:32 -0700"
+      "trickor_treat_2": "2026-10-25 19:20:06 -0700",
+      "trickor_treat_4": "2026-10-26 17:08:02 -0700",
+      "trickor_treat_5": "2026-10-26 16:56:02 -0700"
+    },
+    "done": false
+  },
+  "awakened:recipes/challenge_post": {
+    "criteria": {
+      "has_echo_shard": "2026-10-26 16:46:46 -0700"
+    },
+    "done": true
+  },
+  "archaion:recipes/combat/echo_mace_upgrade_smithing": {
+    "criteria": {
+      "has_echo_shard": "2026-10-26 16:46:46 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_stamina_matrix": {
+    "criteria": {
+      "has_binder": "2026-10-26 16:46:46 -0700"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-10-26 16:45:48 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_flux_conduit": {
+    "criteria": {
+      "has_binder": "2026-10-26 16:46:46 -0700"
+    },
+    "done": true
+  },
+  "awakened:defeat_overseer": {
+    "criteria": {
+      "kill_overseer": "2026-10-26 16:46:44 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/onion": {
+    "criteria": {
+      "has_onion_crate": "2026-10-26 16:57:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-10-26 17:07:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-10-26 16:46:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-10-26 17:08:56 -0700"
     },
     "done": true
   },
