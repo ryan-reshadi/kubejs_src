@@ -32,26 +32,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-10-14 14:52:43 -0700",
-      "minecraft:beach": "2026-10-12 18:11:34 -0700",
       "minecraft:old_growth_pine_taiga": "2026-10-24 12:57:03 -0700",
-      "minecraft:dark_forest": "2026-10-26 16:45:52 -0700",
       "minecraft:forest": "2026-10-12 18:15:44 -0700",
       "minecraft:taiga": "2026-10-12 17:50:59 -0700",
-      "minecraft:river": "2026-10-12 18:12:14 -0700",
-      "minecraft:snowy_plains": "2026-10-23 18:55:03 -0700",
       "minecraft:lush_caves": "2026-10-12 17:56:33 -0700",
-      "minecraft:snowy_taiga": "2026-10-12 18:21:35 -0700",
-      "minecraft:dripstone_caves": "2026-10-16 16:49:15 -0700",
-      "minecraft:old_growth_birch_forest": "2026-10-26 23:19:24 -0700",
       "minecraft:frozen_river": "2026-10-12 17:54:07 -0700",
       "minecraft:windswept_forest": "2026-10-14 16:11:18 -0700",
       "minecraft:ocean": "2026-10-23 18:36:23 -0700",
-      "minecraft:swamp": "2026-10-16 14:54:52 -0700",
+      "minecraft:jungle": "2026-10-27 16:24:52 -0700",
       "minecraft:birch_forest": "2026-10-26 23:19:06 -0700",
-      "minecraft:windswept_gravelly_hills": "2026-10-14 14:52:35 -0700",
       "minecraft:windswept_hills": "2026-10-14 14:51:01 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-10-16 16:57:19 -0700",
-      "minecraft:snowy_beach": "2026-10-12 17:54:02 -0700"
+      "minecraft:snowy_beach": "2026-10-12 17:54:02 -0700",
+      "minecraft:savanna_plateau": "2026-10-27 16:30:40 -0700",
+      "minecraft:beach": "2026-10-12 18:11:34 -0700",
+      "minecraft:dark_forest": "2026-10-26 16:45:52 -0700",
+      "minecraft:sparse_jungle": "2026-10-27 16:24:33 -0700",
+      "minecraft:river": "2026-10-12 18:12:14 -0700",
+      "minecraft:snowy_plains": "2026-10-23 18:55:03 -0700",
+      "minecraft:snowy_taiga": "2026-10-12 18:21:35 -0700",
+      "minecraft:dripstone_caves": "2026-10-16 16:49:15 -0700",
+      "minecraft:old_growth_birch_forest": "2026-10-26 23:19:24 -0700",
+      "minecraft:swamp": "2026-10-16 14:54:52 -0700",
+      "minecraft:windswept_gravelly_hills": "2026-10-14 14:52:35 -0700",
+      "minecraft:savanna": "2026-10-27 16:34:44 -0700"
     },
     "done": false
   },
@@ -6840,7 +6844,8 @@
     "criteria": {
       "trickor_treat_2": "2026-10-25 19:20:06 -0700",
       "trickor_treat_4": "2026-10-26 17:08:02 -0700",
-      "trickor_treat_5": "2026-10-26 16:56:02 -0700"
+      "trickor_treat_5": "2026-10-26 16:56:02 -0700",
+      "trickor_treat_6": "2026-10-27 17:05:49 -0700"
     },
     "done": false
   },
@@ -6916,15 +6921,141 @@
     },
     "done": true
   },
+  "dungeons_arise:find_monastery": {
+    "criteria": {
+      "location0": "2026-10-26 23:34:59 -0700"
+    },
+    "done": true
+  },
   "mowziesmobs:kill_frostmaw": {
     "criteria": {
       "frostmaw": "2026-10-26 23:36:04 -0700"
     },
     "done": true
   },
-  "dungeons_arise:find_monastery": {
+  "minecraft:husbandry/whole_pack": {
     "criteria": {
-      "location0": "2026-10-26 23:34:59 -0700"
+      "minecraft:woods": "2026-10-27 16:23:50 -0700"
+    },
+    "done": false
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-10-27 16:30:58 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dismantledto_bones": {
+    "criteria": {
+      "dismantledto_bones_0": "2026-10-27 17:01:25 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/slab": {
+    "criteria": {
+      "has_item": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2026-10-27 16:32:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-10-27 16:23:50 -0700"
+    },
+    "done": true
+  },
+  "awakened:defeat_arbiter": {
+    "criteria": {
+      "kill_arbiter": "2026-10-27 16:38:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2026-10-27 17:22:38 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/sun_axe_head": {
+    "criteria": {
+      "has_gold_block": "2026-10-27 16:50:46 -0700"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_waystone": "2026-10-27 16:56:13 -0700"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_waystone": "2026-10-27 16:56:13 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/stairs": {
+    "criteria": {
+      "has_item": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2026-10-27 17:40:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "awakened:adamantium/tank": {
+    "criteria": {
+      "has_tank": "2026-10-27 17:13:58 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/slice_map": {
+    "criteria": {
+      "has_item_minecraft_map_2": "2026-10-27 16:51:49 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:compact_necromancy": {
+    "criteria": {
+      "compact_necromancy_0": "2026-10-27 17:48:24 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/wall": {
+    "criteria": {
+      "has_item": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2026-10-27 17:40:36 -0700"
     },
     "done": true
   },
