@@ -6939,15 +6939,9 @@
     },
     "done": false
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "diamond_leggings": "2026-10-27 16:30:58 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:dismantledto_bones": {
-    "criteria": {
-      "dismantledto_bones_0": "2026-10-27 17:01:25 -0700"
+      "tamed_animal": "2026-10-27 16:23:50 -0700"
     },
     "done": true
   },
@@ -6957,27 +6951,9 @@
     },
     "done": true
   },
-  "toms_storage:unlock_chest": {
-    "criteria": {
-      "inv_changed-chest": "2026-10-27 16:32:04 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
       "has_basalt": "2026-10-27 16:26:33 -0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2026-10-27 16:23:50 -0700"
-    },
-    "done": true
-  },
-  "awakened:defeat_arbiter": {
-    "criteria": {
-      "kill_arbiter": "2026-10-27 16:38:43 -0700"
     },
     "done": true
   },
@@ -6987,15 +6963,51 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:junior_summoner": {
+  "netherexp:recipes/basalt/stairs": {
     "criteria": {
-      "junior_summoner_0": "2026-10-27 17:22:38 -0700"
+      "has_item": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/wall": {
+    "criteria": {
+      "has_item": "2026-10-27 16:26:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-10-27 16:30:58 -0700"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2026-10-27 16:32:04 -0700"
+    },
+    "done": true
+  },
+  "awakened:defeat_arbiter": {
+    "criteria": {
+      "kill_arbiter": "2026-10-27 16:38:43 -0700"
     },
     "done": true
   },
   "awakened:recipes/sun_axe_head": {
     "criteria": {
       "has_gold_block": "2026-10-27 16:50:46 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/slice_map": {
+    "criteria": {
+      "has_item_minecraft_map_2": "2026-10-27 16:51:49 -0700"
     },
     "done": true
   },
@@ -7011,21 +7023,9 @@
     },
     "done": true
   },
-  "netherexp:recipes/basalt/stairs": {
+  "born_in_chaos_v1:dismantledto_bones": {
     "criteria": {
-      "has_item": "2026-10-27 16:26:33 -0700"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
-    "criteria": {
-      "has_backpack": "2026-10-27 17:40:36 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2026-10-27 16:26:33 -0700"
+      "dismantledto_bones_0": "2026-10-27 17:01:25 -0700"
     },
     "done": true
   },
@@ -7035,9 +7035,21 @@
     },
     "done": true
   },
-  "supplementaries:recipe/slice_map": {
+  "born_in_chaos_v1:junior_summoner": {
     "criteria": {
-      "has_item_minecraft_map_2": "2026-10-27 16:51:49 -0700"
+      "junior_summoner_0": "2026-10-27 17:22:38 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2026-10-27 17:40:36 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2026-10-27 17:40:36 -0700"
     },
     "done": true
   },
@@ -7047,15 +7059,9 @@
     },
     "done": true
   },
-  "netherexp:recipes/basalt/wall": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_item": "2026-10-27 16:26:33 -0700"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
-    "criteria": {
-      "has_backpack": "2026-10-27 17:40:36 -0700"
+      "has_bow": "2026-10-29 16:41:34 -0700"
     },
     "done": true
   },
