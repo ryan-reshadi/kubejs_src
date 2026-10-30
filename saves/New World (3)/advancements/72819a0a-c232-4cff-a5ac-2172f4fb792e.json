@@ -258,7 +258,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2026-10-28 17:12:09 -0700",
+      "apple": "2026-10-30 14:44:26 -0700",
       "bread": "2026-10-23 17:30:43 -0700",
+      "cooked_chicken": "2026-10-30 14:32:54 -0700",
       "cookie": "2026-10-28 17:23:56 -0700",
       "potato": "2026-10-26 14:45:54 -0700",
       "glow_berries": "2026-10-23 17:18:57 -0700",
@@ -5548,15 +5550,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+  "toms_storage:unlock_glowstone": {
     "criteria": {
-      "has_deepslate_bricks": "2026-10-28 16:56:07 -0700"
+      "inv_changed-glowstone": "2026-10-28 16:46:52 -0700"
     },
     "done": true
   },
-  "supplementaries:recipe/soap/tipped_arrow": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_item_minecraft_tipped_arrow_1": "2026-10-28 17:15:35 -0700"
+      "has_glowstone_dust": "2026-10-28 16:46:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-10-28 16:46:52 -0700"
+    },
+    "done": true
+  },
+  "archaion:enter_ancient_keep": {
+    "criteria": {
+      "enter_ancient_keep": "2026-10-28 16:54:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2026-10-28 16:56:07 -0700"
     },
     "done": true
   },
@@ -5566,27 +5586,9 @@
     },
     "done": true
   },
-  "toms_storage:unlock_glowstone": {
-    "criteria": {
-      "inv_changed-glowstone": "2026-10-28 16:46:52 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
     "criteria": {
       "has_deepslate_bricks": "2026-10-28 16:56:07 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2026-10-28 17:03:12 -0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:dismantledto_bones": {
-    "criteria": {
-      "dismantledto_bones_0": "2026-10-28 17:16:47 -0700"
     },
     "done": true
   },
@@ -5596,27 +5598,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2026-10-28 17:03:12 -0700"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
-    "criteria": {
-      "has_the_recipe": "2026-10-28 17:28:09 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/deepslate_brick_wall": {
     "criteria": {
       "has_deepslate_bricks": "2026-10-28 16:56:07 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2026-10-28 17:24:01 -0700"
     },
     "done": true
   },
@@ -5626,39 +5610,9 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:symphonyof_chaos": {
-    "criteria": {
-      "symphonyof_chaos_0": "2026-10-28 17:15:49 -0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2026-10-28 16:46:52 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2026-10-28 16:56:07 -0700"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/advanced_void_upgrade": {
-    "criteria": {
-      "has_void_upgrade": "2026-10-28 17:24:08 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2026-10-28 17:03:12 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2026-10-28 17:03:12 -0700"
     },
     "done": true
   },
@@ -5686,21 +5640,189 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2026-10-28 16:46:52 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2026-10-28 16:56:07 -0700"
     },
     "done": true
   },
-  "archaion:enter_ancient_keep": {
+  "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "enter_ancient_keep": "2026-10-28 16:54:02 -0700"
+      "has_book": "2026-10-28 17:03:12 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-10-28 17:03:12 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-10-28 17:03:12 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-10-28 17:03:12 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap/tipped_arrow": {
+    "criteria": {
+      "has_item_minecraft_tipped_arrow_1": "2026-10-28 17:15:35 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:symphonyof_chaos": {
+    "criteria": {
+      "symphonyof_chaos_0": "2026-10-28 17:15:49 -0700"
+    },
+    "done": false
+  },
+  "born_in_chaos_v1:dismantledto_bones": {
+    "criteria": {
+      "dismantledto_bones_0": "2026-10-28 17:16:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-10-28 17:24:01 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_void_upgrade": {
+    "criteria": {
+      "has_void_upgrade": "2026-10-28 17:24:08 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 17:28:09 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
+    "criteria": {
+      "has_feeding_upgrade": "2026-10-30 14:44:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2026-10-30 14:51:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2026-10-30 15:22:16 -0700"
+    },
+    "done": true
+  },
+  "waystones:recipes/tools/twinbound_feather": {
+    "criteria": {
+      "has_feather": "2026-10-30 15:21:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_the_recipe": "2026-10-30 14:44:17 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:big_boy": {
+    "criteria": {
+      "big_boy_0": "2026-10-30 15:12:21 -0700"
+    },
+    "done": true
+  },
+  "lootr:emergency_escape_hatch": {
+    "criteria": {
+      "trapdoor_triggered": "2026-10-30 14:34:47 -0700"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-10-30 14:33:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-10-30 15:22:16 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:recipes/combat/spear": {
+    "criteria": {
+      "has_flint": "2026-10-30 14:51:32 -0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2026-10-30 14:29:47 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:song_of_the_sky": {
+    "criteria": {
+      "0": "2026-10-30 15:19:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-10-30 15:22:16 -0700"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2026-10-30 14:50:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2026-10-30 14:51:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2026-10-30 14:45:12 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2026-10-30 14:45:12 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flint_block": {
+    "criteria": {
+      "has_item_minecraft_flint_1": "2026-10-30 14:51:32 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:exorcism": {
+    "criteria": {
+      "exorcism_0": "2026-10-30 15:11:06 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/feather_block": {
+    "criteria": {
+      "has_item_minecraft_feather_1": "2026-10-30 15:21:57 -0700"
     },
     "done": true
   },
