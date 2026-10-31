@@ -35,6 +35,7 @@
       "minecraft:dark_forest": "2026-10-23 18:35:40 -0700",
       "minecraft:forest": "2026-10-23 18:11:49 -0700",
       "minecraft:taiga": "2026-10-12 17:49:23 -0700",
+      "minecraft:deep_ocean": "2026-10-30 16:16:55 -0700",
       "minecraft:river": "2026-10-16 14:39:07 -0700",
       "minecraft:snowy_plains": "2026-10-23 18:54:28 -0700",
       "minecraft:lush_caves": "2026-10-12 17:59:02 -0700",
@@ -6218,6 +6219,137 @@
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2026-10-25 12:56:02 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/jar": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-10-30 15:56:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-10-30 15:56:25 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_shelf": {
+    "criteria": {
+      "has_tag_minecraft_wooden_slabs_1": "2026-10-30 15:56:25 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:kill_underworld_knight": {
+    "criteria": {
+      "kill": "2026-10-30 16:07:15 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:fighting_nightmares": {
+    "criteria": {
+      "fighting_nightmares_0": "2026-10-30 16:10:21 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:trickor_treat": {
+    "criteria": {
+      "trickor_treat_0": "2026-10-30 16:10:28 -0700",
+      "trickor_treat_2": "2026-10-30 16:10:29 -0700",
+      "trickor_treat_3": "2026-10-30 16:10:28 -0700",
+      "trickor_treat_4": "2026-10-30 16:26:03 -0700",
+      "trickor_treat_5": "2026-10-30 16:27:59 -0700",
+      "trickor_treat_6": "2026-10-30 16:10:28 -0700"
+    },
+    "done": false
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2026-10-30 16:16:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-10-30 16:30:16 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:arachnophobes_nightmare": {
+    "criteria": {
+      "arachnophobes_nightmare_0": "2026-10-30 16:40:06 -0700"
+    },
+    "done": true
+  },
+  "awakened:adamantium/ingot": {
+    "criteria": {
+      "has_ingot": "2026-10-30 16:42:10 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/challenge_post": {
+    "criteria": {
+      "has_echo_shard": "2026-10-30 17:22:43 -0700"
+    },
+    "done": true
+  },
+  "archaion:recipes/combat/echo_mace_upgrade_smithing": {
+    "criteria": {
+      "has_echo_shard": "2026-10-30 17:22:43 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_stamina_matrix": {
+    "criteria": {
+      "has_binder": "2026-10-30 17:22:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-10-30 17:22:49 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_flux_conduit": {
+    "criteria": {
+      "has_binder": "2026-10-30 17:22:43 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cannonball": {
+    "criteria": {
+      "has_item_minecraft_iron_block_1": "2026-10-30 17:22:49 -0700"
+    },
+    "done": true
+  },
+  "awakened:defeat_overseer": {
+    "criteria": {
+      "kill_overseer": "2026-10-30 17:22:37 -0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2026-10-30 17:21:21 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2026-10-30 17:26:06 -0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:pumpkin_sir": {
+    "criteria": {
+      "pumpkin_sir_0": "2026-10-30 17:25:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-10-30 17:22:43 -0700"
     },
     "done": true
   },
