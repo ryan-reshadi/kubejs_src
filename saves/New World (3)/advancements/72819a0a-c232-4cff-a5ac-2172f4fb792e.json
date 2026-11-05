@@ -1479,15 +1479,20 @@
       "minecraft:skeleton": "2026-10-23 17:51:54 -0700",
       "minecraft:zombified_piglin": "2026-10-26 16:25:01 -0700",
       "minecraft:witch": "2026-10-27 22:19:42 -0700",
+      "minecraft:bogged": "2026-11-04 15:15:18 -0800",
       "minecraft:cave_spider": "2026-10-28 17:14:24 -0700",
       "minecraft:piglin": "2026-10-26 16:24:02 -0700",
+      "minecraft:vindicator": "2026-11-04 14:51:41 -0800",
       "minecraft:enderman": "2026-10-27 16:57:39 -0700",
       "minecraft:stray": "2026-10-28 17:14:59 -0700",
+      "minecraft:magma_cube": "2026-11-04 14:17:00 -0800",
       "minecraft:spider": "2026-10-26 14:52:22 -0700",
+      "minecraft:piglin_brute": "2026-11-04 14:17:06 -0800",
       "minecraft:vex": "2026-10-28 17:14:25 -0700",
       "minecraft:zombie": "2026-10-23 17:29:35 -0700",
       "minecraft:creeper": "2026-10-23 17:51:58 -0700",
-      "minecraft:zombie_villager": "2026-10-27 16:53:34 -0700"
+      "minecraft:zombie_villager": "2026-10-27 16:53:34 -0700",
+      "minecraft:evoker": "2026-11-04 15:07:28 -0800"
     },
     "done": false
   },
@@ -6060,6 +6065,18 @@
     },
     "done": true
   },
+  "netherexp:recipes/misc/skeleton_skull_candle": {
+    "criteria": {
+      "has_item": "2026-10-30 18:11:51 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/skull_on_a_stick": {
+    "criteria": {
+      "item": "2026-10-30 18:11:51 -0700"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/rose_quartz_lamp": {
     "criteria": {
       "has_item": "2026-10-30 18:15:13 -0700"
@@ -6078,135 +6095,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/super_glue": {
-    "criteria": {
-      "has_item": "2026-10-30 18:15:47 -0700"
-    },
-    "done": true
-  },
-  "netherexp:recipes/misc/skeleton_skull_candle": {
-    "criteria": {
-      "has_item": "2026-10-30 18:11:51 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
-    "criteria": {
-      "has_log": "2026-10-30 18:21:48 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-10-30 18:17:26 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-10-30 18:21:46 -0700"
-    },
-    "done": true
-  },
-  "aeronautics:recipes/misc/wooden_propeller_from_andesite": {
-    "criteria": {
-      "has_ingredient": "2026-10-30 18:23:16 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/zinc_ingot_from_compacting": {
-    "criteria": {
-      "has_item": "2026-10-30 18:15:27 -0700"
-    },
-    "done": true
-  },
-  "create:deployer": {
-    "criteria": {
-      "0": "2026-10-30 18:19:25 -0700"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/copycat_panel_from_ingots_zinc_stonecutting": {
     "criteria": {
       "has_ingots_zinc": "2026-10-30 18:15:13 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/propeller": {
-    "criteria": {
-      "has_item": "2026-10-30 18:15:47 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/auger_cog_from_auger_shaft": {
-    "criteria": {
-      "has_ingredient": "2026-10-30 18:15:47 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2026-10-30 18:21:48 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
-    "criteria": {
-      "has_log": "2026-10-30 18:21:46 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/nozzle": {
-    "criteria": {
-      "has_item": "2026-10-30 18:23:26 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/encased_fan": {
-    "criteria": {
-      "has_item": "2026-10-30 18:15:47 -0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
-    "criteria": {
-      "has_tree_bark": "2026-10-30 18:21:29 -0700"
-    },
-    "done": true
-  },
-  "netherexp:recipes/sanctum/skull_on_a_stick": {
-    "criteria": {
-      "item": "2026-10-30 18:11:51 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/whisk": {
-    "criteria": {
-      "has_item": "2026-10-30 18:15:47 -0700"
-    },
-    "done": true
-  },
-  "awakened:recipes/sun_axe_head": {
-    "criteria": {
-      "has_gold_block": "2026-10-30 18:15:17 -0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/paper_from_tree_bark": {
-    "criteria": {
-      "has_tree_bark": "2026-10-30 18:21:29 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2026-10-30 18:17:26 -0700"
-    },
-    "done": true
-  },
-  "simulated:recipes/misc/red_portable_engine": {
-    "criteria": {
-      "has_ingredient": "2026-10-30 18:15:47 -0700"
     },
     "done": true
   },
@@ -6222,39 +6113,69 @@
     },
     "done": true
   },
-  "aeronautics:recipes/misc/andesite_propeller": {
-    "criteria": {
-      "has_ingredient": "2026-10-30 18:23:16 -0700"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/materials/andesite_alloy_from_zinc": {
     "criteria": {
       "has_item": "2026-10-30 18:15:13 -0700"
     },
     "done": true
   },
-  "farmersdelight:main/use_cutting_board": {
+  "create:recipes/misc/crafting/materials/zinc_nugget_from_decompacting": {
     "criteria": {
-      "cutting_board": "2026-10-30 18:21:29 -0700"
+      "has_item": "2026-10-30 18:15:13 -0700"
+    },
+    "done": true
+  },
+  "awakened:recipes/sun_axe_head": {
+    "criteria": {
+      "has_gold_block": "2026-10-30 18:15:17 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2026-10-30 18:15:27 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/super_glue": {
+    "criteria": {
+      "has_item": "2026-10-30 18:15:47 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/propeller": {
+    "criteria": {
+      "has_item": "2026-10-30 18:15:47 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/auger_cog_from_auger_shaft": {
+    "criteria": {
+      "has_ingredient": "2026-10-30 18:15:47 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_fan": {
+    "criteria": {
+      "has_item": "2026-10-30 18:15:47 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/whisk": {
+    "criteria": {
+      "has_item": "2026-10-30 18:15:47 -0700"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/red_portable_engine": {
+    "criteria": {
+      "has_ingredient": "2026-10-30 18:15:47 -0700"
     },
     "done": true
   },
   "simulated:recipes/misc/spring": {
     "criteria": {
       "has_ingredient": "2026-10-30 18:15:47 -0700"
-    },
-    "done": true
-  },
-  "aeronautics:recipes/misc/andesite_propeller_from_andesite": {
-    "criteria": {
-      "has_ingredient": "2026-10-30 18:23:16 -0700"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/zinc_nugget_from_decompacting": {
-    "criteria": {
-      "has_item": "2026-10-30 18:15:13 -0700"
     },
     "done": true
   },
@@ -6267,6 +6188,552 @@
   "simulated:recipes/misc/auger_shaft": {
     "criteria": {
       "has_ingredient": "2026-10-30 18:15:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-10-30 18:17:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2026-10-30 18:17:26 -0700"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2026-10-30 18:19:25 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
+    "criteria": {
+      "has_tree_bark": "2026-10-30 18:21:29 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/paper_from_tree_bark": {
+    "criteria": {
+      "has_tree_bark": "2026-10-30 18:21:29 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2026-10-30 18:21:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-10-30 18:21:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2026-10-30 18:21:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-10-30 18:21:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-10-30 18:21:48 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/wooden_propeller_from_andesite": {
+    "criteria": {
+      "has_ingredient": "2026-10-30 18:23:16 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/andesite_propeller": {
+    "criteria": {
+      "has_ingredient": "2026-10-30 18:23:16 -0700"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/andesite_propeller_from_andesite": {
+    "criteria": {
+      "has_ingredient": "2026-10-30 18:23:16 -0700"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/nozzle": {
+    "criteria": {
+      "has_item": "2026-10-30 18:23:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2026-11-04 14:19:07 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/challenge_post": {
+    "criteria": {
+      "has_echo_shard": "2026-11-04 14:26:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "archaion:recipes/combat/echo_mace_upgrade_smithing": {
+    "criteria": {
+      "has_echo_shard": "2026-11-04 14:26:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-11-04 14:17:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2026-11-04 14:54:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap/piston": {
+    "criteria": {
+      "has_item_minecraft_sticky_piston_1": "2026-11-04 15:33:02 -0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/weeping": {
+    "criteria": {
+      "has_item": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2026-11-04 14:20:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-11-04 14:17:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-11-04 15:01:49 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/kelp_roll": {
+    "criteria": {
+      "has_dried_kelp": "2026-11-04 14:35:32 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2026-11-04 14:31:29 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_stamina_matrix": {
+    "criteria": {
+      "has_binder": "2026-11-04 14:26:35 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_fort": {
+    "criteria": {
+      "location0": "2026-11-04 15:07:22 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2026-11-04 14:17:43 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/scythe_edge": {
+    "criteria": {
+      "has_netherite": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/relic_flux_conduit": {
+    "criteria": {
+      "has_binder": "2026-11-04 14:26:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2026-11-04 15:19:19 -0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2026-11-04 14:56:45 -0800"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2026-11-04 14:35:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-11-04 14:19:07 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-11-04 14:17:49 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2026-11-04 14:31:29 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2026-11-04 14:10:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2026-11-04 14:31:29 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-11-04 14:17:45 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/sun_axe_handle": {
+    "criteria": {
+      "has_netherite": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/twisting": {
+    "criteria": {
+      "has_item": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-11-04 15:11:07 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2026-11-04 14:54:49 -0800"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2026-11-04 14:12:18 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-11-04 14:17:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-11-04 15:06:22 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2026-11-04 14:57:36 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2026-11-04 14:54:02 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2026-11-04 15:11:07 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2026-11-04 14:35:32 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-11-04 14:17:49 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2026-11-04 14:52:34 -0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_campsite": {
+    "criteria": {
+      "location0": "2026-11-04 14:51:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-11-04 14:54:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-11-04 14:26:35 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "corrupted_eye": "2026-11-04 14:54:49 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-04 14:19:06 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-11-04 14:16:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2026-11-04 15:00:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-04 14:17:48 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-11-04 14:19:06 -0800"
     },
     "done": true
   },
