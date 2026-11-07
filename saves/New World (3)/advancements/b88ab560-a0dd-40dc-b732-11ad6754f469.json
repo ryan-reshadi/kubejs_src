@@ -40,21 +40,26 @@
       "minecraft:frozen_river": "2026-10-12 18:49:52 -0700",
       "minecraft:windswept_forest": "2026-10-14 16:11:18 -0700",
       "minecraft:ocean": "2026-10-30 16:21:46 -0700",
+      "minecraft:jungle": "2026-11-06 15:33:22 -0800",
       "minecraft:birch_forest": "2026-10-30 17:11:18 -0700",
       "minecraft:windswept_hills": "2026-10-14 14:25:57 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-10-23 17:28:42 -0700",
       "minecraft:snowy_beach": "2026-10-12 18:49:48 -0700",
       "minecraft:windswept_savanna": "2026-10-16 14:40:15 -0700",
+      "minecraft:deep_lukewarm_ocean": "2026-11-06 15:29:46 -0800",
       "minecraft:beach": "2026-10-14 14:42:45 -0700",
       "minecraft:dark_forest": "2026-10-14 14:09:36 -0700",
       "minecraft:mangrove_swamp": "2026-10-30 17:01:18 -0700",
+      "minecraft:sparse_jungle": "2026-11-06 15:44:32 -0800",
       "minecraft:river": "2026-10-14 14:25:02 -0700",
+      "minecraft:lukewarm_ocean": "2026-11-06 15:31:37 -0800",
       "minecraft:snowy_plains": "2026-10-12 18:53:01 -0700",
       "minecraft:snowy_taiga": "2026-10-12 18:13:46 -0700",
       "minecraft:dripstone_caves": "2026-10-16 21:59:02 -0700",
       "minecraft:old_growth_birch_forest": "2026-10-14 14:09:39 -0700",
       "minecraft:swamp": "2026-10-24 13:24:37 -0700",
       "minecraft:windswept_gravelly_hills": "2026-10-14 14:44:54 -0700",
+      "minecraft:savanna": "2026-11-06 15:53:08 -0800",
       "minecraft:plains": "2026-10-14 14:07:09 -0700"
     },
     "done": false
@@ -649,16 +654,19 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2026-10-12 18:33:09 -0700",
-      "apple": "2026-10-23 16:57:23 -0700",
       "bread": "2026-10-12 18:44:45 -0700",
-      "cooked_chicken": "2026-10-14 22:53:43 -0700",
+      "golden_apple": "2026-11-06 15:26:09 -0800",
       "cooked_mutton": "2026-10-14 15:21:36 -0700",
       "glow_berries": "2026-10-14 17:28:01 -0700",
       "sweet_berries": "2026-10-12 17:55:34 -0700",
       "cooked_beef": "2026-10-14 15:07:16 -0700",
       "baked_potato": "2026-10-14 14:39:04 -0700",
-      "cooked_salmon": "2026-10-16 15:21:44 -0700",
       "golden_carrot": "2026-10-23 18:19:32 -0700",
+      "apple": "2026-10-23 16:57:23 -0700",
+      "cooked_chicken": "2026-10-14 22:53:43 -0700",
+      "mushroom_stew": "2026-11-06 14:49:59 -0800",
+      "cooked_salmon": "2026-10-16 15:21:44 -0700",
+      "pumpkin_pie": "2026-11-06 16:13:58 -0800",
       "carrot": "2026-10-16 15:07:29 -0700"
     },
     "done": false
@@ -2064,7 +2072,9 @@
       "minecraft:phantom": "2026-10-16 21:09:57 -0700",
       "minecraft:zombified_piglin": "2026-10-30 15:55:54 -0700",
       "minecraft:wither_skeleton": "2026-10-16 21:25:17 -0700",
+      "minecraft:husk": "2026-11-06 15:59:08 -0800",
       "minecraft:cave_spider": "2026-10-15 22:43:14 -0700",
+      "minecraft:piglin": "2026-11-06 14:50:03 -0800",
       "minecraft:vindicator": "2026-10-16 14:51:11 -0700",
       "minecraft:stray": "2026-10-15 22:41:50 -0700",
       "minecraft:enderman": "2026-10-23 19:24:13 -0700",
@@ -7866,7 +7876,8 @@
   "born_in_chaos_v1:charm_collector": {
     "criteria": {
       "charm_collector_0": "2026-10-25 19:03:56 -0700",
-      "charm_collector_3": "2026-10-25 19:03:56 -0700"
+      "charm_collector_3": "2026-10-25 19:03:56 -0700",
+      "charm_collector_2": "2026-11-06 15:36:27 -0800"
     },
     "done": false
   },
@@ -7899,9 +7910,57 @@
     },
     "done": true
   },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-10-30 15:32:01 -0700"
+    },
+    "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-10-30 15:32:01 -0700"
+    },
+    "done": false
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2026-10-30 15:33:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-10-30 15:33:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-10-30 15:33:07 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:die_boss": {
+    "criteria": {
+      "die_to_boss": "2026-10-30 16:04:11 -0700"
+    },
+    "done": true
+  },
   "block_factorys_bosses:kill_underworld_knight": {
     "criteria": {
       "kill": "2026-10-30 16:07:15 -0700"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2026-10-30 16:10:49 -0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2026-10-30 16:17:16 -0700"
     },
     "done": true
   },
@@ -7911,19 +7970,55 @@
     },
     "done": true
   },
-  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+  "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
-      "location1": "2026-10-30 17:15:42 -0700"
+      "has_logs": "2026-10-30 16:27:53 -0700"
     },
     "done": true
   },
-  "toms_storage:unlock_glowstone": {
+  "netherexp:nether/soul_sand_valley/frightening_rush": {
     "criteria": {
-      "inv_changed-glowstone": "2026-10-30 15:33:07 -0700"
+      "condition": "2026-10-30 16:35:44 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/phasmo_arrow": {
+    "criteria": {
+      "item": "2026-10-30 16:36:15 -0700"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/soul_glass": {
+    "criteria": {
+      "item": "2026-10-30 16:36:15 -0700"
+    },
+    "done": true
+  },
+  "netherexp:nether/stayin_frosty": {
+    "criteria": {
+      "c1": "2026-10-30 16:40:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-10-30 16:45:58 -0700"
     },
     "done": true
   },
   "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-10-30 16:57:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-10-30 16:57:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
       "has_ancient_debris": "2026-10-30 16:57:17 -0700"
     },
@@ -7944,18 +8039,6 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2026-10-30 16:58:01 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2026-10-30 17:03:37 -0700"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2026-10-30 16:57:17 -0700"
     },
     "done": true
   },
@@ -7989,75 +8072,15 @@
     },
     "done": true
   },
-  "cataclysm:find_sunken_city": {
-    "criteria": {
-      "factory": "2026-10-30 16:17:16 -0700"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
-    "criteria": {
-      "has_netherite_scrap": "2026-10-30 17:03:37 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/netherite_trapdoor": {
-    "criteria": {
-      "has_item_minecraft_netherite_scrap_2": "2026-10-30 17:03:37 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2026-10-30 15:33:07 -0700"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/netherite_door": {
-    "criteria": {
-      "has_item_minecraft_netherite_scrap_2": "2026-10-30 17:03:37 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2026-10-30 16:58:01 -0700"
     },
     "done": true
   },
-  "block_factorys_bosses:die_boss": {
-    "criteria": {
-      "die_to_boss": "2026-10-30 16:04:11 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2026-10-30 16:57:17 -0700"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2026-10-30 16:45:58 -0700"
-    },
-    "done": true
-  },
-  "netherexp:recipes/sanctum/phasmo_arrow": {
-    "criteria": {
-      "item": "2026-10-30 16:36:15 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2026-10-30 16:58:01 -0700"
-    },
-    "done": true
-  },
-  "netherexp:recipes/sanctum/soul_glass": {
-    "criteria": {
-      "item": "2026-10-30 16:36:15 -0700"
     },
     "done": true
   },
@@ -8073,29 +8096,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_logs": "2026-10-30 16:27:53 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2026-10-30 16:58:01 -0700"
     },
     "done": true
-  },
-  "lootr:pot_opened": {
-    "criteria": {
-      "pot_opened": "2026-10-30 15:32:01 -0700"
-    },
-    "done": true
-  },
-  "lootr:archaeologist": {
-    "criteria": {
-      "got_pot": "2026-10-30 15:32:01 -0700"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
@@ -8115,33 +8120,465 @@
     },
     "done": true
   },
-  "netherexp:nether/soul_sand_valley/frightening_rush": {
-    "criteria": {
-      "condition": "2026-10-30 16:35:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2026-10-30 15:33:07 -0700"
-    },
-    "done": true
-  },
-  "create:fan_processing": {
-    "criteria": {
-      "0": "2026-10-30 16:10:49 -0700"
-    },
-    "done": true
-  },
-  "netherexp:nether/stayin_frosty": {
-    "criteria": {
-      "c1": "2026-10-30 16:40:31 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2026-10-30 16:58:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-10-30 17:03:37 -0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_netherite_scrap": "2026-10-30 17:03:37 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/netherite_trapdoor": {
+    "criteria": {
+      "has_item_minecraft_netherite_scrap_2": "2026-10-30 17:03:37 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/netherite_door": {
+    "criteria": {
+      "has_item_minecraft_netherite_scrap_2": "2026-10-30 17:03:37 -0700"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location1": "2026-10-30 17:15:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2026-11-06 15:45:19 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:kill_dragon": {
+    "criteria": {
+      "kill": "2026-11-06 15:55:43 -0800"
+    },
+    "done": true
+  },
+  "simplyswords:runic_weapon": {
+    "criteria": {
+      "requirement": "2026-11-06 16:17:48 -0800"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+    "criteria": {
+      "has_item": "2026-11-06 15:36:33 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2026-11-06 15:11:46 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/potato_eye": {
+    "criteria": {
+      "potato_eye": "2026-11-06 14:54:00 -0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/weeping": {
+    "criteria": {
+      "has_item": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2026-11-06 15:28:13 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2026-11-06 16:12:47 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/nether_eye": {
+    "criteria": {
+      "nether_eye": "2026-11-06 15:34:41 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/pedestal": {
+    "criteria": {
+      "has_item_minecraft_stone_brick_slab_1": "2026-11-06 16:02:32 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2026-11-06 14:45:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_challenger": {
+    "criteria": {
+      "location0": "2026-11-06 15:33:22 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/scythe_edge": {
+    "criteria": {
+      "has_netherite": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2026-11-06 14:48:14 -0800"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-11-06 16:22:32 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-11-06 14:49:35 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/sun_axe_handle": {
+    "criteria": {
+      "has_netherite": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/twisting": {
+    "criteria": {
+      "has_item": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/combat/dragon_bones_leggings": {
+    "criteria": {
+      "has_item": "2026-11-06 15:55:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "fdbosses:qliphoth_awakening/malkuth": {
+    "criteria": {
+      "killed_malkuth": "2026-11-06 16:55:31 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2026-11-06 14:53:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/combat/kraken_trident": {
+    "criteria": {
+      "has_item": "2026-11-06 15:28:09 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/combat/dragon_bones_boots": {
+    "criteria": {
+      "has_item": "2026-11-06 15:55:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-11-06 16:57:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2026-11-06 14:50:07 -0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2026-11-06 15:57:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/combat/undying_tentacle": {
+    "criteria": {
+      "has_item": "2026-11-06 15:28:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2026-11-06 14:57:00 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-11-06 15:38:48 -0800"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/handle_undye": {
+    "criteria": {
+      "has_ingredient": "2026-11-06 15:32:06 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "cursed_eye": "2026-11-06 14:49:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:kill_kraken": {
+    "criteria": {
+      "kill": "2026-11-06 15:28:01 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-11-06 15:48:30 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:kill_all_bosses": {
+    "criteria": {
+      "kill_dragon": "2026-11-06 15:55:43 -0800"
+    },
+    "done": false
+  },
+  "endrem:main/cursed_eye": {
+    "criteria": {
+      "cursed_eye": "2026-11-06 14:49:09 -0800"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-11-06 15:33:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-11-06 16:06:42 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-11-06 14:45:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-11-06 15:38:48 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/combat/dragon_bones_chestplate": {
+    "criteria": {
+      "has_item": "2026-11-06 15:55:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2026-11-06 15:36:29 -0800"
     },
     "done": true
   },
