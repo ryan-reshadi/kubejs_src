@@ -42,16 +42,16 @@ var Suppressed = /** @class */ (function () {
         if (!Number.isFinite(durationTicks) || durationTicks <= 0) {
             throw new Error("Potion suppression duration must be positive.");
         }
-        player.potionEffects.add("kubejs:suppressed", Math.ceil(durationTicks), 0);
+        player.potionEffects.add("kubejs:cursebroken", Math.ceil(durationTicks), 0);
     };
     Suppressed.removePotion = function (player) {
-        player.removeEffect("kubejs:suppressed");
+        player.removeEffect("kubejs:cursebroken");
     };
     Suppressed.hasPotion = function (player) {
-        return player.getEffect("kubejs:suppressed") != null;
+        return player.getEffect("kubejs:cursebroken") != null;
     };
     Suppressed.getPotionRemainingTicks = function (player) {
-        var effect = player.getEffect("kubejs:suppressed");
+        var effect = player.getEffect("kubejs:cursebroken");
         if (effect == null)
             return 0;
         if (effect.isInfiniteDuration())
@@ -65,7 +65,7 @@ var Suppressed = /** @class */ (function () {
         var activeEffects = player.getActiveEffects().toArray();
         for (var i = 0; i < activeEffects.length; i++) {
             var effect = activeEffects[i];
-            if (effect.getEffect().is("kubejs:suppressed"))
+            if (effect.getEffect().is("kubejs:cursebroken"))
                 continue;
             player.removeEffect(effect.getEffect());
         }
@@ -74,7 +74,7 @@ var Suppressed = /** @class */ (function () {
 }());
 PlayerEvents.tick(function (event) {
     var player = event.player;
-    if (player.level().isClientSide())
+    if (player.level.isClientSide())
         return;
     Suppressed.getManualRemainingSeconds(player);
     if (Suppressed.hasPotion(player)) {

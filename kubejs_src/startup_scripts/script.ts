@@ -36,7 +36,4 @@ StartupEvents.registry("item", (event) => {
 StartupEvents.registry('mob_effect', event => {
     event.create('cursebroken')
         .color(0x292942);
-
-    event.create('suppressed')
-        .color(0x292942);
 });
