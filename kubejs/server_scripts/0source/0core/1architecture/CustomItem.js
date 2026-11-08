@@ -67,5 +67,7 @@ var CustomItem = /** @class */ (function () {
     CustomItem.prototype.toggleCapability = function (capability) {
         this.capabilities[capability] = !this.capabilities[capability];
     };
+    CustomItem.prototype.whileInInventory = function (event) {
+    };
     return CustomItem;
 }());

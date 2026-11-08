@@ -92,5 +92,7 @@ abstract class CustomItem {
     public toggleCapability(capability: Capability): void {
         this.capabilities[capability] = !this.capabilities[capability];
     }
-
+    public whileInInventory(event: KubeEvent<typeof ServerEvents.tick>): void {
+        
+    }
 }

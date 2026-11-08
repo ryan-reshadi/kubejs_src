@@ -35,23 +35,28 @@ StartupEvents.registry("item", (event) => {
 
 StartupEvents.registry('mob_effect', event => {
     event.create('cursebroken')
-        .color(0x808080)
-        .effectTick((entity, level) => {
-            if (entity.age % 20 !== 0) return;
+        .color(0x292942)
+        .effectTick((entity, amplifier) => {
+            if (entity.level().isClientSide()) return;
 
-            const iterator = entity.getActiveEffects().iterator();
+            const persistentData = entity.getPersistentData();
+            const key = 'awakened_manual_suppression_until';
 
-            while (iterator.hasNext()) {
-                const effect = iterator.next();
-                const effectId = effect.getEffect().getRegisteredName();
+            // Read the remaining duration of this potion effect.
+            const activeEffect = entity.getEffect('kubejs:suppressed');
 
-                console.log(`[Cursebroken] found effect: ${effectId}`);
+            if (activeEffect == null) return;
 
-                if (effectId !== 'kubejs:cursebroken') {
-                    entity.removeEffect(effect.getEffect());
-                    console.log(`[Cursebroken] removed: ${effectId}`);
-                }
+            const remainingTicks = activeEffect.getDuration();
+
+            // Synchronize the persistent-data expiration with the potion.
+            if (remainingTicks > 0) {
+                const currentTick = entity.serverLevel().getGameTime();
+
+                persistentData.putLong(
+                    key,
+                    currentTick + remainingTicks
+                );
             }
-
         });
 });
