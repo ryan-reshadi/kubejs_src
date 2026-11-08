@@ -2,6 +2,7 @@ class ISOH extends CustomItem {
     constructor() {
         super("Inverted Spear of Heaven", "kubejs:isoh", '{ISOH:1b}', "§f");
         this.setCapability("cursebreaker", true);
+        this.setCurseBreakVulnerable(false);
     }
 
     public entityLeftClickBefore(event: KubeEvent<typeof EntityEvents.beforeHurt>): void {

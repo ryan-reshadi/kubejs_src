@@ -81,3 +81,10 @@ PlayerEvents.tick(function (event) {
         Suppressed.cleansePotionEffects(player);
     }
 });
+var MobEffectRemoveEvent = Java.loadClass("net.neoforged.neoforge.event.entity.living.MobEffectEvent$Remove");
+var EffectCures = Java.loadClass("net.neoforged.neoforge.common.EffectCures");
+NativeEvents.onEvent(MobEffectRemoveEvent, function (event) {
+    if (event.getEffect().is("kubejs:cursebroken") && event.getCure() != null && event.getCure().equals(EffectCures.MILK)) {
+        event.setCanceled(true);
+    }
+});

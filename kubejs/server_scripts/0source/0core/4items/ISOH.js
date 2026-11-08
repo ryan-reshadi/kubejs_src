@@ -19,6 +19,7 @@ var ISOH = /** @class */ (function (_super) {
     function ISOH() {
         var _this = _super.call(this, "Inverted Spear of Heaven", "kubejs:isoh", '{ISOH:1b}', "§f") || this;
         _this.setCapability("cursebreaker", true);
+        _this.setCurseBreakVulnerable(false);
         return _this;
     }
     ISOH.prototype.entityLeftClickBefore = function (event) {

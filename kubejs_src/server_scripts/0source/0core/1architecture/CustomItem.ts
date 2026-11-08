@@ -11,7 +11,7 @@ abstract class CustomItem {
     protected capabilities: Record<Capability, boolean>;
     protected cursebreakerVulnerable: boolean = true;
 
-    constructor(name: string, itemID: string, customData: string, nameColor: string = "§f", itemTexture: string = "") {
+    constructor(name: string, itemID: string, customData: string = "{}", nameColor: string = "§f", itemTexture: string = "") {
         this.name = name;
         this.itemID = itemID;
         this.customData = customData;
@@ -94,5 +94,14 @@ abstract class CustomItem {
     }
     public whileInInventory(event: KubeEvent<typeof ServerEvents.tick>): void {
         
+    }
+    public toggleCurseBreakVulnerable(): void {
+        this.cursebreakerVulnerable = !this.cursebreakerVulnerable;
+    }
+    public setCurseBreakVulnerable(value: boolean): void {
+        this.cursebreakerVulnerable = value;
+    }
+    public isCurseBreakVulnerable(): boolean {
+        return this.cursebreakerVulnerable;
     }
 }

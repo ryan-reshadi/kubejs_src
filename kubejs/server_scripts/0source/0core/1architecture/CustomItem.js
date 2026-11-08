@@ -1,6 +1,7 @@
 "use strict";
 var CustomItem = /** @class */ (function () {
     function CustomItem(name, itemID, customData, nameColor, itemTexture) {
+        if (customData === void 0) { customData = "{}"; }
         if (nameColor === void 0) { nameColor = "§f"; }
         if (itemTexture === void 0) { itemTexture = ""; }
         this.cursebreakerVulnerable = true;
@@ -68,6 +69,15 @@ var CustomItem = /** @class */ (function () {
         this.capabilities[capability] = !this.capabilities[capability];
     };
     CustomItem.prototype.whileInInventory = function (event) {
+    };
+    CustomItem.prototype.toggleCurseBreakVulnerable = function () {
+        this.cursebreakerVulnerable = !this.cursebreakerVulnerable;
+    };
+    CustomItem.prototype.setCurseBreakVulnerable = function (value) {
+        this.cursebreakerVulnerable = value;
+    };
+    CustomItem.prototype.isCurseBreakVulnerable = function () {
+        return this.cursebreakerVulnerable;
     };
     return CustomItem;
 }());
