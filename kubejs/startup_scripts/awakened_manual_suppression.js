@@ -17,7 +17,7 @@ const MANUAL_SUPPRESSION_TAG = 'awakened_manual_suppression_until'
 // A value of -1 means indefinite suppression.
 // A positive value is the absolute world game-time tick at which suppression ends.
 AwakenedPowerSuppression.register(entity => {
-  if (!ServerPlayerClass.class.isInstance(entity)) {
+  if (!(entity instanceof ServerPlayerClass)) {
     return false
   }
 

@@ -1,0 +1,51 @@
+[npcs]
+	#Powered NPCs spawn on their own.
+	enabled = false
+	#Ticks between spawn rolls for each player (20 = 1 second).
+	# Default: 1200
+	# Range: 20 ~ 72000
+	intervalTicks = 1200
+	#Chance a roll spawns an NPC.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	chance = 0.12
+	#No roll while a powered NPC is within this many blocks.
+	# Default: 96
+	# Range: 0 ~ 512
+	radius = 96
+	#Closest an NPC spawns to the player, in blocks.
+	# Default: 48
+	# Range: 16 ~ 128
+	minDistance = 48
+	#Farthest an NPC spawns from the player, in blocks.
+	# Default: 80
+	# Range: 16 ~ 128
+	maxDistance = 80
+	#Highest mastery an NPC can have.
+	# Default: 15
+	# Range: 3 ~ 100
+	maxMastery = 15
+	#Spawn weights per NPC, e.g. "pyrokinetic_npc=2". Unlisted = 1, 0 = never.
+	kitWeights = []
+
+	[npcs.rewards]
+		#Chance a mastery 3 NPC drops a Catalyst.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		catalystChance = 0.02
+		#Extra Catalyst chance per mastery level above 3.
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		catalystChancePerMastery = 0.01
+		#Highest Catalyst chance.
+		# Default: 0.12
+		# Range: 0.0 ~ 1.0
+		catalystChanceMax = 0.12
+		#Multiplier on the bonus mastery for killing an NPC.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		masteryMultiplier = 1.0
+		#Multiplier on the bonus character XP for killing an NPC.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		xpMultiplier = 1.0
