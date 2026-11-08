@@ -45,6 +45,8 @@
       "minecraft:deep_ocean": "2026-10-28 17:30:43 -0700",
       "minecraft:lush_caves": "2026-10-23 17:57:19 -0700",
       "minecraft:frozen_ocean": "2026-10-27 16:14:12 -0700",
+      "minecraft:eroded_badlands": "2026-11-07 20:30:49 -0800",
+      "minecraft:desert": "2026-11-07 20:30:19 -0800",
       "minecraft:frozen_river": "2026-10-23 19:02:33 -0700",
       "minecraft:ocean": "2026-10-26 22:27:45 -0700",
       "minecraft:jungle": "2026-10-27 16:27:13 -0700",
@@ -53,8 +55,11 @@
       "minecraft:old_growth_spruce_taiga": "2026-10-23 17:28:32 -0700",
       "minecraft:snowy_beach": "2026-10-26 23:34:39 -0700",
       "minecraft:bamboo_jungle": "2026-11-06 16:17:39 -0800",
+      "minecraft:wooded_badlands": "2026-11-07 20:52:31 -0800",
       "minecraft:windswept_savanna": "2026-11-06 16:55:42 -0800",
+      "minecraft:warm_ocean": "2026-11-07 20:30:23 -0800",
       "minecraft:deep_lukewarm_ocean": "2026-10-26 22:21:58 -0700",
+      "minecraft:badlands": "2026-11-07 20:53:31 -0800",
       "minecraft:savanna_plateau": "2026-10-27 16:30:39 -0700",
       "minecraft:beach": "2026-10-23 17:16:14 -0700",
       "minecraft:dark_forest": "2026-10-26 16:46:00 -0700",
@@ -1494,6 +1499,7 @@
       "minecraft:piglin_brute": "2026-11-04 14:17:06 -0800",
       "minecraft:creeper": "2026-10-23 17:51:58 -0700",
       "minecraft:evoker": "2026-11-04 15:07:28 -0800",
+      "minecraft:slime": "2026-11-07 19:58:57 -0800",
       "minecraft:phantom": "2026-11-06 15:34:28 -0800",
       "minecraft:zombified_piglin": "2026-10-26 16:25:01 -0700",
       "minecraft:witch": "2026-10-27 22:19:42 -0700",
@@ -7579,11 +7585,53 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2026-11-07 14:20:15 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/stacked_bones": {
+    "criteria": {
+      "has_item": "2026-11-07 14:20:15 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/wither/wither_bone_block": {
+    "criteria": {
+      "has_item": "2026-11-07 14:20:15 -0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
       "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-11-07 14:30:07 -0800"
     },
     "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-11-07 14:30:07 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2026-11-07 14:30:54 -0800"
+    },
+    "done": true
+  },
+  "simulated:you_spin_me_right_round": {
+    "criteria": {
+      "0": "2026-11-07 14:41:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_the_recipe": "2026-11-07 14:44:01 -0800"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
@@ -7591,9 +7639,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
-      "has_bone_block": "2026-11-07 14:20:15 -0800"
+      "has_raw_gold": "2026-11-07 14:58:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2026-11-07 14:58:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2026-11-07 15:06:00 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2026-11-07 15:06:00 -0800"
     },
     "done": true
   },
@@ -7609,69 +7675,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_any_armor_pattern": {
-    "criteria": {
-      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-11-07 14:30:07 -0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
       "has_quartz": "2026-11-07 15:42:27 -0800"
     },
     "done": true
   },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2026-11-07 14:30:54 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2026-11-07 14:58:51 -0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2026-11-07 15:42:27 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2026-11-07 14:58:51 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite": {
-    "criteria": {
-      "has_the_recipe": "2026-11-07 15:42:36 -0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/bone_blocks/stacked_bones": {
-    "criteria": {
-      "has_item": "2026-11-07 14:20:15 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_wood": {
-    "criteria": {
-      "has_log": "2026-11-07 15:06:00 -0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/bone_blocks/wither/wither_bone_block": {
-    "criteria": {
-      "has_item": "2026-11-07 14:20:15 -0800"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:horror_underthe_mantle": {
-    "criteria": {
-      "horror_underthe_mantle_0": "2026-11-07 16:00:05 -0800"
     },
     "done": true
   },
@@ -7687,27 +7699,429 @@
     },
     "done": true
   },
-  "simulated:you_spin_me_right_round": {
-    "criteria": {
-      "0": "2026-11-07 14:41:12 -0800"
-    },
-    "done": true
-  },
   "createbigcannons:recipes/misc/proximity_fuze": {
     "criteria": {
       "has_quartz": "2026-11-07 15:42:27 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/brewing_stand": {
+  "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
-      "has_the_recipe": "2026-11-07 14:44:01 -0800"
+      "has_the_recipe": "2026-11-07 15:42:36 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
+  "born_in_chaos_v1:horror_underthe_mantle": {
     "criteria": {
-      "has_log": "2026-11-07 15:06:00 -0800"
+      "horror_underthe_mantle_0": "2026-11-07 16:00:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/oak_log/hollow_oak_log": {
+    "criteria": {
+      "has_block": "2026-11-07 18:54:09 -0800"
+    },
+    "done": true
+  },
+  "redstonegolem:custom/root": {
+    "criteria": {
+      "trigger": "2026-11-07 18:54:09 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/jungle_banister": {
+    "criteria": {
+      "has_item": "2026-11-07 18:55:00 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/jungle_drying_rack": {
+    "criteria": {
+      "has_item": "2026-11-07 18:55:00 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/drying/kelp": {
+    "criteria": {
+      "has_kelp": "2026-11-07 18:57:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2026-11-07 18:57:37 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/mangrove_log/hollow_vangrove_log": {
+    "criteria": {
+      "has_block": "2026-11-07 18:57:37 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2026-11-07 18:57:37 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/twilight_oak_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/transformation_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/canopy_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/dark_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/sorting_boat": {
+    "criteria": {
+      "in_water": "2026-11-07 18:59:26 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-11-07 19:12:48 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-11-07 19:12:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-11-07 19:12:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-11-07 19:12:48 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/monster_jerky": {
+    "criteria": {
+      "has_meat": "2026-11-07 19:19:55 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_the_recipe": "2026-11-07 19:20:57 -0800"
+    },
+    "done": true
+  },
+  "archaion:obtain_echo_key": {
+    "criteria": {
+      "has_echo_key": "2026-11-07 19:33:06 -0800"
+    },
+    "done": true
+  },
+  "archaion:open_deepslate_vault": {
+    "criteria": {
+      "has_echo_charge": "2026-11-07 19:34:50 -0800"
+    },
+    "done": true
+  },
+  "archaion:recipes/combat/echos_grace_upgrade_smithing": {
+    "criteria": {
+      "has_echo_charge": "2026-11-07 19:34:50 -0800"
+    },
+    "done": true
+  },
+  "archaion:kill_last_of_deepslate": {
+    "criteria": {
+      "kill_last_of_deepslate": "2026-11-07 19:42:16 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2026-11-07 19:59:33 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/trial_eye": {
+    "criteria": {
+      "trial_eye": "2026-11-07 19:59:38 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2026-11-07 19:59:39 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2026-11-07 19:59:56 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-11-07 19:59:56 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2026-11-07 20:00:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2026-11-07 20:02:08 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2026-11-07 20:02:08 -0800"
+    },
+    "done": true
+  },
+  "simplyswords:tempest": {
+    "criteria": {
+      "requirement": "2026-11-07 20:05:58 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-11-07 20:09:30 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/spiral_bricks": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone_pillar": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/terrorcotta_arcs": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/terrorcotta_curves": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/bold_stone_pillar": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/terrorcotta_lines": {
+    "criteria": {
+      "has_block": "2026-11-07 20:09:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-11-07 20:11:36 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2026-11-07 20:11:36 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2026-11-07 20:24:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-11-07 20:40:06 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2026-11-07 20:54:58 -0800"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:void_blossom": "2026-11-07 20:57:23 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/brewing/magma_cream_maze_ver": {
+    "criteria": {
+      "has_blaze_powder": "2026-11-07 21:18:10 -0800"
+    },
+    "done": true
+  },
+  "endrem:recipes/witch_eye": {
+    "criteria": {
+      "has_the_recipe": "2026-11-07 21:18:20 -0800"
+    },
+    "done": true
+  },
+  "endrem:main/witch_eye": {
+    "criteria": {
+      "witch_eye": "2026-11-07 21:18:20 -0800"
+    },
+    "done": true
+  },
+  "cataclysm_of_chaos:forged_in_chaos": {
+    "criteria": {
+      "dark_metal_armor_chestplate": "2026-11-07 21:35:14 -0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:squireofthe_dark_lord": {
+    "criteria": {
+      "squireofthe_dark_lord_9": "2026-11-07 21:35:14 -0800"
+    },
+    "done": false
+  },
+  "archaion:craft_echos_grace": {
+    "criteria": {
+      "has_echos_grace": "2026-11-07 21:35:14 -0800"
+    },
+    "done": true
+  },
+  "archaion:craft_echo_mace": {
+    "criteria": {
+      "has_echo_mace": "2026-11-07 21:35:14 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/cod_jerky": {
+    "criteria": {
+      "has_meat": "2026-11-07 21:35:16 -0800"
     },
     "done": true
   },
