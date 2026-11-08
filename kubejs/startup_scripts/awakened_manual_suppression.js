@@ -12,5 +12,6 @@ AWAKENED_POWER_SUPPRESSION.register(entity => {
     data.remove(AWAKENED_MANUAL_SUPPRESSION_KEY)
   }
 
-  return entity.getEffect('kubejs:cursebroken') != null
+  return entity.getEffect('kubejs:nullifier') != null ||
+    entity.getEffect('kubejs:cursebroken') != null
 })

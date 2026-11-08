@@ -31,4 +31,6 @@ StartupEvents.registry("item", function (event) {
 StartupEvents.registry('mob_effect', function (event) {
     event.create('cursebroken')
         .color(0x292942);
+    event.create('nullifier')
+        .color(0x292942);
 });

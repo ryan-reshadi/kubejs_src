@@ -31,17 +31,8 @@ var COATM = /** @class */ (function (_super) {
         // Implement entity right click behavior here
     };
     COATM.prototype.onRightClick = function (event) {
-        var direction = event.player.getLookAngle();
-        var speed = 1.75; // Define a speed value
-        var vx = Number(direction.x) * speed;
-        var vy = 0.75 * Number(direction.y) * speed;
-        var vz = Number(direction.z) * (speed);
-        var velocity = new Vec3d(vx, vy, vz);
-        event.player.setDeltaMovement(velocity);
-        event.server.runCommandSilent("effect give " + event.player.username + " minecraft:strength 1 1 true");
-        // event.server.runCommandSilent("effect give PVPDreadlord minecraft:strength infinite 1 true")
-        event.player.hurtMarked = true;
-        this.addCooldown(event, 0.75);
+        event.entity.potionEffects.add('kubejs:nullifier', 20 * 60, 0);
+        this.addCooldown(event, 200);
     };
     return COATM;
 }(CustomItem));

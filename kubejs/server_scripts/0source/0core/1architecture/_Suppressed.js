@@ -88,3 +88,21 @@ NativeEvents.onEvent(MobEffectRemoveEvent, function (event) {
         event.setCanceled(true);
     }
 });
+var NullifierPlayer = Java.loadClass('net.minecraft.world.entity.player.Player');
+var NullifierMonster = Java.loadClass('net.minecraft.world.entity.monster.Monster');
+PlayerEvents.tick(function (event) {
+    var player = event.player;
+    if (player.level.isClientSide() || !player.hasEffect('kubejs:nullifier'))
+        return;
+    var nearbyArea = player.getBoundingBox().inflate(24);
+    var isNearbyTarget = function (target) {
+        return !target.getUUID().equals(player.getUUID()) &&
+            target.distanceToSqr(player.position()) <= 24 * 24;
+    };
+    player.level.getEntitiesOfClass(NullifierPlayer, nearbyArea, isNearbyTarget).forEach(function (target) {
+        target.potionEffects.add('kubejs:cursebroken', 40, 0);
+    });
+    player.level.getEntitiesOfClass(NullifierMonster, nearbyArea, isNearbyTarget).forEach(function (target) {
+        target.potionEffects.add('kubejs:cursebroken', 40, 0);
+    });
+});
