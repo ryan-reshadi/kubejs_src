@@ -1,44 +1,13 @@
-// The Awakening 1.22.1 — admin commands for manual power suppression
-// Place in: kubejs/server_scripts/awakened_manual_suppression_commands.js
-//
-// Commands (requires permission level 2 / operator):
-//   /powers suppress <player> <seconds>
-//   /powers suppress <player> forever
-//   /powers unsuppress <player>
-//   /powers status <player>
-//
-// Duration is measured in seconds. Maximum finite duration: 86400 seconds (24h).
+// Commands:
+// /powers suppress <player> <seconds>
+// /powers suppress <player> forever
+// /powers unsuppress <player>
+// /powers status <player>
 
-const AwakenedPowerSuppression = Java.loadClass(
-  'com.awakenedmod.awakened.core.PowerSuppression'
-)
-const AwakenedPowerService = Java.loadClass(
-  'com.awakenedmod.awakened.core.PowerService'
-)
-const AwakenedPowerRegistry = Java.loadClass(
-  'com.awakenedmod.awakened.core.power.PowerRegistry'
-)
-
-const MANUAL_SUPPRESSION_TAG = 'awakened_manual_suppression_until'
-const MAX_SECONDS = 86400
-
-function getAwakenedPower(player) {
-  const data = AwakenedPowerService.data(player)
-  const power = AwakenedPowerRegistry.get(data.powerId())
-  return { data: data, power: power }
-}
-
-// Re-run the mod's own transition handler immediately instead of waiting
-// for the next PlayerTickEvent. This clears active ability state on apply
-// and runs onUnsuppressed when the final suppression source is removed.
-function refreshNativeSuppression(player) {
-  const state = getAwakenedPower(player)
-  AwakenedPowerSuppression.update(player, state.power, state.data)
-}
+const AWAKENED_COMMAND_MAX_SECONDS = 86400
 
 ServerEvents.commandRegistry(event => {
   const { commands: Commands, arguments: Arguments } = event
-
   const root = Commands.literal('powers')
     .requires(source => source.hasPermission(2))
 
@@ -51,20 +20,20 @@ ServerEvents.commandRegistry(event => {
               const target = Arguments.PLAYER.getResult(ctx, 'target')
               const seconds = Arguments.INTEGER.getResult(ctx, 'seconds')
 
-              if (seconds < 1 || seconds > MAX_SECONDS) {
+              if (seconds < 1 || seconds > AWAKENED_COMMAND_MAX_SECONDS) {
                 ctx.source.sendFailure(
                   Text.red('Duration must be between 1 and 86400 seconds.')
                 )
                 return 0
               }
 
-              const endTick = target.serverLevel().getGameTime() + seconds * 20
-              target.getPersistentData().putLong(MANUAL_SUPPRESSION_TAG, endTick)
-              refreshNativeSuppression(target)
+              const wasActive = Suppressed.isManualActive(target)
+              Suppressed.apply(target, seconds)
 
               ctx.source.sendSuccess(
                 () => Text.green(
-                  'Suppressed ' + target.getGameProfile().getName() +
+                  (wasActive ? 'Updated manual suppression for ' : 'Suppressed ') +
+                  target.getGameProfile().getName() +
                   ' for ' + seconds + ' seconds.'
                 ),
                 true
@@ -76,12 +45,13 @@ ServerEvents.commandRegistry(event => {
           Commands.literal('forever')
             .executes(ctx => {
               const target = Arguments.PLAYER.getResult(ctx, 'target')
-              target.getPersistentData().putLong(MANUAL_SUPPRESSION_TAG, -1)
-              refreshNativeSuppression(target)
+              const wasActive = Suppressed.isManualActive(target)
+              Suppressed.applyForever(target)
 
               ctx.source.sendSuccess(
                 () => Text.green(
-                  'Indefinitely suppressed ' + target.getGameProfile().getName() + '.'
+                  (wasActive ? 'Updated indefinite manual suppression for ' : 'Indefinitely suppressed ') +
+                  target.getGameProfile().getName() + '.'
                 ),
                 true
               )
@@ -95,14 +65,23 @@ ServerEvents.commandRegistry(event => {
       Commands.argument('target', Arguments.PLAYER.create(event))
         .executes(ctx => {
           const target = Arguments.PLAYER.getResult(ctx, 'target')
-          target.getPersistentData().remove(MANUAL_SUPPRESSION_TAG)
-          refreshNativeSuppression(target)
+          const wasActive = Suppressed.isManualActive(target)
+          Suppressed.remove(target)
 
+          const potionActive = Suppressed.hasPotion(target)
           ctx.source.sendSuccess(
-            () => Text.green(
-              'Removed manual suppression from ' + target.getGameProfile().getName() +
-              '. Other suppression sources, such as an active Rift domain, may still apply.'
-            ),
+            () => wasActive
+              ? Text.green(
+                'Removed manual suppression from ' +
+                target.getGameProfile().getName() +
+                (potionActive ? '; potion suppression remains active.' : '.')
+              )
+              : Text.yellow(
+                target.getGameProfile().getName() +
+                (potionActive
+                  ? ' has no active manual suppression; potion suppression remains active.'
+                  : ' has no active manual suppression.')
+              ),
             true
           )
           return 1
@@ -114,42 +93,56 @@ ServerEvents.commandRegistry(event => {
       Commands.argument('target', Arguments.PLAYER.create(event))
         .executes(ctx => {
           const target = Arguments.PLAYER.getResult(ctx, 'target')
-          const persistentData = target.getPersistentData()
-          const hasManualTag = persistentData.contains(MANUAL_SUPPRESSION_TAG)
+          const manualRemainingSeconds = Suppressed.getManualRemainingSeconds(target)
+          const potionRemainingTicks = Suppressed.getPotionRemainingTicks(target)
+          const manualActive = manualRemainingSeconds !== 0
+          const potionActive = potionRemainingTicks !== 0
+          const combinedActive = Suppressed.isActive(target)
 
-          if (!hasManualTag) {
+          if (manualRemainingSeconds === -1) {
             ctx.source.sendSuccess(
-              () => Text.yellow(
-                target.getGameProfile().getName() + ' has no manual suppression timer.'
-              ),
+              () => Text.red('Manual suppression: active indefinitely.'),
               false
             )
-            return 1
-          }
-
-          const untilTick = persistentData.getLong(MANUAL_SUPPRESSION_TAG)
-
-          if (untilTick === -1) {
+          } else if (manualActive) {
             ctx.source.sendSuccess(
               () => Text.red(
-                target.getGameProfile().getName() + ' is manually suppressed indefinitely.'
+                'Manual suppression: active for ' +
+                manualRemainingSeconds + ' more seconds.'
               ),
               false
             )
-            return 1
+          } else {
+            ctx.source.sendSuccess(
+              () => Text.yellow('Manual suppression: inactive.'),
+              false
+            )
           }
 
-          const remainingTicks = Math.max(
-            0,
-            untilTick - target.serverLevel().getGameTime()
-          )
-          const remainingSeconds = Math.ceil(remainingTicks / 20)
+          if (potionRemainingTicks === -1) {
+            ctx.source.sendSuccess(
+              () => Text.red('Potion suppression: active indefinitely.'),
+              false
+            )
+          } else if (potionActive) {
+            ctx.source.sendSuccess(
+              () => Text.red(
+                'Potion suppression: active for ' +
+                Math.ceil(potionRemainingTicks / 20) + ' more seconds.'
+              ),
+              false
+            )
+          } else {
+            ctx.source.sendSuccess(
+              () => Text.yellow('Potion suppression: inactive.'),
+              false
+            )
+          }
 
           ctx.source.sendSuccess(
-            () => Text.red(
-              target.getGameProfile().getName() +
-              ' has ' + remainingSeconds + ' seconds of manual suppression remaining.'
-            ),
+            () => combinedActive
+              ? Text.red('Combined manual/potion suppression: active.')
+              : Text.green('Combined manual/potion suppression: inactive.'),
             false
           )
           return 1
