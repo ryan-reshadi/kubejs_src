@@ -96,7 +96,7 @@ PlayerEvents.tick(function (event) {
         return;
     var nearbyArea = player.getBoundingBox().inflate(24);
     var isNearbyTarget = function (target) {
-        return !target.getUUID().equals(player.getUUID()) &&
+        return target.getId() !== player.getId() &&
             target.distanceToSqr(player.position()) <= 24 * 24;
     };
     player.level.getEntitiesOfClass(NullifierPlayer, nearbyArea, isNearbyTarget).forEach(function (target) {

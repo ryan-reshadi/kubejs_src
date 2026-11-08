@@ -18,7 +18,7 @@ class COATM extends CustomItem {
     }
 
     protected onRightClick(event: KubeEvent<typeof ItemEvents.rightClicked>): void {
-        event.entity.potionEffects.add('kubejs:nullifier', 20 * 60, 0);
+        event.entity.potionEffects.add('kubejs:nullifier', 20 * 200, 0);
         this.addCooldown(event, 200);
     }
 }

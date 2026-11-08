@@ -31,7 +31,7 @@ var COATM = /** @class */ (function (_super) {
         // Implement entity right click behavior here
     };
     COATM.prototype.onRightClick = function (event) {
-        event.entity.potionEffects.add('kubejs:nullifier', 20 * 60, 0);
+        event.entity.potionEffects.add('kubejs:nullifier', 20 * 200, 0);
         this.addCooldown(event, 200);
     };
     return COATM;

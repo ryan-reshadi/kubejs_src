@@ -114,7 +114,7 @@ PlayerEvents.tick(event => {
 
     const nearbyArea = player.getBoundingBox().inflate(24);
     const isNearbyTarget = target =>
-        !target.getUUID().equals(player.getUUID()) &&
+        target.getId() !== player.getId() &&
         target.distanceToSqr(player.position()) <= 24 * 24;
 
     player.level.getEntitiesOfClass(NullifierPlayer, nearbyArea, isNearbyTarget).forEach(target => {
