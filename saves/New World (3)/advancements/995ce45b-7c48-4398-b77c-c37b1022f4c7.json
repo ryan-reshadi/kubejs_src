@@ -7319,12 +7319,14 @@
   },
   "cataclysm:kill_all_bosses": {
     "criteria": {
+      "cataclysm:maledictus": "2026-11-08 20:03:27 -0800",
       "cataclysm:the_leviathan": "2026-11-07 21:47:24 -0800"
     },
     "done": false
   },
   "cataclysm_of_chaos:cataclysm_of_chaos": {
     "criteria": {
+      "maledictus": "2026-11-08 20:03:27 -0800",
       "the_leviathan": "2026-11-07 21:47:24 -0800"
     },
     "done": false
@@ -7905,9 +7907,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/drying/gelatinous_slime_drop": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "has_slime_ball": "2026-11-08 16:16:12 -0800"
+      "netherite_armor": "2026-11-08 15:46:29 -0800"
     },
     "done": true
   },
@@ -7917,15 +7919,15 @@
     },
     "done": true
   },
-  "minecraft:nether/netherite_armor": {
+  "twilightforest:recipes/building_blocks/stonecutting/spruce_log/hollow_spruce_log": {
     "criteria": {
-      "netherite_armor": "2026-11-08 15:46:29 -0800"
+      "has_block": "2026-11-08 16:11:45 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
+  "twilightforest:recipes/drying/gelatinous_slime_drop": {
     "criteria": {
-      "has_item_frame": "2026-11-08 16:47:41 -0800"
+      "has_slime_ball": "2026-11-08 16:16:12 -0800"
     },
     "done": true
   },
@@ -7935,9 +7937,45 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/stonecutting/spruce_log/hollow_spruce_log": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_block": "2026-11-08 16:11:45 -0800"
+      "has_item_frame": "2026-11-08 16:47:41 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-11-08 20:05:27 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2026-11-08 20:05:27 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2026-11-08 20:05:27 -0800"
+    },
+    "done": true
+  },
+  "cataclysm_of_chaos:lay_the_curse_to_rest": {
+    "criteria": {
+      "killed": "2026-11-08 20:03:27 -0800"
+    },
+    "done": true
+  },
+  "cataclysm:kill_maledictus": {
+    "criteria": {
+      "ignis": "2026-11-08 20:03:27 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2026-11-08 20:05:27 -0800"
     },
     "done": true
   },
