@@ -31,30 +31,32 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2026-10-16 15:01:29 -0700",
-      "minecraft:dark_forest": "2026-10-23 18:35:40 -0700",
       "minecraft:mushroom_fields": "2026-11-06 16:53:21 -0800",
       "minecraft:forest": "2026-10-23 18:11:49 -0700",
       "minecraft:taiga": "2026-10-12 17:49:23 -0700",
       "minecraft:deep_ocean": "2026-10-30 16:16:55 -0700",
-      "minecraft:river": "2026-10-16 14:39:07 -0700",
-      "minecraft:lukewarm_ocean": "2026-11-07 18:55:32 -0800",
-      "minecraft:snowy_plains": "2026-10-23 18:54:28 -0700",
       "minecraft:lush_caves": "2026-10-12 17:59:02 -0700",
-      "minecraft:snowy_taiga": "2026-10-12 19:14:21 -0700",
-      "minecraft:dripstone_caves": "2026-11-06 15:07:33 -0800",
-      "minecraft:old_growth_birch_forest": "2026-10-23 18:35:39 -0700",
       "minecraft:frozen_river": "2026-10-23 19:02:26 -0700",
       "minecraft:windswept_forest": "2026-10-16 14:37:35 -0700",
       "minecraft:ocean": "2026-11-06 15:29:56 -0800",
       "minecraft:jungle": "2026-11-06 15:33:31 -0800",
-      "minecraft:swamp": "2026-11-06 15:06:53 -0800",
-      "minecraft:windswept_gravelly_hills": "2026-10-16 15:00:55 -0700",
       "minecraft:windswept_hills": "2026-10-23 18:11:15 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-10-16 15:58:43 -0700",
-      "minecraft:savanna": "2026-11-06 15:55:48 -0800",
       "minecraft:windswept_savanna": "2026-11-06 16:56:23 -0800",
-      "minecraft:deep_lukewarm_ocean": "2026-11-06 15:31:29 -0800"
+      "minecraft:deep_lukewarm_ocean": "2026-11-06 15:31:29 -0800",
+      "minecraft:beach": "2026-10-16 15:01:29 -0700",
+      "minecraft:dark_forest": "2026-10-23 18:35:40 -0700",
+      "minecraft:sparse_jungle": "2026-11-08 13:46:43 -0800",
+      "minecraft:river": "2026-10-16 14:39:07 -0700",
+      "minecraft:lukewarm_ocean": "2026-11-07 18:55:32 -0800",
+      "minecraft:snowy_plains": "2026-10-23 18:54:28 -0700",
+      "minecraft:snowy_taiga": "2026-10-12 19:14:21 -0700",
+      "minecraft:dripstone_caves": "2026-11-06 15:07:33 -0800",
+      "minecraft:old_growth_birch_forest": "2026-10-23 18:35:39 -0700",
+      "minecraft:swamp": "2026-11-06 15:06:53 -0800",
+      "minecraft:windswept_gravelly_hills": "2026-10-16 15:00:55 -0700",
+      "minecraft:savanna": "2026-11-06 15:55:48 -0800",
+      "minecraft:plains": "2026-11-08 15:47:42 -0800"
     },
     "done": false
   },
@@ -784,6 +786,7 @@
       "sugar_cane": "2026-10-16 15:35:10 -0700",
       "onion": "2026-10-16 14:21:26 -0700",
       "potato": "2026-10-16 14:06:40 -0700",
+      "nether_wart": "2026-11-08 14:12:51 -0800",
       "wheat": "2026-10-12 17:53:21 -0700",
       "tomato": "2026-10-16 14:22:32 -0700",
       "rice": "2026-10-16 14:20:54 -0700",
@@ -809,6 +812,7 @@
       "apple": "2026-10-16 16:33:38 -0700",
       "bread": "2026-10-12 17:53:51 -0700",
       "cooked_chicken": "2026-11-06 16:06:10 -0800",
+      "cookie": "2026-11-08 13:24:48 -0800",
       "cooked_mutton": "2026-10-17 17:01:40 -0700",
       "glow_berries": "2026-10-12 18:09:11 -0700",
       "cooked_beef": "2026-10-16 14:59:01 -0700",
@@ -5960,6 +5964,7 @@
   "born_in_chaos_v1:charm_collector": {
     "criteria": {
       "charm_collector_4": "2026-11-06 14:46:44 -0800",
+      "charm_collector_3": "2026-11-08 16:20:13 -0800",
       "charm_collector_2": "2026-10-23 17:53:05 -0700"
     },
     "done": false
@@ -6110,12 +6115,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2026-11-08 14:42:21 -0800",
       "minecraft:nether_wastes": "2026-10-23 19:14:09 -0700",
       "minecraft:soul_sand_valley": "2026-10-23 19:13:18 -0700",
       "minecraft:warped_forest": "2026-10-23 19:17:15 -0700",
       "minecraft:basalt_deltas": "2026-10-23 23:55:26 -0700"
     },
-    "done": false
+    "done": true
   },
   "netherexp:nether/soul_sand_valley/soul_sand_valley": {
     "criteria": {
@@ -7578,6 +7584,360 @@
   "archaion:craft_echo_mace": {
     "criteria": {
       "has_echo_mace": "2026-11-07 22:46:44 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/oak_log/hollow_oak_log": {
+    "criteria": {
+      "has_block": "2026-11-08 12:37:34 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/spiral_bricks": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone_pillar": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/twisted_stone": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/terrorcotta_arcs": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/terrorcotta_curves": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/bold_stone_pillar": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/stone/terrorcotta_lines": {
+    "criteria": {
+      "has_block": "2026-11-08 12:49:05 -0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2026-11-08 13:05:56 -0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:compact_necromancy": {
+    "criteria": {
+      "compact_necromancy_0": "2026-11-08 13:12:15 -0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:squireofthe_dark_lord": {
+    "criteria": {
+      "squireofthe_dark_lord_9": "2026-11-08 13:12:33 -0800"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/drying/drying/sapling_to_dead_bush": {
+    "criteria": {
+      "has_sapling": "2026-11-08 13:27:37 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/mangrove_log/hollow_vangrove_log": {
+    "criteria": {
+      "has_block": "2026-11-08 13:28:05 -0800"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2026-11-08 13:33:55 -0800"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_forging": {
+    "criteria": {
+      "dark_forging_0": "2026-11-08 13:38:38 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-11-08 13:47:04 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/birch_drying_rack": {
+    "criteria": {
+      "has_item": "2026-11-08 13:57:35 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/birch_banister": {
+    "criteria": {
+      "has_item": "2026-11-08 13:57:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-11-08 14:12:34 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_lamp": {
+    "criteria": {
+      "has_item_minecraft_blackstone_1": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-11-08 14:30:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2026-11-08 14:34:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/weeping": {
+    "criteria": {
+      "has_item": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/twisting": {
+    "criteria": {
+      "has_item": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/blackstone_tile": {
+    "criteria": {
+      "has_item_minecraft_polished_blackstone_bricks_1": "2026-11-08 14:35:45 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "smoked_ham": "2026-11-08 14:38:23 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_glazed_ham_block": {
+    "criteria": {
+      "has_smoked_ham": "2026-11-08 14:38:23 -0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/smoked_ham": {
+    "criteria": {
+      "has_ham": "2026-11-08 14:38:41 -0800"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley/rattling_remnants": {
+    "criteria": {
+      "structure": "2026-11-08 14:50:14 -0800"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-11-08 14:50:57 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/gelatinous_slime_drop": {
+    "criteria": {
+      "has_slime_ball": "2026-11-08 16:16:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2026-11-08 15:49:21 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2026-11-08 15:46:29 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2026-11-08 16:47:41 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/cherry_log/hollow_cherry_log": {
+    "criteria": {
+      "has_block": "2026-11-08 16:45:13 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/spruce_log/hollow_spruce_log": {
+    "criteria": {
+      "has_block": "2026-11-08 16:11:45 -0800"
     },
     "done": true
   },
