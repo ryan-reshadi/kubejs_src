@@ -14,6 +14,11 @@ const SWAP_WINDOW_TICKS = 60 * 60 * 20;
 const MAX_SWAPS = 2;
 
 function getData(player: any): any { return player.getPersistentData(); }
+function uniqueValues(values: any[]): any[] {
+  const result: any[] = [];
+  values.forEach((value: any) => { if (!result.includes(value)) result.push(value); });
+  return result;
+}
 function readJsonArray(data: any, key: string): any[] {
   const raw: string = data.getString(key);
   if (!raw || raw.length === 0) return [];
@@ -27,9 +32,9 @@ function currentPowerId(player: any): string {
   return String(powerData.powerId());
 }
 function getArchive(player: any): string[] {
-  return [...new Set(readJsonArray(getData(player), ARCHIVE_KEY).filter((id: any) => typeof id === 'string' && id.length > 0))];
+  return uniqueValues(readJsonArray(getData(player), ARCHIVE_KEY).filter((id: any) => typeof id === 'string' && id.length > 0));
 }
-function saveArchive(player: any, archive: string[]): void { writeJsonArray(getData(player), ARCHIVE_KEY, [...new Set(archive)]); }
+function saveArchive(player: any, archive: string[]): void { writeJsonArray(getData(player), ARCHIVE_KEY, uniqueValues(archive)); }
 function recoverKnownPowers(player: any): string[] {
   const archive = getArchive(player);
   const data: any = PowerService.data(player);
@@ -39,7 +44,7 @@ function recoverKnownPowers(player: any): string[] {
     const id = String(power.id());
     if (data.masteryLevelOf(id) > 0) archive.push(id);
   });
-  const unique = [...new Set(archive)];
+  const unique = uniqueValues(archive);
   saveArchive(player, unique);
   return unique;
 }
@@ -118,7 +123,7 @@ PlayerEvents.tick((event: any) => {
 ServerEvents.commandRegistry((event: any) => {
   const Commands: any = event.commands;
   const Arguments: any = event.arguments;
-  const root = Commands.literal('powers')
+  const root = Commands.literal('recallPower')
     .executes((ctx: any) => { const player = ctx.source.player; if (!player) return 0; listPowers(player); return 1; })
     .then(Commands.literal('list').executes((ctx: any) => { const player = ctx.source.player; if (!player) return 0; listPowers(player); return 1; }))
     .then(Commands.literal('status').executes((ctx: any) => { const player = ctx.source.player; if (!player) return 0; showStatus(player); return 1; }))

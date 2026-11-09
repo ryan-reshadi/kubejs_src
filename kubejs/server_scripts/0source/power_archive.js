@@ -2,15 +2,6 @@
 // The Awakening 1.23.4 — Power Archive
 // Typed-source copy for the user's kubejs_src/server_scripts/0source workflow.
 // Compile this to the runtime JS output; do not install this and the packaged JS together.
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
 var PowerService = Java.loadClass('com.awakenedmod.awakened.core.PowerService');
 var PowerRegistry = Java.loadClass('com.awakenedmod.awakened.core.power.PowerRegistry');
 var CatalystConfig = Java.loadClass('com.awakenedmod.awakened.core.CatalystConfig');
@@ -21,6 +12,12 @@ var SWAP_TIMES_KEY = 'power_archive_swap_times_v1';
 var SWAP_WINDOW_TICKS = 60 * 60 * 20;
 var MAX_SWAPS = 2;
 function getData(player) { return player.getPersistentData(); }
+function uniqueValues(values) {
+    var result = [];
+    values.forEach(function (value) { if (!result.includes(value))
+        result.push(value); });
+    return result;
+}
 function readJsonArray(data, key) {
     var raw = data.getString(key);
     if (!raw || raw.length === 0)
@@ -42,9 +39,9 @@ function currentPowerId(player) {
     return String(powerData.powerId());
 }
 function getArchive(player) {
-    return __spreadArray([], new Set(readJsonArray(getData(player), ARCHIVE_KEY).filter(function (id) { return typeof id === 'string' && id.length > 0; })), true);
+    return uniqueValues(readJsonArray(getData(player), ARCHIVE_KEY).filter(function (id) { return typeof id === 'string' && id.length > 0; }));
 }
-function saveArchive(player, archive) { writeJsonArray(getData(player), ARCHIVE_KEY, __spreadArray([], new Set(archive), true)); }
+function saveArchive(player, archive) { writeJsonArray(getData(player), ARCHIVE_KEY, uniqueValues(archive)); }
 function recoverKnownPowers(player) {
     var archive = getArchive(player);
     var data = PowerService.data(player);
@@ -56,7 +53,7 @@ function recoverKnownPowers(player) {
         if (data.masteryLevelOf(id) > 0)
             archive.push(id);
     });
-    var unique = __spreadArray([], new Set(archive), true);
+    var unique = uniqueValues(archive);
     saveArchive(player, unique);
     return unique;
 }
@@ -154,7 +151,7 @@ PlayerEvents.tick(function (event) {
 ServerEvents.commandRegistry(function (event) {
     var Commands = event.commands;
     var Arguments = event.arguments;
-    var root = Commands.literal('powers')
+    var root = Commands.literal('recallPower')
         .executes(function (ctx) { var player = ctx.source.player; if (!player)
         return 0; listPowers(player); return 1; })
         .then(Commands.literal('list').executes(function (ctx) { var player = ctx.source.player; if (!player)
