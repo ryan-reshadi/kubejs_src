@@ -7943,6 +7943,18 @@
     },
     "done": true
   },
+  "cataclysm_of_chaos:lay_the_curse_to_rest": {
+    "criteria": {
+      "killed": "2026-11-08 20:03:27 -0800"
+    },
+    "done": true
+  },
+  "cataclysm:kill_maledictus": {
+    "criteria": {
+      "ignis": "2026-11-08 20:03:27 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2026-11-08 20:05:27 -0800"
@@ -7958,18 +7970,6 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
       "has_polished_andesite": "2026-11-08 20:05:27 -0800"
-    },
-    "done": true
-  },
-  "cataclysm_of_chaos:lay_the_curse_to_rest": {
-    "criteria": {
-      "killed": "2026-11-08 20:03:27 -0800"
-    },
-    "done": true
-  },
-  "cataclysm:kill_maledictus": {
-    "criteria": {
-      "ignis": "2026-11-08 20:03:27 -0800"
     },
     "done": true
   },
