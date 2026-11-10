@@ -8127,87 +8127,9 @@
     },
     "done": true
   },
-  "minecraft:story/follow_ender_eye": {
+  "cataclysm:find_ruined_citadel": {
     "criteria": {
-      "in_stronghold": "2026-11-08 21:47:19 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-11-08 21:52:10 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
-    "criteria": {
-      "has_dune_armor_trim_smithing_template": "2026-11-08 21:52:10 -0800"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
-    "criteria": {
-      "has_jukebox_upgrade": "2026-11-08 21:52:14 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
-    "criteria": {
-      "has_deepslate_diamond_ore": "2026-11-08 21:53:38 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2026-11-08 21:53:38 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2026-11-08 21:53:38 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
-    "criteria": {
-      "has_deepslate_diamond_ore": "2026-11-08 21:53:38 -0800"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-11-08 22:06:56 -0800"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2026-11-08 22:06:56 -0800"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2026-11-08 22:12:36 -0800"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2026-11-08 22:13:38 -0800"
-    },
-    "done": true
-  },
-  "lootr:1frame": {
-    "criteria": {
-      "looted_frame": "2026-11-08 22:15:33 -0800"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-11-08 22:18:09 -0800"
+      "citadel": "2026-11-08 22:33:43 -0800"
     },
     "done": true
   },
@@ -8217,9 +8139,9 @@
     },
     "done": true
   },
-  "cataclysm:find_ruined_citadel": {
+  "sophisticatedbackpacks:recipes/misc/advanced_jukebox_upgrade": {
     "criteria": {
-      "citadel": "2026-11-08 22:33:43 -0800"
+      "has_jukebox_upgrade": "2026-11-08 21:52:14 -0800"
     },
     "done": true
   },
@@ -8229,15 +8151,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2026-11-08 21:53:38 -0800"
+    },
+    "done": true
+  },
   "cataclysm:kill_ender_golem": {
     "criteria": {
       "endergolem": "2026-11-08 22:35:54 -0800"
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2026-11-08 22:12:36 -0800"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-11-08 22:18:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-11-08 21:47:19 -0800"
+    },
+    "done": true
+  },
   "cataclysm:kill_ender_guardian": {
     "criteria": {
       "enderguardian": "2026-11-08 22:38:39 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2026-11-08 21:53:38 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-11-08 22:06:56 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-11-08 21:52:10 -0800"
+    },
+    "done": true
+  },
+  "lootr:1frame": {
+    "criteria": {
+      "looted_frame": "2026-11-08 22:15:33 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2026-11-08 21:53:38 -0800"
     },
     "done": true
   },
@@ -8259,21 +8235,27 @@
     },
     "done": false
   },
-  "cataclysm_of_chaos:root": {
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
     "criteria": {
-      "dark_metal_ingot": "2026-11-09 21:11:15 -0800"
+      "has_deepslate_diamond_ore": "2026-11-08 21:53:38 -0800"
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
     "criteria": {
-      "blaze_rod": "2026-11-09 21:14:10 -0800"
+      "has_dune_armor_trim_smithing_template": "2026-11-08 21:52:10 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:end/find_end_city": {
     "criteria": {
-      "has_blaze_rod": "2026-11-09 21:14:10 -0800"
+      "in_city": "2026-11-08 22:13:38 -0800"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-11-08 22:06:56 -0800"
     },
     "done": true
   },
