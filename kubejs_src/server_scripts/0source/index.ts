@@ -1,6 +1,7 @@
 const customItems: Record<string, CustomItem> = {
     isoh: new ISOH(),
-    splitsoulkatana: new SplitSoulKatana()
+    splitsoulkatana: new SplitSoulKatana(),
+    coatm: new COATM()
 };
 
 

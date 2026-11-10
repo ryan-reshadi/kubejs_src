@@ -1,7 +1,8 @@
 "use strict";
 var customItems = {
     isoh: new ISOH(),
-    splitsoulkatana: new SplitSoulKatana()
+    splitsoulkatana: new SplitSoulKatana(),
+    coatm: new COATM()
 };
 function getCustomData(item) {
     var components = String(item.componentString);
