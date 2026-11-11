@@ -46,6 +46,7 @@
       "minecraft:windswept_hills": "2026-10-14 14:51:01 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-10-16 16:57:19 -0700",
       "minecraft:snowy_beach": "2026-10-12 17:54:02 -0700",
+      "minecraft:bamboo_jungle": "2026-11-10 19:07:40 -0800",
       "minecraft:windswept_savanna": "2026-11-06 16:57:08 -0800",
       "minecraft:deep_lukewarm_ocean": "2026-11-06 16:52:58 -0800",
       "minecraft:savanna_plateau": "2026-10-27 16:30:40 -0700",
@@ -59,6 +60,7 @@
       "minecraft:dripstone_caves": "2026-10-16 16:49:15 -0700",
       "minecraft:old_growth_birch_forest": "2026-10-26 23:19:24 -0700",
       "minecraft:swamp": "2026-10-16 14:54:52 -0700",
+      "minecraft:meadow": "2026-11-10 18:57:22 -0800",
       "minecraft:windswept_gravelly_hills": "2026-10-14 14:52:35 -0700",
       "minecraft:savanna": "2026-10-27 16:34:44 -0700",
       "minecraft:plains": "2026-11-06 16:18:39 -0800"
@@ -327,6 +329,7 @@
       "bread": "2026-10-12 18:04:48 -0700",
       "suspicious_stew": "2026-10-14 16:03:57 -0700",
       "rotten_flesh": "2026-10-16 13:51:24 -0700",
+      "cookie": "2026-11-10 18:44:08 -0800",
       "cooked_mutton": "2026-10-14 14:52:03 -0700",
       "glow_berries": "2026-10-12 17:56:59 -0700",
       "sweet_berries": "2026-10-12 18:02:09 -0700",
@@ -335,6 +338,7 @@
       "porkchop": "2026-10-12 18:41:28 -0700",
       "tropical_fish": "2026-10-16 16:34:12 -0700",
       "golden_carrot": "2026-11-08 22:17:23 -0800",
+      "beetroot": "2026-11-10 18:40:58 -0800",
       "apple": "2026-10-16 13:51:19 -0700",
       "cooked_chicken": "2026-10-24 12:53:41 -0700",
       "pumpkin_pie": "2026-10-12 18:09:40 -0700"
@@ -4655,10 +4659,12 @@
       "minecraft:piglin": "2026-11-06 15:14:48 -0800",
       "minecraft:vindicator": "2026-10-16 14:51:12 -0700",
       "minecraft:enderman": "2026-10-16 16:30:13 -0700",
+      "minecraft:magma_cube": "2026-11-10 18:23:55 -0800",
       "minecraft:spider": "2026-10-14 15:46:03 -0700",
       "minecraft:zombie": "2026-10-14 16:56:46 -0700",
       "minecraft:creeper": "2026-10-23 17:56:28 -0700",
       "minecraft:drowned": "2026-11-06 15:27:43 -0800",
+      "minecraft:wither": "2026-11-10 19:03:41 -0800",
       "minecraft:zombie_villager": "2026-10-14 16:28:31 -0700"
     },
     "done": false
@@ -4815,7 +4821,10 @@
   },
   "netherexp:nether/soul_sand_valley/ghosts_busted": {
     "criteria": {
-      "minecraft:skeleton": "2026-10-14 15:46:14 -0700"
+      "netherexp:apparition": "2026-11-10 18:04:01 -0800",
+      "minecraft:skeleton": "2026-10-14 15:46:14 -0700",
+      "netherexp:wisp": "2026-11-10 18:04:04 -0800",
+      "netherexp:vessel": "2026-11-10 18:26:44 -0800"
     },
     "done": false
   },
@@ -5879,7 +5888,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2026-10-30 16:09:02 -0700",
       "minecraft:nether_wastes": "2026-10-16 16:18:14 -0700",
-      "minecraft:soul_sand_valley": "2026-10-23 19:56:47 -0700"
+      "minecraft:soul_sand_valley": "2026-10-23 19:56:47 -0700",
+      "minecraft:warped_forest": "2026-11-10 17:58:27 -0800"
     },
     "done": false
   },
@@ -7645,75 +7655,9 @@
     },
     "done": true
   },
-  "dungeons_arise:find_aviary": {
+  "redstonegolem:custom/root": {
     "criteria": {
-      "location0": "2026-11-08 22:26:03 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_lantern": {
-    "criteria": {
-      "has_soul_torch": "2026-11-08 22:16:37 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2026-11-08 22:35:30 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2026-11-08 22:35:30 -0800"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
-    "criteria": {
-      "has_item": "2026-11-08 21:53:01 -0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2026-11-08 21:58:03 -0800"
-    },
-    "done": true
-  },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2026-11-08 21:47:16 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-11-08 22:06:58 -0800"
+      "trigger": "2026-11-08 21:44:44 -0800"
     },
     "done": true
   },
@@ -7735,18 +7679,6 @@
     },
     "done": true
   },
-  "redstonegolem:custom/root": {
-    "criteria": {
-      "trigger": "2026-11-08 21:44:44 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2026-11-08 22:35:30 -0800"
-    },
-    "done": true
-  },
   "twilightforest:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2026-11-08 21:46:48 -0800"
@@ -7756,12 +7688,6 @@
   "twilightforest:recipes/transportation/transformation_boat": {
     "criteria": {
       "in_water": "2026-11-08 21:46:48 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2026-11-08 22:35:30 -0800"
     },
     "done": true
   },
@@ -7777,9 +7703,69 @@
     },
     "done": true
   },
+  "twilightforest:recipes/transportation/sorting_boat": {
+    "criteria": {
+      "in_water": "2026-11-08 21:46:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-11-08 21:47:16 -0800"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2026-11-08 21:53:01 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
     "criteria": {
       "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2026-11-08 21:58:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-11-08 22:06:58 -0800"
     },
     "done": true
   },
@@ -7789,15 +7775,297 @@
     },
     "done": true
   },
-  "twilightforest:recipes/transportation/sorting_boat": {
+  "minecraft:recipes/decorations/soul_lantern": {
     "criteria": {
-      "in_water": "2026-11-08 21:46:48 -0800"
+      "has_soul_torch": "2026-11-08 22:16:37 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+  "dungeons_arise:find_aviary": {
     "criteria": {
-      "has_mossy_stone_bricks": "2026-11-08 21:54:05 -0800"
+      "location0": "2026-11-08 22:26:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-11-08 22:35:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-11-08 22:35:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-11-08 22:35:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-11-08 22:35:30 -0800"
+    },
+    "done": true
+  },
+  "awakened:recipes/reaper_scythe": {
+    "criteria": {
+      "has_core": "2026-11-10 19:05:01 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-11-10 17:34:56 -0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
+    "criteria": {
+      "has_feeding_upgrade": "2026-11-10 18:39:38 -0800"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/oak_log/hollow_oak_log": {
+    "criteria": {
+      "has_block": "2026-11-10 18:10:23 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/underworld_wall_torch": {
+    "criteria": {
+      "has_item": "2026-11-10 18:58:13 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/underworld_small_candles": {
+    "criteria": {
+      "has_item": "2026-11-10 18:58:13 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-11-10 18:58:13 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/chicken_jerky": {
+    "criteria": {
+      "has_meat": "2026-11-10 17:48:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/acacia_log/hollow_acacia_log": {
+    "criteria": {
+      "has_block": "2026-11-10 19:11:58 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/drying/sapling_to_dead_bush": {
+    "criteria": {
+      "has_sapling": "2026-11-10 18:10:13 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/drying/monster_jerky": {
+    "criteria": {
+      "has_meat": "2026-11-10 17:36:49 -0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_lore": {
+    "criteria": {
+      "has_item_minecraft_name_tag_1": "2026-11-10 19:23:12 -0800"
+    },
+    "done": true
+  },
+  "netherexp:nether/soul_sand_valley/rattling_remnants": {
+    "criteria": {
+      "structure": "2026-11-10 18:27:02 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2026-11-10 18:46:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/jungle_log/hollow_jungle_log": {
+    "criteria": {
+      "has_block": "2026-11-10 17:49:09 -0800"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2026-11-10 18:58:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/gargoyle_statue": {
+    "criteria": {
+      "has_item": "2026-11-10 18:26:47 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-11-10 18:12:57 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/dark_oak_log/hollow_dark_oak_log": {
+    "criteria": {
+      "has_block": "2026-11-10 18:08:22 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/birch_log/hollow_birch_log": {
+    "criteria": {
+      "has_block": "2026-11-10 18:08:22 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_soil_layer": {
+    "criteria": {
+      "has_item": "2026-11-10 18:58:13 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/cherry_log/hollow_cherry_log": {
+    "criteria": {
+      "has_block": "2026-11-10 18:45:43 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2026-11-10 17:34:56 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-11-10 18:58:13 -0800"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/proximity_fuze": {
+    "criteria": {
+      "has_quartz": "2026-11-10 19:02:11 -0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/stonecutting/spruce_log/hollow_spruce_log": {
+    "criteria": {
+      "has_block": "2026-11-10 18:45:43 -0800"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/lighting/underworld_candles_extra": {
+    "criteria": {
+      "has_item": "2026-11-10 18:58:13 -0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/ecto_soul_sand": {
+    "criteria": {
+      "has_item": "2026-11-10 18:26:47 -0800"
     },
     "done": true
   },
