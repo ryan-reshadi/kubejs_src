@@ -2085,6 +2085,7 @@
       "minecraft:elder_guardian": "2026-11-07 15:03:59 -0800",
       "minecraft:zoglin": "2026-11-07 21:58:55 -0800",
       "minecraft:bogged": "2026-11-07 20:01:03 -0800",
+      "minecraft:hoglin": "2026-11-11 13:52:37 -0800",
       "minecraft:guardian": "2026-11-07 14:54:03 -0800",
       "minecraft:vindicator": "2026-10-16 14:51:11 -0700",
       "minecraft:breeze": "2026-11-07 20:08:26 -0800",
@@ -9053,12 +9054,6 @@
     },
     "done": true
   },
-  "redstonegolem:custom/root": {
-    "criteria": {
-      "trigger": "2026-11-07 18:55:02 -0800"
-    },
-    "done": true
-  },
   "twilightforest:recipes/building_blocks/stonecutting/dark_oak_log/hollow_dark_oak_log": {
     "criteria": {
       "has_block": "2026-11-07 18:55:02 -0800"
@@ -9855,21 +9850,21 @@
     },
     "done": true
   },
-  "cataclysm:find_ruined_citadel": {
+  "minecraft:story/follow_ender_eye": {
     "criteria": {
-      "citadel": "2026-11-08 22:32:24 -0800"
+      "in_stronghold": "2026-11-08 21:45:20 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "has_end_stone_bricks": "2026-11-08 22:35:59 -0800"
+      "entered_end": "2026-11-08 22:06:57 -0800"
     },
     "done": true
   },
-  "dungeons_arise:find_aviary": {
+  "minecraft:end/root": {
     "criteria": {
-      "location0": "2026-11-08 22:19:55 -0800"
+      "entered_end": "2026-11-08 22:06:57 -0800"
     },
     "done": true
   },
@@ -9885,15 +9880,27 @@
     },
     "done": true
   },
-  "lootr:1shulker": {
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
     "criteria": {
-      "opened_shulker": "2026-11-08 22:33:12 -0800"
+      "has_end_stone": "2026-11-08 22:07:31 -0800"
     },
     "done": true
   },
-  "cataclysm:kill_ender_golem": {
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
     "criteria": {
-      "endergolem": "2026-11-08 22:32:47 -0800"
+      "has_end_stone": "2026-11-08 22:07:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-11-08 22:07:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-11-08 22:07:31 -0800"
     },
     "done": true
   },
@@ -9903,9 +9910,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+  "minecraft:end/find_end_city": {
     "criteria": {
-      "has_end_stone": "2026-11-08 22:07:31 -0800"
+      "in_city": "2026-11-08 22:13:35 -0800"
     },
     "done": true
   },
@@ -9915,39 +9922,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
-    "criteria": {
-      "has_end_stone_bricks": "2026-11-08 22:35:59 -0800"
-    },
-    "done": true
-  },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2026-11-08 21:45:20 -0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
       "has_shulker_shell": "2026-11-08 22:17:21 -0800"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "dungeons_arise:find_aviary": {
     "criteria": {
-      "entered_end": "2026-11-08 22:06:57 -0800"
+      "location0": "2026-11-08 22:19:55 -0800"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2026-11-08 22:32:24 -0800"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2026-11-08 22:32:47 -0800"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2026-11-08 22:33:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2026-11-08 22:35:59 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2026-11-08 22:35:59 -0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2026-11-08 22:35:59 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
-    "criteria": {
-      "has_end_stone": "2026-11-08 22:07:31 -0800"
     },
     "done": true
   },
@@ -9969,27 +9988,21 @@
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
+  "dungeons_arise:find_heavenly_conqueror": {
     "criteria": {
-      "in_city": "2026-11-08 22:13:35 -0800"
+      "location0": "2026-11-11 13:51:19 -0800"
     },
     "done": true
   },
-  "minecraft:end/root": {
+  "netherexp:recipes/misc/cooked_hogham": {
     "criteria": {
-      "entered_end": "2026-11-08 22:06:57 -0800"
+      "has_item": "2026-11-11 13:52:40 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+  "simplyswords:flamewind": {
     "criteria": {
-      "has_end_stone": "2026-11-08 22:07:31 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2026-11-08 22:07:31 -0800"
+      "requirement": "2026-11-11 13:53:30 -0800"
     },
     "done": true
   },
