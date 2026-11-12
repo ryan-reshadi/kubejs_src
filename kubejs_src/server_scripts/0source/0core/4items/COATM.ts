@@ -1,6 +1,6 @@
 class COATM extends CustomItem {
     constructor() {
-        super("Chain of a Thousand Miles", "kubejs:coatm");
+        super("Chain of a Thousand Miles", "kubejs:chain_of_a_thousand_miles", '{COATM:1b}', "§f");
         this.setCurseBreakVulnerable(false);
     }
 
@@ -18,7 +18,8 @@ class COATM extends CustomItem {
     }
 
     protected onRightClick(event: KubeEvent<typeof ItemEvents.rightClicked>): void {
-        event.entity.potionEffects.add('kubejs:nullifier', 20 * 200, 0);
+        event.player.potionEffects.add('kubejs:nullifier', 20 * 200, 0);
         this.addCooldown(event, 200);
+        event.cancel();
     }
 }

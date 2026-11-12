@@ -17,7 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 var COATM = /** @class */ (function (_super) {
     __extends(COATM, _super);
     function COATM() {
-        var _this = _super.call(this, "Chain of a Thousand Miles", "kubejs:coatm") || this;
+        var _this = _super.call(this, "Chain of a Thousand Miles", "kubejs:chain_of_a_thousand_miles", '{COATM:1b}', "§f") || this;
         _this.setCurseBreakVulnerable(false);
         return _this;
     }
@@ -31,8 +31,9 @@ var COATM = /** @class */ (function (_super) {
         // Implement entity right click behavior here
     };
     COATM.prototype.onRightClick = function (event) {
-        event.entity.potionEffects.add('kubejs:nullifier', 20 * 200, 0);
+        event.player.potionEffects.add('kubejs:nullifier', 20 * 200, 0);
         this.addCooldown(event, 200);
+        event.cancel();
     };
     return COATM;
 }(CustomItem));

@@ -1,4 +1,5 @@
 "use strict";
+var CustomItemTagParser = Java.loadClass('net.minecraft.nbt.TagParser');
 var CustomItem = /** @class */ (function () {
     function CustomItem(name, itemID, customData, nameColor, itemTexture) {
         if (customData === void 0) { customData = "{}"; }
@@ -44,13 +45,13 @@ var CustomItem = /** @class */ (function () {
     };
     CustomItem.prototype.giveToPlayer = function (player) {
         var item = Item.of(this.itemID, {
-            "minecraft:custom_data": this.customData,
             "minecraft:custom_name": {
                 text: this.name,
                 color: this.nameColor,
                 italic: false
             }
         });
+        item.setCustomData(CustomItemTagParser.parseTag(this.customData));
         player.give(item);
     };
     CustomItem.prototype.addCooldown = function (event, seconds) {

@@ -1,3 +1,5 @@
+const CustomItemTagParser: any = Java.loadClass('net.minecraft.nbt.TagParser');
+
 type Capability =
     "cursebreaker"
     | "poison"
@@ -59,17 +61,14 @@ abstract class CustomItem {
     }
 
     public giveToPlayer(player: Player): void {
-        const item = Item.of(
-            this.itemID,
-            {
-                "minecraft:custom_data": this.customData,
-                "minecraft:custom_name": {
-                    text: this.name,
-                    color: this.nameColor,
-                    italic: false
-                }
+        const item = Item.of(this.itemID, {
+            "minecraft:custom_name": {
+                text: this.name,
+                color: this.nameColor,
+                italic: false
             }
-        );
+        });
+        item.setCustomData(CustomItemTagParser.parseTag(this.customData));
 
         player.give(item);
     }
