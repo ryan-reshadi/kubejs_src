@@ -8510,5 +8510,11 @@
     },
     "done": true
   },
+  "awakened:recipes/reaper_scythe": {
+    "criteria": {
+      "has_core": "2026-11-13 00:19:07 -0800"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
